@@ -92,8 +92,8 @@ func CreateDevice(c *gin.Context) {
 		return
 	}
 
-	if body.Subject == "panel board" && body.Energized {
-		_ = energizeConnectedPolylines([]string{body.ID})
+	if body.Subject == "panel board" {
+		_ = setConnectedPolylinesEnergized([]string{body.ID}, body.Energized)
 	}
 	c.JSON(http.StatusCreated, body)
 }
@@ -149,8 +149,8 @@ func UpdateDevice(c *gin.Context) {
 		return
 	}
 
-	if dev.Subject == "panel board" && req.Energized != nil && *req.Energized {
-		_ = energizeConnectedPolylines([]string{id})
+	if dev.Subject == "panel board" && req.Energized != nil {
+		_ = setConnectedPolylinesEnergized([]string{id}, *req.Energized)
 	}
 
 	if err := db.GetDB().First(&dev, "id = ?", id).Error; err == nil {
@@ -198,24 +198,30 @@ func ImportDevices(c *gin.Context) {
 	}
 
 	var energizedPanels []string
+	var deEnergizedPanels []string
 	for _, dev := range arr {
-		if dev.Subject == "panel board" && dev.Energized {
-			energizedPanels = append(energizedPanels, dev.ID)
+		if dev.Subject == "panel board" {
+			if dev.Energized {
+				energizedPanels = append(energizedPanels, dev.ID)
+			} else {
+				deEnergizedPanels = append(deEnergizedPanels, dev.ID)
+			}
 		}
 	}
-	_ = energizeConnectedPolylines(energizedPanels)
+	_ = setConnectedPolylinesEnergized(energizedPanels, true)
+	_ = setConnectedPolylinesEnergized(deEnergizedPanels, false)
 
 	c.JSON(http.StatusCreated, gin.H{"count": len(arr)})
 }
 
-func energizeConnectedPolylines(panelIDs []string) error {
+func setConnectedPolylinesEnergized(panelIDs []string, energized bool) error {
 	if len(panelIDs) == 0 {
 		return nil
 	}
 
 	return db.GetDB().Model(&models.Device{}).
 		Where("subject = ? AND \"to\" IN ?", "PolyLine", panelIDs).
-		Updates(map[string]any{"energized": true}).Error
+		Updates(map[string]any{"energized": energized}).Error
 }
 
 // GET /api/v1/devices/search?q=LAB25E&page=1&size=20&project=LAB25&file_page=1
