@@ -91,6 +91,10 @@ func CreateDevice(c *gin.Context) {
 		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
 		return
 	}
+
+	if body.Subject == "panel board" && body.Energized {
+		_ = energizeConnectedPolylines([]string{body.ID})
+	}
 	c.JSON(http.StatusCreated, body)
 }
 
@@ -145,6 +149,10 @@ func UpdateDevice(c *gin.Context) {
 		return
 	}
 
+	if dev.Subject == "panel board" && req.Energized != nil && *req.Energized {
+		_ = energizeConnectedPolylines([]string{id})
+	}
+
 	if err := db.GetDB().First(&dev, "id = ?", id).Error; err == nil {
 		c.JSON(http.StatusOK, dev)
 		return
@@ -188,7 +196,26 @@ func ImportDevices(c *gin.Context) {
 		c.JSON(http.StatusBadRequest, gin.H{"error": tx.Error.Error()})
 		return
 	}
+
+	var energizedPanels []string
+	for _, dev := range arr {
+		if dev.Subject == "panel board" && dev.Energized {
+			energizedPanels = append(energizedPanels, dev.ID)
+		}
+	}
+	_ = energizeConnectedPolylines(energizedPanels)
+
 	c.JSON(http.StatusCreated, gin.H{"count": len(arr)})
+}
+
+func energizeConnectedPolylines(panelIDs []string) error {
+	if len(panelIDs) == 0 {
+		return nil
+	}
+
+	return db.GetDB().Model(&models.Device{}).
+		Where("subject = ? AND \"to\" IN ?", "PolyLine", panelIDs).
+		Updates(map[string]any{"energized": true}).Error
 }
 
 // GET /api/v1/devices/search?q=LAB25E&page=1&size=20&project=LAB25&file_page=1
