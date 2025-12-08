@@ -177,7 +177,7 @@ func ImportDevices(c *gin.Context) {
 	tx := db.GetDB().Clauses(
 		clause.OnConflict{
 			Columns:   []clause.Column{{Name: "id"}},
-			DoUpdates: clause.AssignmentColumns([]string{"subject", "project", "file_page", "rect_px", "text", "comments", "energized", "energized_today", "will_energized_at", "from", "to", "updated_at"}),
+			DoUpdates: clause.AssignmentColumns([]string{"subject", "project", "file_page", "rect_px", "polygon_points_px", "text", "comments", "energized", "energized_today", "will_energized_at", "from", "to", "updated_at"}),
 		},
 	).Create(&arr)
 

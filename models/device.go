@@ -4,6 +4,7 @@ import (
 	"time"
 
 	"github.com/lib/pq"
+	"gorm.io/datatypes"
 	"gorm.io/gorm"
 )
 
@@ -22,7 +23,8 @@ type Device struct {
 	To              string        `json:"to,omitempty"`
 	WillEnergizedAt *time.Time    `json:"will_energized_at,omitempty"`
 
-	CreatedAt time.Time      `json:"created_at"`
-	UpdatedAt time.Time      `json:"updated_at"`
-	DeletedAt gorm.DeletedAt `json:"-" gorm:"index"`
+	PolygonPointsPx datatypes.JSON `json:"polygon_points_px" gorm:"type:jsonb"`
+	CreatedAt       time.Time      `json:"created_at"`
+	UpdatedAt       time.Time      `json:"updated_at"`
+	DeletedAt       gorm.DeletedAt `json:"-" gorm:"index"`
 }
