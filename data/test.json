@@ -1,0 +1,30 @@
+[
+    {
+        "file_page": 1,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            4539,
+            1716,
+            4588,
+            1785
+        ],
+        "text": "LAB25E13",
+        "id": "EBCUTWDMQYKYGQVA",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 1,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            4474,
+            1716,
+            4522,
+            1785
+        ],
+        "text": "LAB25E12",
+        "id": "JRJTRNMQUQRJNRMR",
+        "comments": "", "energized": false
+    }
+]

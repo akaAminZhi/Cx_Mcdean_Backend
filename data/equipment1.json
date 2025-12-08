@@ -1,0 +1,3838 @@
+[
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            920,
+            1920,
+            966,
+            1985
+        ],
+        "text": "IT2P25W",
+        "id": "CEAJMVBXCLFVSIYV",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            919,
+            2170,
+            965,
+            2232
+        ],
+        "text": "IT2P24W",
+        "id": "WYRIEBPBSSYJBXNX",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            919,
+            2418,
+            965,
+            2481
+        ],
+        "text": "IT2P23W",
+        "id": "EXRXTAZUXWGIIQNZ",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            920,
+            2667,
+            966,
+            2728
+        ],
+        "text": "IT2P22W",
+        "id": "ZTXBPZSVPMRRCIEC",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            919,
+            2915,
+            965,
+            2977
+        ],
+        "text": "IT2P21W",
+        "id": "YPUXVJPFFUBXDRSA",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            919,
+            3277,
+            966,
+            3337
+        ],
+        "text": "IT2P2BW",
+        "id": "LFIFKHPMSNLECRDJ",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            921,
+            1675,
+            965,
+            1737
+        ],
+        "text": "IT2P26W",
+        "id": "XGHMTWEGHVJFRMST",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            1697,
+            1673,
+            1743,
+            1738
+        ],
+        "text": "OS4P46W",
+        "id": "BMEPDTAHRLJAYMZI",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            1696,
+            1922,
+            1742,
+            1985
+        ],
+        "text": "OS4P45W",
+        "id": "FTVJTTVQIURHZEPS",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            1696,
+            2171,
+            1742,
+            2233
+        ],
+        "text": "OS4P44W",
+        "id": "SAOSRXISIMEZPROP",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            1697,
+            2420,
+            1743,
+            2481
+        ],
+        "text": "OS4P43W",
+        "id": "KWZWDSDDKMEWUUQB",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            1695,
+            2667,
+            1742,
+            2729
+        ],
+        "text": "OS4P42W",
+        "id": "PUURPISHMZVHSSUB",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            1697,
+            2915,
+            1763,
+            2977
+        ],
+        "text": "OS4P41W",
+        "id": "VFJJSCBOSHLIWQUN",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2908,
+            1923,
+            2954,
+            1984
+        ],
+        "text": "IT1P25E",
+        "id": "OJXJIRQIZVEJHZCG",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2907,
+            2168,
+            2953,
+            2231
+        ],
+        "text": "IT1P24E",
+        "id": "ZSQEYMGCUEKFLCIX",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2907,
+            2417,
+            2953,
+            2479
+        ],
+        "text": "IT1P23E",
+        "id": "RWTLZMNTIVXPINKB",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2907,
+            2666,
+            2954,
+            2727
+        ],
+        "text": "IT1P22E",
+        "id": "QMFNSKLZICGLKITS",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2906,
+            2914,
+            2952,
+            2976
+        ],
+        "text": "IT1P21E",
+        "id": "QVEVSRIFIBMUWMZD",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2269,
+            1923,
+            2315,
+            1985
+        ],
+        "text": "OS4P25W2",
+        "id": "DTRWKGSFULLWAVES",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2328,
+            1922,
+            2374,
+            1984
+        ],
+        "text": "OS4P25W3",
+        "id": "WKFYHGVUDUQFQQNP",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2045,
+            1922,
+            2091,
+            1984
+        ],
+        "text": "OS4P25W1",
+        "id": "RYTCPDVESQPEWOVB",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            1982,
+            1921,
+            2026,
+            1989
+        ],
+        "text": "OS4DP25W",
+        "id": "QOOVAQJAYBZWMASH",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            1938,
+            2004,
+            1984,
+            2041
+        ],
+        "text": "T6",
+        "id": "VQGNEJRKUTMOKAGF",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2269,
+            2173,
+            2315,
+            2234
+        ],
+        "text": "OS4P24W2",
+        "id": "SXYKRYCCQBPYILOG",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2328,
+            2172,
+            2374,
+            2233
+        ],
+        "text": "OS4P24W3",
+        "id": "KMGOICHEEYKQBUME",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2045,
+            2172,
+            2091,
+            2233
+        ],
+        "text": "OS4P24W1",
+        "id": "QXRUNMYYNITVOVEW",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            1982,
+            2171,
+            2026,
+            2238
+        ],
+        "text": "OS4DP24W",
+        "id": "BLOJLUHHWKTSUGVW",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            1938,
+            2253,
+            1984,
+            2290
+        ],
+        "text": "T6",
+        "id": "MKEJYPBUXYPJHAIU",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2268,
+            2421,
+            2314,
+            2482
+        ],
+        "text": "OS4P23W2",
+        "id": "KTQBBQRAKURRHYEP",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2327,
+            2420,
+            2373,
+            2481
+        ],
+        "text": "OS4P23W3",
+        "id": "IYIXCETOMFECFYJB",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2044,
+            2420,
+            2090,
+            2481
+        ],
+        "text": "OS4P23W1",
+        "id": "NNXPCKHRVLCCLAAB",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            1981,
+            2418,
+            2025,
+            2486
+        ],
+        "text": "OS4DP23W",
+        "id": "SCJZZVKEXYVLTNHY",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            1937,
+            2501,
+            1983,
+            2538
+        ],
+        "text": "T6",
+        "id": "RZFODESQNYIDEMOQ",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2268,
+            2669,
+            2314,
+            2730
+        ],
+        "text": "OS4P22W2",
+        "id": "YWTZHHLEVFKADSTH",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2328,
+            2668,
+            2374,
+            2730
+        ],
+        "text": "OS4P22W3",
+        "id": "HTJEQEGMCPIACUYH",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2045,
+            2668,
+            2091,
+            2730
+        ],
+        "text": "OS4P22W1",
+        "id": "MPRHTBCQAXOFWKJJ",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            1981,
+            2667,
+            2026,
+            2735
+        ],
+        "text": "OS4DP22W",
+        "id": "OUILQRIAHCJIAIWW",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            1937,
+            2750,
+            1983,
+            2787
+        ],
+        "text": "T6",
+        "id": "PHAQFFUBUCSAPKGO",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2267,
+            2916,
+            2313,
+            2978
+        ],
+        "text": "OS4P21W2",
+        "id": "ZDSWNIVTGXFBMDHS",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2145,
+            2916,
+            2191,
+            2977
+        ],
+        "text": "LR1P21W",
+        "id": "TKFLUAHUTXUNFUPZ",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2043,
+            2916,
+            2089,
+            2977
+        ],
+        "text": "OS4P21W1",
+        "id": "RFKKKAPMEDVGVOGU",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            1982,
+            2914,
+            2027,
+            2982
+        ],
+        "text": "OS4DP21W",
+        "id": "BDNXDWMWHOHYMMFB",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            1936,
+            2997,
+            1982,
+            3034
+        ],
+        "text": "T6",
+        "id": "GAHPBWJNTEMIVLTC",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2386,
+            2668,
+            2432,
+            2729
+        ],
+        "text": "OS4P22W4",
+        "id": "ZPCLYBMETUTWDGMW",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2437,
+            2668,
+            2499,
+            2729
+        ],
+        "text": "OS4P22W5",
+        "id": "AKGGAQFCBLYWFPPY",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2269,
+            1675,
+            2315,
+            1736
+        ],
+        "text": "MV1P26W1",
+        "id": "HWWNFIZRRQKOOHXN",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2328,
+            1674,
+            2374,
+            1735
+        ],
+        "text": "MV1P26W2",
+        "id": "ILJWNMVFTULNYZMY",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2388,
+            1675,
+            2434,
+            1736
+        ],
+        "text": "VIV1P26W3",
+        "id": "GZBENNWPIEPDRIPG",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2447,
+            1674,
+            2493,
+            1735
+        ],
+        "text": "VIV1P26W4",
+        "id": "QXVMBLJXHCMNPMLY",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2011,
+            1674,
+            2057,
+            1736
+        ],
+        "text": "VIV1P46W",
+        "id": "VWCLYTJDKGROPPLG",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2110,
+            1672,
+            2154,
+            1741
+        ],
+        "text": "VIV1DP26W",
+        "id": "MFLNZWAXAMWEMQBS",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            2081,
+            1763,
+            2121,
+            1795
+        ],
+        "text": "T6",
+        "id": "MGQHGHSZWWYBDHTN",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            1847,
+            1756,
+            1892,
+            1791
+        ],
+        "text": "T4",
+        "id": "POTTDZVILABZRZRS",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            1896,
+            1674,
+            1940,
+            1735
+        ],
+        "text": "OS4P26W1",
+        "id": "CUKIQQATMESYZQFY",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            1196,
+            1922,
+            1240,
+            1983
+        ],
+        "text": "EM1P45W",
+        "id": "EFHGRVITTLFNRAQS",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            1195,
+            2170,
+            1239,
+            2231
+        ],
+        "text": "EM1P44W",
+        "id": "FOLHGQEDRAXEKPJR",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            1195,
+            2667,
+            1239,
+            2728
+        ],
+        "text": "EM1P42W",
+        "id": "EPACDKEWHQSXPLTD",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            1392,
+            1923,
+            1436,
+            1984
+        ],
+        "text": "EM1P25W",
+        "id": "CQBYRFSUUVVXUTLU",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            1391,
+            2171,
+            1435,
+            2232
+        ],
+        "text": "EM1P24W",
+        "id": "OASTCYQJVQGGAINX",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            1391,
+            2668,
+            1435,
+            2729
+        ],
+        "text": "EM1P22W",
+        "id": "AIJJLOGMSWKZCFGM",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            1317,
+            2590,
+            1363,
+            2626
+        ],
+        "text": "T3",
+        "id": "BQMPROKVHBTDNLNC",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            1321,
+            2118,
+            1367,
+            2154
+        ],
+        "text": "T3",
+        "id": "DXZZFFCARQNVMIOC",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            1341,
+            1854,
+            1387,
+            1890
+        ],
+        "text": "T3",
+        "id": "AIYJWHRUNDETHJIN",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "generator",
+        "rect_px": [
+            383,
+            2924,
+            427,
+            3033
+        ],
+        "text": "GENERATOR",
+        "id": "RFCXLSZHGKRJQYNV",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3139,
+            1923,
+            3183,
+            1983
+        ],
+        "text": "EM1P45E",
+        "id": "IYDIIDUOZSCYIDVI",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3138,
+            2171,
+            3182,
+            2231
+        ],
+        "text": "EM1P44E",
+        "id": "INGQWAYCLJMVZJKV",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3139,
+            2668,
+            3183,
+            2729
+        ],
+        "text": "EM1P42E",
+        "id": "FWPOIMNDPVIJAVYO",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3335,
+            1924,
+            3379,
+            1984
+        ],
+        "text": "EM1P25E",
+        "id": "MPSUZXFPFEAXWVXM",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3334,
+            2171,
+            3378,
+            2232
+        ],
+        "text": "EM1P24E",
+        "id": "BKJEKFGZYXLQLRAU",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3334,
+            2669,
+            3379,
+            2729
+        ],
+        "text": "EM1P22E",
+        "id": "SRNWTNLRJTLAFRUO",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            3290,
+            2596,
+            3336,
+            2633
+        ],
+        "text": "T3",
+        "id": "NIKUUSSGHAWOUOIN",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            3291,
+            2100,
+            3337,
+            2136
+        ],
+        "text": "T3",
+        "id": "KNIEYUDCNDEINAQM",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            3291,
+            1852,
+            3336,
+            1888
+        ],
+        "text": "T3",
+        "id": "MFDCOQRDSWRTJCOG",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3335,
+            2420,
+            3379,
+            2480
+        ],
+        "text": "LR1P23E",
+        "id": "TBEQWHPQOATCSHKW",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            3291,
+            2347,
+            3337,
+            2384
+        ],
+        "text": "T3",
+        "id": "WVBHRTCDHOGNNFUI",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3512,
+            1676,
+            3558,
+            1738
+        ],
+        "text": "OS3P46E",
+        "id": "CHHRFESJPVXMSWDQ",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3511,
+            1922,
+            3557,
+            1985
+        ],
+        "text": "OS3P45E",
+        "id": "NBWTYKFIIJDEPFSS",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3511,
+            2171,
+            3557,
+            2233
+        ],
+        "text": "OS3P44E",
+        "id": "KLRYNFZCFMYAYTZB",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3511,
+            2420,
+            3558,
+            2481
+        ],
+        "text": "OS3P43E",
+        "id": "KGOYZDCSWVWYZSQX",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3510,
+            2667,
+            3557,
+            2729
+        ],
+        "text": "OS3P42E",
+        "id": "WUBZFRCFNWNIHFON",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3800,
+            2665,
+            3846,
+            2733
+        ],
+        "text": "OS3DP22E",
+        "id": "WNQTVOJPFGUXTAOV",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3865,
+            2666,
+            3911,
+            2728
+        ],
+        "text": "OS3P22E1",
+        "id": "FPCTQHLTAANJVFTZ",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            4114,
+            2666,
+            4160,
+            2728
+        ],
+        "text": "OS3P22E2",
+        "id": "NVKHMVLJCSAJTLRN",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            4173,
+            2666,
+            4219,
+            2728
+        ],
+        "text": "OS3P22E3",
+        "id": "DSXUSLDBTUFAAUIT",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            3756,
+            2749,
+            3802,
+            2785
+        ],
+        "text": "T6",
+        "id": "QWDAVRUAQFNMQPFA",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3799,
+            2417,
+            3845,
+            2486
+        ],
+        "text": "OS3DP23E",
+        "id": "JPOZWXHFXCOJJQSY",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3864,
+            2418,
+            3910,
+            2480
+        ],
+        "text": "OS3P23E1",
+        "id": "OWUXIPXSDFVYDAIV",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            4113,
+            2418,
+            4159,
+            2481
+        ],
+        "text": "OS3P23E2",
+        "id": "JIDCKUFILJBOOBAU",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            4172,
+            2418,
+            4218,
+            2481
+        ],
+        "text": "OS3P23E3",
+        "id": "MMWRJTGGSIALEBWO",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            3755,
+            2501,
+            3801,
+            2537
+        ],
+        "text": "T6",
+        "id": "OLRBIIMBTMYKRFCH",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3798,
+            2169,
+            3844,
+            2237
+        ],
+        "text": "OS3DP24E",
+        "id": "LDCAGQBPDJKTDDAX",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3863,
+            2169,
+            3910,
+            2232
+        ],
+        "text": "OS3P24E1",
+        "id": "GTMDSTHYHNSETVRN",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            4112,
+            2170,
+            4158,
+            2232
+        ],
+        "text": "OS3P24E2",
+        "id": "IHCXVDFJFRBSRHIF",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            4171,
+            2170,
+            4217,
+            2232
+        ],
+        "text": "OS3P24E3",
+        "id": "WRLGNVQGDMVFPFOG",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            3754,
+            2252,
+            3800,
+            2289
+        ],
+        "text": "T6",
+        "id": "LHRLZKOVWEWYKOQD",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3801,
+            1921,
+            3847,
+            1990
+        ],
+        "text": "OS3DP25E",
+        "id": "VPDOBGNJBAAKANFT",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3866,
+            1922,
+            3912,
+            1984
+        ],
+        "text": "OS3P25E1",
+        "id": "WVVWYYZMAQPCZZXY",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            4115,
+            1923,
+            4161,
+            1985
+        ],
+        "text": "OS3P25E2",
+        "id": "UPJMGEDZFHNCNTVV",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            4174,
+            1923,
+            4220,
+            1985
+        ],
+        "text": "OS3P25E3",
+        "id": "QSYNCAHTEFSTYYLF",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            3757,
+            2005,
+            3803,
+            2041
+        ],
+        "text": "T6",
+        "id": "KORBWIBWOUJHPUHR",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3952,
+            1672,
+            3998,
+            1741
+        ],
+        "text": "VIV2DP26E",
+        "id": "MKMQFUBMABILJXGE",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            4113,
+            1674,
+            4160,
+            1736
+        ],
+        "text": "VIV2P26E1",
+        "id": "URDRGZRMIEVHIIBV",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            4171,
+            1674,
+            4217,
+            1736
+        ],
+        "text": "VIV2P26E2",
+        "id": "SHMFPXGBGZCSXRLB",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            4232,
+            1674,
+            4278,
+            1736
+        ],
+        "text": "VIV2P26E3",
+        "id": "KWWQIWPQKRGAKOTE",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            3924,
+            1760,
+            3963,
+            1793
+        ],
+        "text": "T6",
+        "id": "IHLWJGYCDENCDFSQ",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            4291,
+            1674,
+            4337,
+            1736
+        ],
+        "text": "WIV2P26E4",
+        "id": "KMLCHARUILXMCCOW",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3854,
+            1674,
+            3900,
+            1736
+        ],
+        "text": "VIV2P46E",
+        "id": "SBTVDHFBOHJOQUIR",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3725,
+            1673,
+            3771,
+            1736
+        ],
+        "text": "OS3P26E1",
+        "id": "IHKMMQSZEYMTGYFZ",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            3679,
+            1613,
+            3723,
+            1649
+        ],
+        "text": "T4",
+        "id": "UPENUYRTBUPVIIIY",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            4588,
+            1674,
+            4634,
+            1736
+        ],
+        "text": "VIV1P46M",
+        "id": "GWIQYXFMBSWZJIMB",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            4662,
+            1674,
+            4708,
+            1736
+        ],
+        "text": "VIV1P26M",
+        "id": "WGMDSKRYOKQSZMAB",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            4715,
+            1674,
+            4761,
+            1736
+        ],
+        "text": "VIV2P46M",
+        "id": "PYNJSVWPYPGIBIMX",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            4786,
+            1674,
+            4832,
+            1736
+        ],
+        "text": "VIV2P26M",
+        "id": "KHHVPRDOEFXKJMAV",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            4628,
+            1761,
+            4666,
+            1792
+        ],
+        "text": "T3",
+        "id": "HXESFNPJQWJUEGPN",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            4755,
+            1761,
+            4792,
+            1792
+        ],
+        "text": "T3",
+        "id": "GUTMWOGPOHXDXAGS",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            4564,
+            1426,
+            4610,
+            1488
+        ],
+        "text": "VIV1P47M",
+        "id": "VEZTCROFNPEZNHBT",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            4638,
+            1425,
+            4684,
+            1488
+        ],
+        "text": "VV1P27M",
+        "id": "SZQHEHKBEHXPXPTC",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            4704,
+            1425,
+            4751,
+            1488
+        ],
+        "text": "VIV2P47M",
+        "id": "OZBYMHCCJVSJUTKW",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            4776,
+            1425,
+            4822,
+            1488
+        ],
+        "text": "VIV2P27M",
+        "id": "AMYXTVSIWQZVAVXJ",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            4604,
+            1512,
+            4641,
+            1544
+        ],
+        "text": "T3",
+        "id": "YXMNFLSHHIVDKACM",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            4745,
+            1512,
+            4782,
+            1544
+        ],
+        "text": "T3",
+        "id": "VUBGFWXNDBIDESLC",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            4485,
+            1427,
+            4537,
+            1488
+        ],
+        "text": "OS1P4P5",
+        "id": "AVJXRMEUNVJGOLWS",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            4431,
+            1427,
+            4482,
+            1488
+        ],
+        "text": "OS1P4P4",
+        "id": "ORUZDCEIELSJOIRM",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            4373,
+            1427,
+            4424,
+            1488
+        ],
+        "text": "OS1P2PB",
+        "id": "KQNJVPBFRFILHYNV",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            4301,
+            1427,
+            4352,
+            1488
+        ],
+        "text": "OS1P4P2",
+        "id": "SXGWMPARDWUZNBAQ",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            4224,
+            1427,
+            4275,
+            1488
+        ],
+        "text": "OS1P4P3",
+        "id": "VWNXUBDGJQEVTOZX",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            4131,
+            1427,
+            4182,
+            1488
+        ],
+        "text": "OS2P4P2",
+        "id": "GYOPCFGOCPJKLNSZ",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            4075,
+            1427,
+            4126,
+            1488
+        ],
+        "text": "OS2P2PB",
+        "id": "JPXOFHBMQABQAPKE",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            4004,
+            1427,
+            4055,
+            1488
+        ],
+        "text": "OS2P4P3",
+        "id": "WRPPFBHJTSNGOAWT",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3916,
+            1427,
+            3967,
+            1488
+        ],
+        "text": "OS2P4P4",
+        "id": "ZXJVGJTYSOTOCXHZ",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3848,
+            1427,
+            3899,
+            1488
+        ],
+        "text": "OS2P4P5",
+        "id": "RIXHYOVGTBHLBUIS",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            4047,
+            1513,
+            4085,
+            1545
+        ],
+        "text": "T4",
+        "id": "JDIXBMQYAZLNMWND",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            4343,
+            1513,
+            4382,
+            1545
+        ],
+        "text": "T4",
+        "id": "NVLWHYPUNPGVEKZK",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2658,
+            1674,
+            2704,
+            1736
+        ],
+        "text": "IT1P26E",
+        "id": "GICVIAPRSMAXXPEH",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2658,
+            1424,
+            2705,
+            1487
+        ],
+        "text": "IT1P27E",
+        "id": "GIJEJOZGHWXDWLMA",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            4117,
+            1176,
+            4415,
+            1282
+        ],
+        "text": "PARALLELING SWITCHGEAR",
+        "id": "AHBFJANDSTFACFEO",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "generator",
+        "rect_px": [
+            4541,
+            1218,
+            4575,
+            1250
+        ],
+        "text": "GEN #2",
+        "id": "FLTZQJGIDHOFJUYX",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "generator",
+        "rect_px": [
+            4635,
+            1217,
+            4669,
+            1252
+        ],
+        "text": "GEN #1",
+        "id": "YKUHDFHIAXPITXFA",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            4078,
+            1040,
+            4123,
+            1110
+        ],
+        "text": "IT2DP4P1",
+        "id": "JZLJYLHWCDWNIXZW",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            4012,
+            1034,
+            4058,
+            1141
+        ],
+        "text": "ATS-IT2",
+        "id": "CYLBDQMJECSRJHAG",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3939,
+            1037,
+            3984,
+            1108
+        ],
+        "text": "IT1DP4P1",
+        "id": "TNGNJKPZDNBHGLVG",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3873,
+            1032,
+            3920,
+            1139
+        ],
+        "text": "ATS-IT1",
+        "id": "EMMXUFRMLIMIXRAK",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3785,
+            1034,
+            3827,
+            1141
+        ],
+        "text": "EL1SB4P",
+        "id": "TIATCGGGGVBQBIEJ",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3716,
+            1034,
+            3762,
+            1142
+        ],
+        "text": "ATS-EL1",
+        "id": "OYZBJPXTDUSPZTZE",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3587,
+            1034,
+            3631,
+            1141
+        ],
+        "text": "OS3SB4P",
+        "id": "DCZKLGCOVHKTCWLE",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3522,
+            1032,
+            3568,
+            1141
+        ],
+        "text": "ATS-OS3",
+        "id": "PYZOLSXFLODDAAJT",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3190,
+            1034,
+            3237,
+            1141
+        ],
+        "text": "VIV2SB4P",
+        "id": "ICNABZGKPVFVVNTG",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3120,
+            1034,
+            3167,
+            1142
+        ],
+        "text": "ATS-VIV2",
+        "id": "CLTBVQIMOGGWNSLS",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3364,
+            1034,
+            3410,
+            1105
+        ],
+        "text": "EM1DP4P",
+        "id": "SDKGVLUETJHHLFNU",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3301,
+            1034,
+            3347,
+            1141
+        ],
+        "text": "ATS-EM1",
+        "id": "ADBMAJZZDDFELZFF",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2986,
+            1036,
+            3033,
+            1143
+        ],
+        "text": "VIV1SB4P",
+        "id": "WXCRAHRBTEYRGGNP",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2916,
+            1035,
+            2962,
+            1143
+        ],
+        "text": "ATS-VIV1",
+        "id": "HWPIFSPACZKTPKCS",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2625,
+            1033,
+            2673,
+            1141
+        ],
+        "text": "OS4SB4P",
+        "id": "KODIZGMVPYZVZOKO",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2556,
+            1033,
+            2603,
+            1141
+        ],
+        "text": "ATS-OS4",
+        "id": "BPMHIENQYQNZLXIA",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2412,
+            1034,
+            2459,
+            1141
+        ],
+        "text": "OS1SB4P",
+        "id": "LXVKZKESYHSQWEZX",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2488,
+            1033,
+            2535,
+            1141
+        ],
+        "text": "600A, 480V",
+        "id": "JRUPJALYQVENFQEY",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2202,
+            1034,
+            2249,
+            1141
+        ],
+        "text": "OS2SB4P",
+        "id": "HYDYAPQEWXTCGCQI",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2136,
+            1032,
+            2183,
+            1141
+        ],
+        "text": "ATS-OS2",
+        "id": "CZAAHOGVAZSYZYMT",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2340,
+            1033,
+            2387,
+            1140
+        ],
+        "text": "ATS-OS1",
+        "id": "MGTBEYVOEETBZGSX",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2269,
+            1033,
+            2316,
+            1142
+        ],
+        "text": "600A,480V",
+        "id": "LFSEEBHDRCDKSYDI",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            1894,
+            1033,
+            1940,
+            1142
+        ],
+        "text": "ATS-LR1",
+        "id": "EBPSJHPTUAOHFRPH",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            1959,
+            1034,
+            2004,
+            1103
+        ],
+        "text": "LR1DP4P",
+        "id": "PXABBJZLYYOVUKQQ",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            1952,
+            1191,
+            1992,
+            1244
+        ],
+        "text": "LR1P4P",
+        "id": "HAVOEGFQMWLJDOFU",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2036,
+            1191,
+            2076,
+            1244
+        ],
+        "text": "LR1P2P",
+        "id": "YFOSCFAGOVTVKWNY",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            2000,
+            1251,
+            2039,
+            1283
+        ],
+        "text": "T4",
+        "id": "EPLXXBWDWIDBLUNQ",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2196,
+            1192,
+            2236,
+            1245
+        ],
+        "text": "OS2P4P1",
+        "id": "LBYCJZVGVACDAGXP",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2280,
+            1192,
+            2320,
+            1245
+        ],
+        "text": "OS2P2PA",
+        "id": "XSMGMGUOEIHVCRHD",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            2244,
+            1252,
+            2283,
+            1284
+        ],
+        "text": "T4",
+        "id": "AEJETRMPCZUSBIMP",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2407,
+            1190,
+            2447,
+            1243
+        ],
+        "text": "OS1P4P1",
+        "id": "XFLQTMAKJLHFVEVS",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2491,
+            1191,
+            2531,
+            1244
+        ],
+        "text": "OS1P2PA",
+        "id": "EEBWAHJXSRHTSYAA",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            2455,
+            1251,
+            2494,
+            1283
+        ],
+        "text": "T4",
+        "id": "IPHEXMUTMOVFTHQB",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2616,
+            1191,
+            2656,
+            1244
+        ],
+        "text": "OS4P4P1",
+        "id": "LNIIOXVULUYPZXKO",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2701,
+            1191,
+            2741,
+            1244
+        ],
+        "text": "OS4P2P",
+        "id": "RMBHMCORCQGBQWZA",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            2665,
+            1252,
+            2704,
+            1283
+        ],
+        "text": "T4",
+        "id": "CYDRLPWQQIXRWGKB",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2936,
+            1192,
+            2976,
+            1244
+        ],
+        "text": "VIV1P4P",
+        "id": "CVXMWPPVLKTZXPRK",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3020,
+            1192,
+            3060,
+            1245
+        ],
+        "text": "VIV1P2P",
+        "id": "UJDENDXNIIONZWQV",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            2985,
+            1252,
+            3023,
+            1284
+        ],
+        "text": "T4",
+        "id": "SNAVQNPXSVRWIQVH",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3146,
+            1190,
+            3186,
+            1243
+        ],
+        "text": "VIV2P4P",
+        "id": "YTSDSVHIXKHIVRBS",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3230,
+            1190,
+            3270,
+            1243
+        ],
+        "text": "VIV2P2P",
+        "id": "SDAXNQUFGKOPKGDU",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            3194,
+            1251,
+            3233,
+            1282
+        ],
+        "text": "T4",
+        "id": "SLNWCMJBWPNQEHZH",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3558,
+            1191,
+            3598,
+            1244
+        ],
+        "text": "OS3P4P1",
+        "id": "KUGDKIWDHOHTEIJL",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3643,
+            1191,
+            3683,
+            1244
+        ],
+        "text": "OS3P2P",
+        "id": "XIUEZKPMCCEOGAWE",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            3607,
+            1252,
+            3646,
+            1283
+        ],
+        "text": "T4",
+        "id": "JTPFWKBNLGKIWBEO",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3449,
+            1043,
+            3502,
+            1098
+        ],
+        "text": "EM1P2P",
+        "id": "QNDJVQDPEWMDULMJ",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3359,
+            1191,
+            3411,
+            1244
+        ],
+        "text": "EM1P4P",
+        "id": "CRNLKDPDFSUKHFIR",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3776,
+            1191,
+            3816,
+            1244
+        ],
+        "text": "EL1P4P",
+        "id": "UKRCTKBKMFHESOBK",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3861,
+            1191,
+            3901,
+            1244
+        ],
+        "text": "EL1P2P",
+        "id": "IBLSHLRNRPFIQOON",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            3825,
+            1251,
+            3863,
+            1283
+        ],
+        "text": "T4",
+        "id": "KNALAHOIHTYJTLVL",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            1076,
+            1181,
+            1123,
+            1249
+        ],
+        "text": "IT2DP4P2",
+        "id": "OMHVSUPJZRIKFCYW",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            1171,
+            1180,
+            1218,
+            1250
+        ],
+        "text": "IT2DP2P",
+        "id": "BTCWLSFYVUJCWAFR",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            1117,
+            1252,
+            1156,
+            1284
+        ],
+        "text": "T7",
+        "id": "VZMSABMNKJKTGOOM",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            1230,
+            1190,
+            1270,
+            1243
+        ],
+        "text": "IT2P2P",
+        "id": "JVLBFLUAJBRZSPLW",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            1447,
+            1182,
+            1494,
+            1250
+        ],
+        "text": "IT1DP4P2",
+        "id": "VVMYXFGDHTSACBWE",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            1542,
+            1181,
+            1589,
+            1252
+        ],
+        "text": "IT10P2P",
+        "id": "LSVYQPCMZJTZDFDB",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            1489,
+            1252,
+            1528,
+            1283
+        ],
+        "text": "T7",
+        "id": "LUHDYTKYAIMLNIVZ",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            1601,
+            1191,
+            1641,
+            1244
+        ],
+        "text": "IT1P2P",
+        "id": "FDUXFJEACVLTLSDM",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            946,
+            1178,
+            1019,
+            1282
+        ],
+        "text": "UPS-IT2",
+        "id": "PYBSXICTGIIGMVYG",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            1318,
+            1178,
+            1391,
+            1282
+        ],
+        "text": "UPS-IT1",
+        "id": "AVDKBEZQTLPGDDBF",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2540,
+            3275,
+            2586,
+            3344
+        ],
+        "text": "IT2DP2B",
+        "id": "HSXVSKYOLNICRVFN",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2683,
+            3274,
+            2726,
+            3344
+        ],
+        "text": "IT1DP2B",
+        "id": "RPNLVTGNRQVNVOKW",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            2643,
+            3364,
+            2682,
+            3394
+        ],
+        "text": "TB",
+        "id": "PJSBDDUMEOZWVOGY",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            2501,
+            3365,
+            2539,
+            3395
+        ],
+        "text": "T8",
+        "id": "KGFTXOQYNLKUCWEO",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2867,
+            3276,
+            2910,
+            3337
+        ],
+        "text": "IT1P2B1",
+        "id": "NCGOMYWMRRBUFNJW",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            2935,
+            3276,
+            2979,
+            3337
+        ],
+        "text": "IT1P2B2",
+        "id": "AVWDCHERINMMLPWV",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3003,
+            3277,
+            3046,
+            3337
+        ],
+        "text": "IT2P2B3",
+        "id": "VAINQUJAECVFELUL",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3072,
+            3277,
+            3114,
+            3337
+        ],
+        "text": "IT2P2B4",
+        "id": "XEMEBYKQNBTOQLVS",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3135,
+            3277,
+            3178,
+            3338
+        ],
+        "text": "IT1P2B5",
+        "id": "ZOLSBQSMAPBMOKFR",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3203,
+            3277,
+            3248,
+            3338
+        ],
+        "text": "IT2P2B6",
+        "id": "GFCKOVTFZUKXRAMS",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3413,
+            3277,
+            3457,
+            3338
+        ],
+        "text": "EM1P4B",
+        "id": "GNSVENMTVXAWELYE",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            3504,
+            3357,
+            3547,
+            3394
+        ],
+        "text": "T3",
+        "id": "EHQBPBEVDECOUHFM",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3546,
+            3276,
+            3589,
+            3337
+        ],
+        "text": "EM1P2B",
+        "id": "ODWWGHTYUIVMTKCX",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3604,
+            3277,
+            3664,
+            3337
+        ],
+        "text": "LR1P4B",
+        "id": "GUZGWYPHKKNNBFFO",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3684,
+            3275,
+            3730,
+            3344
+        ],
+        "text": "LR1DP2B",
+        "id": "FPRVILYESSZEOAFO",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3739,
+            3276,
+            3780,
+            3337
+        ],
+        "text": "LR1P2B",
+        "id": "NDURTUSBMDPSIBUN",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            3655,
+            3365,
+            3691,
+            3393
+        ],
+        "text": "T5",
+        "id": "ZTLTTUVNRHFRTBEC",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3900,
+            3278,
+            3963,
+            3338
+        ],
+        "text": "OS2P4B",
+        "id": "KVVFHINPYEJHCTTO",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            3964,
+            3273,
+            4010,
+            3343
+        ],
+        "text": "OS20P48",
+        "id": "ALEWYOYIXCCVMASS",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            4003,
+            3365,
+            4038,
+            3395
+        ],
+        "text": "T4",
+        "id": "KOPYPTCULOZUMWMO",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            4030,
+            3277,
+            4092,
+            3337
+        ],
+        "text": "OS2P2B",
+        "id": "IRYHLWZSVKSUDHJM",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            4100,
+            3276,
+            4160,
+            3338
+        ],
+        "text": "OS1P4B",
+        "id": "BDMGSMCEOTPOTKJN",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            4167,
+            3276,
+            4211,
+            3343
+        ],
+        "text": "OS10P4B",
+        "id": "DVUERGCBXXAKFIWZ",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            4233,
+            3276,
+            4273,
+            3336
+        ],
+        "text": "OS1P2B",
+        "id": "SOEGTVGQINCVMTQU",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            4202,
+            3363,
+            4238,
+            3397
+        ],
+        "text": "T4",
+        "id": "ROBBHSMBPQBTQTOL",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            4304,
+            3277,
+            4347,
+            3338
+        ],
+        "text": "OS3P4BE",
+        "id": "GUVLDCELJCKQCGAJ",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            4396,
+            3358,
+            4439,
+            3394
+        ],
+        "text": "T8",
+        "id": "CKEQCNEUPTWPJGHV",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            4438,
+            3276,
+            4485,
+            3343
+        ],
+        "text": "OS30P2BE",
+        "id": "VCBCOEYRJOWVFGRH",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            4496,
+            3276,
+            4558,
+            3337
+        ],
+        "text": "OS3P2BE1",
+        "id": "YERQJIRBWJVPSXQS",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            4583,
+            3276,
+            4645,
+            3337
+        ],
+        "text": "OS3P2BE2",
+        "id": "CTKWJAXIACTORTXH",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            4652,
+            3276,
+            4714,
+            3337
+        ],
+        "text": "OS3P2BE3",
+        "id": "NFUCSZQHEZFQAPPN",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            4758,
+            3364,
+            4794,
+            3395
+        ],
+        "text": "T4",
+        "id": "FPXYOZLGKUTCWIYJ",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "panel board",
+        "rect_px": [
+            4786,
+            3277,
+            4829,
+            3339
+        ],
+        "text": "OSKP2PE1",
+        "id": "MPPQMLCDESIFJNGE",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "Level Line",
+        "rect_px": [
+            450,
+            3388,
+            4863,
+            3410
+        ],
+        "text": "",
+        "id": "NRFRVYZPLHZPVKZD",
+        "comments": "L0"
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "Level Line",
+        "rect_px": [
+            345,
+            3027,
+            4853,
+            3049
+        ],
+        "text": "",
+        "id": "JHIFQRRVAESEHARI",
+        "comments": "L1"
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "Level Line",
+        "rect_px": [
+            449,
+            2780,
+            4860,
+            2802
+        ],
+        "text": "",
+        "id": "OHEHUNHTJSQOJPOF",
+        "comments": "L2"
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "Level Line",
+        "rect_px": [
+            450,
+            2532,
+            4857,
+            2554
+        ],
+        "text": "",
+        "id": "IRMDAGUFNUZVKJOF",
+        "comments": "L3"
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "Level Line",
+        "rect_px": [
+            448,
+            2284,
+            4864,
+            2306
+        ],
+        "text": "",
+        "id": "MJGSGPYUFRQVAKDQ",
+        "comments": "L4"
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "Level Line",
+        "rect_px": [
+            451,
+            2036,
+            4863,
+            2058
+        ],
+        "text": "",
+        "id": "HFTTJRRMMPAGJLCB",
+        "comments": "L5"
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "Level Line",
+        "rect_px": [
+            450,
+            1786,
+            4863,
+            1808
+        ],
+        "text": "",
+        "id": "VWZWIBKKPKVYOUVL",
+        "comments": "L6"
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "Level Line",
+        "rect_px": [
+            449,
+            1538,
+            4862,
+            1560
+        ],
+        "text": "",
+        "id": "JGWIHBVAYOVOUPQO",
+        "comments": "L7"
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "Level Line",
+        "rect_px": [
+            449,
+            1276,
+            4866,
+            1298
+        ],
+        "text": "",
+        "id": "CBABIQPZARXTODEL",
+        "comments": "L8"
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "Level Line",
+        "rect_px": [
+            445,
+            760,
+            4863,
+            782
+        ],
+        "text": "",
+        "id": "KQKDBMXBAVHGOZOV",
+        "comments": "roof"
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "transformer",
+        "rect_px": [
+            3415,
+            1110,
+            3454,
+            1141
+        ],
+        "text": "T5",
+        "id": "VJJZJTXKFWHZTOUK",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "Wall",
+        "rect_px": [
+            764,
+            1540,
+            786,
+            3409
+        ],
+        "text": "",
+        "id": "GIXFLXNOSAGFHMSE",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "Wall",
+        "rect_px": [
+            471,
+            3028,
+            493,
+            3411
+        ],
+        "text": "",
+        "id": "XQVYJOGWGFQJDKQU",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "Wall",
+        "rect_px": [
+            448,
+            758,
+            470,
+            3411
+        ],
+        "text": "",
+        "id": "SMEOTBYTEFJVVVYV",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "Wall",
+        "rect_px": [
+            641,
+            760,
+            663,
+            1298
+        ],
+        "text": "",
+        "id": "KOUTMLMLVSZUAROM",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "Wall",
+        "rect_px": [
+            1742,
+            761,
+            1764,
+            1300
+        ],
+        "text": "",
+        "id": "EVILIKXHSMDRKEIS",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "Wall",
+        "rect_px": [
+            4434,
+            760,
+            4456,
+            1297
+        ],
+        "text": "",
+        "id": "ZMRMNPFWRVHGGOWR",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "Wall",
+        "rect_px": [
+            4768,
+            760,
+            4790,
+            1299
+        ],
+        "text": "",
+        "id": "QNAKXLAQSVCDEDML",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "Wall",
+        "rect_px": [
+            4841,
+            760,
+            4863,
+            3412
+        ],
+        "text": "",
+        "id": "HMDDHAGMRINDHGOI",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "Wall",
+        "rect_px": [
+            4554,
+            3027,
+            4576,
+            3409
+        ],
+        "text": "",
+        "id": "UZIMLLJDKEFDFEDV",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "Wall",
+        "rect_px": [
+            4546,
+            2779,
+            4568,
+            3049
+        ],
+        "text": "",
+        "id": "GKAEZWUSIKWZJKFV",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "Wall",
+        "rect_px": [
+            4263,
+            2780,
+            4285,
+            3049
+        ],
+        "text": "",
+        "id": "ZGCAADWTFJTMDUST",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "Wall",
+        "rect_px": [
+            3015,
+            1540,
+            3037,
+            3050
+        ],
+        "text": "",
+        "id": "PGDRXIJIVUHYOGLP",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "Wall",
+        "rect_px": [
+            2750,
+            1537,
+            2772,
+            3049
+        ],
+        "text": "",
+        "id": "DBYMWUNHZSOEWZCH",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "Wall",
+        "rect_px": [
+            2794,
+            3029,
+            2816,
+            3410
+        ],
+        "text": "",
+        "id": "PUYIDQPILACEBIGV",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "Wall",
+        "rect_px": [
+            3381,
+            3029,
+            3403,
+            3409
+        ],
+        "text": "",
+        "id": "JSPQIHCWQWXVAYJX",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "Wall",
+        "rect_px": [
+            2217,
+            1539,
+            2239,
+            3050
+        ],
+        "text": "",
+        "id": "ZPFTMMQGJKZKKYHX",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "Wall",
+        "rect_px": [
+            978,
+            1543,
+            1000,
+            3412
+        ],
+        "text": "",
+        "id": "SAQMFFTDIPVBZXEF",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "Wall",
+        "rect_px": [
+            2408,
+            3028,
+            2430,
+            3409
+        ],
+        "text": "",
+        "id": "MPXHPLDAEEHFABGZ",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "Wall",
+        "rect_px": [
+            4071,
+            1536,
+            4093,
+            2802
+        ],
+        "text": "",
+        "id": "CXEPWYSEOKTDRONM",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "Wall",
+        "rect_px": [
+            4571,
+            1540,
+            4593,
+            1807
+        ],
+        "text": "",
+        "id": "ZOEQORCIPORELFKL",
+        "comments": "", "energized": false
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "Room Line",
+        "rect_px": [
+            766,
+            1549,
+            998,
+            1571
+        ],
+        "text": "",
+        "id": "BMNLEKBSNJAAYGRB",
+        "comments": "WEST IT ROOM"
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "Room Line",
+        "rect_px": [
+            979,
+            1549,
+            2240,
+            1571
+        ],
+        "text": "",
+        "id": "LCYJCKDBZHGSFCBP",
+        "comments": "WEST EMERGENCY ROOM"
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "Room Line",
+        "rect_px": [
+            2751,
+            1549,
+            3037,
+            1571
+        ],
+        "text": "",
+        "id": "EFRBBKVFWHCCOUPZ",
+        "comments": "EAST IT ROOM"
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "Room Line",
+        "rect_px": [
+            3016,
+            1549,
+            4092,
+            1571
+        ],
+        "text": "",
+        "id": "ONPQRYPPLRJQXDVV",
+        "comments": "EAST EMERGENCY ROOM"
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "Room Line",
+        "rect_px": [
+            4571,
+            1551,
+            4862,
+            1573
+        ],
+        "text": "",
+        "id": "VCWYIIKBOANJOKBE",
+        "comments": "PLUMBING ROOM"
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "Room Line",
+        "rect_px": [
+            4263,
+            2793,
+            4562,
+            2815
+        ],
+        "text": "",
+        "id": "UHVOGPUFAWVGPEFX",
+        "comments": "CAFE"
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "Room Line",
+        "rect_px": [
+            3381,
+            3037,
+            4572,
+            3059
+        ],
+        "text": "",
+        "id": "EBVRDOAETZVMOKVU",
+        "comments": "NORMAL ELECTRICAL ROOM"
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "Room Line",
+        "rect_px": [
+            2409,
+            3040,
+            2813,
+            3062
+        ],
+        "text": "",
+        "id": "YZRKGEYYIFIOXQEM",
+        "comments": "IT ELECTRICAL ROOM"
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "Room Line",
+        "rect_px": [
+            472,
+            3040,
+            784,
+            3062
+        ],
+        "text": "",
+        "id": "ELHILFXVBSPXFFKU",
+        "comments": "FIRE PUMP ROOM"
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "Room Line",
+        "rect_px": [
+            643,
+            782,
+            1759,
+            804
+        ],
+        "text": "",
+        "id": "TYQRACFOPMOIAXPD",
+        "comments": "UPS ROOM"
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "Room Line",
+        "rect_px": [
+            1744,
+            783,
+            4455,
+            805
+        ],
+        "text": "",
+        "id": "FFNRBUHMBZFIGHQC",
+        "comments": "EMERGENCY ELECTRICAL ROOM"
+    },
+    {
+        "file_page": 2,
+        "project":"lsb",
+        "subject": "Room Line",
+        "rect_px": [
+            4434,
+            783,
+            4788,
+            805
+        ],
+        "text": "",
+        "id": "OQUFYDHDUTGGWYKD",
+        "comments": "GENERATOR ROOM"
+    }
+]
