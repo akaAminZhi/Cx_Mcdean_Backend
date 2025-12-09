@@ -219,9 +219,58 @@ func setConnectedPolylinesEnergized(panelIDs []string, energized bool) error {
 		return nil
 	}
 
-	return db.GetDB().Model(&models.Device{}).
+	dbx := db.GetDB()
+
+	// 1️⃣ 更新：所有以 panel 为终点的 PolyLine
+	//    subject = 'PolyLine' AND "to" IN panelIDs
+	if err := dbx.Model(&models.Device{}).
 		Where("subject = ? AND \"to\" IN ?", "PolyLine", panelIDs).
-		Updates(map[string]any{"energized": energized}).Error
+		Updates(map[string]any{"energized": energized}).Error; err != nil {
+		return err
+	}
+
+	// 2️⃣ 查出：所有 Bus 的 id（以后要用来过滤）
+	var allBusIDs []string
+	if err := dbx.Model(&models.Device{}).
+		Where("subject = ?", "Bus").
+		Pluck("id", &allBusIDs).Error; err != nil {
+		return err
+	}
+	if len(allBusIDs) == 0 {
+		// 没有 Bus，后面就不用干了
+		return nil
+	}
+
+	// 3️⃣ 查出：和这些 panel 直接相连的 Bus id
+	//    条件：subject = 'PolyLine'
+	//          "from" IN panelIDs
+	//          "to"   IN allBusIDs   （确保真的是连到 Bus 上的线）
+	var connectedBusIDs []string
+	if err := dbx.Model(&models.Device{}).
+		Where("subject = ? AND \"from\" IN ? AND \"to\" IN ?", "PolyLine", panelIDs, allBusIDs).
+		Pluck("\"to\"", &connectedBusIDs).Error; err != nil { // 注意 Pluck 列名要带双引号
+		return err
+	}
+	if len(connectedBusIDs) == 0 {
+		// 没有直接相连的 Bus，也不用更新后续
+		return nil
+	}
+
+	// 4️⃣ 更新：这些 panel → bus 的 PolyLine energized
+	if err := dbx.Model(&models.Device{}).
+		Where("subject = ? AND \"from\" IN ? AND \"to\" IN ?", "PolyLine", panelIDs, connectedBusIDs).
+		Updates(map[string]any{"energized": energized}).Error; err != nil {
+		return err
+	}
+
+	// 5️⃣ 更新：和这些 panel 直接相连的 Bus energized
+	if err := dbx.Model(&models.Device{}).
+		Where("subject = ? AND id IN ?", "Bus", connectedBusIDs).
+		Updates(map[string]any{"energized": energized}).Error; err != nil {
+		return err
+	}
+
+	return nil
 }
 
 // GET /api/v1/devices/search?q=LAB25E&page=1&size=20&project=LAB25&file_page=1
