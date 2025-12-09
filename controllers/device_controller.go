@@ -104,6 +104,7 @@ func UpdateDevice(c *gin.Context) {
 
 	// 接收为指针，便于判断“是否传了这个字段”
 	type updateDTO struct {
+		Text            *string    `json:"text"`
 		Comments        *string    `json:"comments"`
 		Energized       *bool      `json:"energized"`
 		EnergizedToday  *bool      `json:"energized_today"`
@@ -126,6 +127,9 @@ func UpdateDevice(c *gin.Context) {
 	}
 
 	changes := map[string]any{}
+	if req.Text != nil {
+		changes["text"] = *req.Text
+	}
 	if req.Comments != nil {
 		changes["comments"] = *req.Comments
 	}
@@ -185,7 +189,7 @@ func ImportDevices(c *gin.Context) {
 	tx := db.GetDB().Clauses(
 		clause.OnConflict{
 			Columns:   []clause.Column{{Name: "id"}},
-			DoUpdates: clause.AssignmentColumns([]string{"subject", "project", "file_page", "rect_px", "polygon_points_px", "text", "comments", "energized", "energized_today", "will_energized_at", "from", "to", "updated_at"}),
+			DoUpdates: clause.AssignmentColumns([]string{"subject", "project", "file_page", "rect_px", "polygon_points_px", "short_segments_px", "text", "comments", "energized", "energized_today", "will_energized_at", "from", "to", "updated_at"}),
 		},
 	).Create(&arr)
 

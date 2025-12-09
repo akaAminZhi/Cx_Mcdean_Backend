@@ -16,6 +16,7 @@ type Device struct {
 	Subject         string         `json:"subject" gorm:"index"`
 	RectPX          pq.Int64Array  `json:"rect_px" gorm:"type:integer[]"`
 	PolygonPointsPX datatypes.JSON `json:"polygon_points_px,omitempty" gorm:"type:jsonb"`
+	ShortSegmentsPX datatypes.JSON `json:"short_segments_px,omitempty" gorm:"type:jsonb"`
 	Text            string         `json:"text" gorm:"index"`
 	Comments        string         `json:"comments"`
 	Energized       bool           `json:"energized"`
