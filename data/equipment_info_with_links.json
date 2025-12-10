@@ -7341,5 +7341,145 @@
         ],
         "from": "SLAXNKQRHOYGGRGS",
         "to": "LAFJSNTRDZJOWOVP"
-    }
+    },
+    {
+        "project":"lsb","file_page": 1,
+        "type": "PolyLine",
+        "subject": "PolyLine",
+        "rect_px": [
+          749,
+          703,
+          3848,
+          3251
+        ],
+        "id": "OSUUOPRYJDHBRBBU",
+        "polygon_points_px": [
+          [
+            3837,
+            3240
+          ],
+          [
+            3837,
+            3044
+          ],
+          [
+            2788,
+            3044
+          ],
+          [
+            2788,
+            1175
+          ],
+          [
+            760,
+            1175
+          ],
+          [
+            760,
+            714
+          ],
+          [
+            3072,
+            714
+          ],
+          [
+            3072,
+            894
+          ]
+        ],
+        "from": "UIIIQCCEWROFMDJS",
+        "to": "OZRBAPWYMKXJHDCS",
+        "short_segments_px": {
+          "head": [
+            [
+              3837,
+              3240
+            ],
+            [
+              3837.0,
+              3190.0
+            ]
+          ],
+          "tail": [
+            [
+              3072.0,
+              844.0
+            ],
+            [
+              3072,
+              894
+            ]
+          ]
+        }
+      },
+      {
+        "project":"lsb","file_page": 1,
+        "type": "PolyLine",
+        "subject": "PolyLine",
+        "rect_px": [
+          784,
+          740,
+          3750,
+          3249
+        ],
+        "id": "KRSMVKAPCGHAOLUS",
+        "polygon_points_px": [
+          [
+            3739,
+            3238
+          ],
+          [
+            3739,
+            3009
+          ],
+          [
+            2825,
+            3009
+          ],
+          [
+            2825,
+            1140
+          ],
+          [
+            795,
+            1140
+          ],
+          [
+            795,
+            751
+          ],
+          [
+            1434,
+            751
+          ],
+          [
+            1434,
+            893
+          ]
+        ],
+        "from": "RWARYMGPIGSTTTLO",
+        "to": "SLAXNKQRHOYGGRGS",
+        "short_segments_px": {
+          "head": [
+            [
+              3739,
+              3238
+            ],
+            [
+              3739.0,
+              3188.0
+            ]
+          ],
+          "tail": [
+            [
+              1434.0,
+              843.0
+            ],
+            [
+              1434,
+              893
+            ]
+          ]
+        }
+      }
 ]

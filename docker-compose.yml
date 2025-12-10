@@ -1,0 +1,37 @@
+version: "3.9"
+
+services:
+  db:
+    image: postgres:17.7
+    container_name: cx-postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: "111111"
+      POSTGRES_DB: cx_mcdean
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    # 方便调试时看日志
+    restart: unless-stopped
+
+  app:
+    build: .
+    container_name: cx-go-app
+    ports:
+      - "8081:8081"
+    environment:
+      # 注意：这里 DB_HOST 改成 db（即上面定义的服务名）
+      DB_HOST: db
+      DB_PORT: "5432"
+      DB_USER: postgres
+      DB_PASSWORD: "111111"
+      DB_NAME: cx_mcdean
+      DB_SSLMODE: disable
+      DB_TIMEZONE: UTC
+    depends_on:
+      - db
+    restart: unless-stopped
+
+volumes:
+  pgdata:
