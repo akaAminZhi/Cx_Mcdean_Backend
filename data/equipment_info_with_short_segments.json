@@ -1897,7 +1897,29 @@
       ]
     ],
     "from": "OZRBAPWYMKXJHDCS",
-    "to": "JUQUZEDMKDTRMSXY"
+    "to": "JUQUZEDMKDTRMSXY",
+    "short_segments_px": {
+      "head": [
+        [
+          3037,
+          896
+        ],
+        [
+          3037.0,
+          866.0
+        ]
+      ],
+      "tail": [
+        [
+          1981.0,
+          3194.0
+        ],
+        [
+          1981,
+          3224
+        ]
+      ]
+    }
   },
   {
     "type": "PolyLine",
@@ -5307,7 +5329,29 @@
       ]
     ],
     "from": "SLAXNKQRHOYGGRGS",
-    "to": "PUEBNYJWPSGTUQMM"
+    "to": "PUEBNYJWPSGTUQMM",
+    "short_segments_px": {
+      "head": [
+        [
+          1458,
+          892
+        ],
+        [
+          1458.0,
+          862.0
+        ]
+      ],
+      "tail": [
+        [
+          1159.0,
+          859.0
+        ],
+        [
+          1159,
+          889
+        ]
+      ]
+    }
   },
   {
     "type": "PolyLine",
@@ -6382,7 +6426,29 @@
       ]
     ],
     "from": "LKHZGZJYETXTIFEW",
-    "to": "ORKBHLYMVWLTCMZE"
+    "to": "ORKBHLYMVWLTCMZE",
+    "short_segments_px": {
+      "head": [
+        [
+          2911,
+          893
+        ],
+        [
+          2911.0,
+          863.0
+        ]
+      ],
+      "tail": [
+        [
+          2613.0,
+          857.0
+        ],
+        [
+          2613,
+          887
+        ]
+      ]
+    }
   },
   {
     "type": "PolyLine",
@@ -6481,7 +6547,29 @@
       ]
     ],
     "from": "OZRBAPWYMKXJHDCS",
-    "to": "IOIVDSIYYSGYCLWV"
+    "to": "IOIVDSIYYSGYCLWV",
+    "short_segments_px": {
+      "head": [
+        [
+          3048,
+          894
+        ],
+        [
+          3048.0,
+          864.0
+        ]
+      ],
+      "tail": [
+        [
+          3296.0,
+          856.0
+        ],
+        [
+          3296,
+          886
+        ]
+      ]
+    }
   },
   {
     "type": "PolyLine",
@@ -6580,7 +6668,29 @@
       ]
     ],
     "from": "WUSOUFKSRQMTGVVA",
-    "to": "OONKSLNSYKSFSXCY"
+    "to": "OONKSLNSYKSFSXCY",
+    "short_segments_px": {
+      "head": [
+        [
+          1599,
+          894
+        ],
+        [
+          1599.0,
+          864.0
+        ]
+      ],
+      "tail": [
+        [
+          1841.0,
+          858.0
+        ],
+        [
+          1841,
+          888
+        ]
+      ]
+    }
   },
   {
     "type": "PolyLine",
@@ -6679,7 +6789,29 @@
       ]
     ],
     "from": "WUSOUFKSRQMTGVVA",
-    "to": "UQLGMGFKKKGIRZKD"
+    "to": "UQLGMGFKKKGIRZKD",
+    "short_segments_px": {
+      "head": [
+        [
+          1587,
+          895
+        ],
+        [
+          1587.0,
+          865.0
+        ]
+      ],
+      "tail": [
+        [
+          2045.0,
+          859.0
+        ],
+        [
+          2045,
+          889
+        ]
+      ]
+    }
   },
   {
     "type": "PolyLine",
@@ -7864,7 +7996,29 @@
       ]
     ],
     "from": "SLAXNKQRHOYGGRGS",
-    "to": "LAFJSNTRDZJOWOVP"
+    "to": "LAFJSNTRDZJOWOVP",
+    "short_segments_px": {
+      "head": [
+        [
+          1467,
+          893
+        ],
+        [
+          1467.0,
+          863.0
+        ]
+      ],
+      "tail": [
+        [
+          1008.0,
+          857.0
+        ],
+        [
+          1008,
+          887
+        ]
+      ]
+    }
   },
   {
     "type": "PolyLine",
@@ -7922,13 +8076,13 @@
         ],
         [
           3837.0,
-          3190.0
+          3210.0
         ]
       ],
       "tail": [
         [
           3072.0,
-          844.0
+          864.0
         ],
         [
           3072,
@@ -7993,13 +8147,13 @@
         ],
         [
           3739.0,
-          3188.0
+          3208.0
         ]
       ],
       "tail": [
         [
           1434.0,
-          843.0
+          863.0
         ],
         [
           1434,
@@ -8039,7 +8193,29 @@
       ]
     ],
     "from": "SLAXNKQRHOYGGRGS",
-    "to": "LTWNWWIZSMLYSBBR"
+    "to": "LTWNWWIZSMLYSBBR",
+    "short_segments_px": {
+      "head": [
+        [
+          1428,
+          893
+        ],
+        [
+          1428.0,
+          863.0
+        ]
+      ],
+      "tail": [
+        [
+          888.0,
+          871.0
+        ],
+        [
+          888,
+          901
+        ]
+      ]
+    }
   },
   {
     "type": "PolyLine",
@@ -8072,7 +8248,29 @@
       ]
     ],
     "from": "SLAXNKQRHOYGGRGS",
-    "to": "OKAXSQGWISKOBOUC"
+    "to": "OKAXSQGWISKOBOUC",
+    "short_segments_px": {
+      "head": [
+        [
+          1475,
+          892
+        ],
+        [
+          1475.0,
+          862.0
+        ]
+      ],
+      "tail": [
+        [
+          832.0,
+          870.0
+        ],
+        [
+          832,
+          900
+        ]
+      ]
+    }
   },
   {
     "type": "Line",
@@ -8170,13 +8368,13 @@
         ],
         [
           1590.0,
-          1056.0
+          1036.0
         ]
       ],
       "tail": [
         [
           1162.0,
-          1319.0
+          1339.0
         ],
         [
           1162,
@@ -8233,13 +8431,13 @@
         ],
         [
           1580.0,
-          1055.0
+          1035.0
         ]
       ],
       "tail": [
         [
           1152.0,
-          2095.0
+          2115.0
         ],
         [
           1152,
@@ -8300,13 +8498,13 @@
         ],
         [
           1455.0,
-          1052.0
+          1032.0
         ]
       ],
       "tail": [
         [
           3194.0,
-          1319.0
+          1339.0
         ],
         [
           3194,
@@ -8367,13 +8565,13 @@
         ],
         [
           1444.0,
-          1053.0
+          1033.0
         ]
       ],
       "tail": [
         [
           3185.0,
-          2102.0
+          2122.0
         ],
         [
           3185,
@@ -8437,7 +8635,33 @@
       ]
     ],
     "from": "LKHZGZJYETXTIFEW",
-    "to": "XAKQUXUEESCUOHYR"
+    "to": "XAKQUXUEESCUOHYR",
+    "short_segments_px": {
+      "head": [
+        [
+          2921,
+          893
+        ],
+        [
+          2921.0,
+          863.0
+        ]
+      ],
+      "tail": [
+        [
+          1765.0,
+          3195.0
+        ],
+        [
+          1765,
+          3223
+        ],
+        [
+          1765,
+          3221
+        ]
+      ]
+    }
   },
   {
     "type": "PolyLine",
@@ -8495,13 +8719,13 @@
         ],
         [
           3724.0,
-          3189.0
+          3209.0
         ]
       ],
       "tail": [
         [
           2894.0,
-          844.0
+          864.0
         ],
         [
           2894,
@@ -8566,13 +8790,13 @@
         ],
         [
           3851.0,
-          3189.0
+          3209.0
         ]
       ],
       "tail": [
         [
-          1626.2958528088964,
-          843.0008752965068
+          1626.1775116853378,
+          863.000525177904
         ],
         [
           1626,
@@ -8580,308 +8804,6 @@
         ]
       ]
     }
-  },
-  {
-    "type": "PolyLine",
-    "subject": "PolyLine",
-    "project": "lsb",
-    "file_page": 1,
-    "rect_px": [
-      3183,
-      2839,
-      3289,
-      2947
-    ],
-    "id": "TKFYHIPNTKEWEMEO",
-    "polygon_points_px": [
-      [
-        3194,
-        2850
-      ],
-      [
-        3260,
-        2850
-      ],
-      [
-        3260,
-        2936
-      ],
-      [
-        3278,
-        2936
-      ]
-    ],
-    "from": "OCSZNFYRZYSTTLFJ",
-    "to": "VPPIBWPJGDMJMXDM"
-  },
-  {
-    "type": "PolyLine",
-    "subject": "PolyLine",
-    "project": "lsb",
-    "file_page": 1,
-    "rect_px": [
-      3182,
-      2738,
-      3373,
-      2828
-    ],
-    "id": "XXWPVAKIJEOUPCEZ",
-    "polygon_points_px": [
-      [
-        3193,
-        2817
-      ],
-      [
-        3260,
-        2817
-      ],
-      [
-        3260,
-        2780
-      ],
-      [
-        3342,
-        2780
-      ],
-      [
-        3342,
-        2749
-      ],
-      [
-        3362,
-        2749
-      ]
-    ],
-    "from": "OCSZNFYRZYSTTLFJ",
-    "to": "JVKPHBBVEJUNXPCU"
-  },
-  {
-    "type": "PolyLine",
-    "subject": "PolyLine",
-    "project": "lsb",
-    "file_page": 1,
-    "rect_px": [
-      3182,
-      2645,
-      3374,
-      2667
-    ],
-    "id": "AORZABFMPLWUCBXY",
-    "polygon_points_px": [
-      [
-        3193,
-        2656
-      ],
-      [
-        3363,
-        2656
-      ]
-    ],
-    "from": "OCSZNFYRZYSTTLFJ",
-    "to": "YKOLUOZWNQSYPCWS"
-  },
-  {
-    "type": "PolyLine",
-    "subject": "PolyLine",
-    "project": "lsb",
-    "file_page": 1,
-    "rect_px": [
-      2559,
-      2911,
-      3212,
-      3345
-    ],
-    "id": "LNOBKLQLUGIXVNOP",
-    "polygon_points_px": [
-      [
-        3194,
-        2922
-      ],
-      [
-        3201,
-        2922
-      ],
-      [
-        3201,
-        3097
-      ],
-      [
-        2570,
-        3097
-      ],
-      [
-        2570,
-        3334
-      ],
-      [
-        2591,
-        3334
-      ]
-    ],
-    "from": "OCSZNFYRZYSTTLFJ",
-    "to": "OBTITSFONEGNCMMA"
-  },
-  {
-    "type": "PolyLine",
-    "subject": "PolyLine",
-    "project": "lsb",
-    "file_page": 1,
-    "rect_px": [
-      3182,
-      2369,
-      3373,
-      2391
-    ],
-    "id": "TQOXISPULHAWUUMU",
-    "polygon_points_px": [
-      [
-        3193,
-        2380
-      ],
-      [
-        3362,
-        2380
-      ]
-    ],
-    "from": "OCSZNFYRZYSTTLFJ",
-    "to": "HSXBRYQMLHKKQCND"
-  },
-  {
-    "type": "PolyLine",
-    "subject": "PolyLine",
-    "project": "lsb",
-    "file_page": 1,
-    "rect_px": [
-      3182,
-      2244,
-      3309,
-      2282
-    ],
-    "id": "PTWVFDRFINNBFEMD",
-    "polygon_points_px": [
-      [
-        3193,
-        2255
-      ],
-      [
-        3210,
-        2255
-      ],
-      [
-        3298,
-        2255
-      ],
-      [
-        3298,
-        2271
-      ]
-    ],
-    "from": "OCSZNFYRZYSTTLFJ",
-    "to": "GOPHRUMMYRRJJQKH"
-  },
-  {
-    "type": "PolyLine",
-    "subject": "PolyLine",
-    "project": "lsb",
-    "file_page": 1,
-    "rect_px": [
-      3207,
-      2094,
-      3373,
-      2116
-    ],
-    "id": "GMQFHHVGZRRFQIVC",
-    "polygon_points_px": [
-      [
-        3218,
-        2105
-      ],
-      [
-        3362,
-        2105
-      ]
-    ],
-    "from": "JLQWCBFIRPGWTYBM",
-    "to": "CMVVNTLUQEEMCGJV"
-  },
-  {
-    "type": "PolyLine",
-    "subject": "PolyLine",
-    "project": "lsb",
-    "file_page": 1,
-    "rect_px": [
-      3207,
-      1818,
-      3372,
-      1840
-    ],
-    "id": "LIVYJHEBBBCHUNSX",
-    "polygon_points_px": [
-      [
-        3218,
-        1829
-      ],
-      [
-        3361,
-        1829
-      ]
-    ],
-    "from": "JLQWCBFIRPGWTYBM",
-    "to": "MACEDSKVGFACLTMF"
-  },
-  {
-    "type": "PolyLine",
-    "subject": "PolyLine",
-    "project": "lsb",
-    "file_page": 1,
-    "rect_px": [
-      3207,
-      1656,
-      3340,
-      1730
-    ],
-    "id": "RXFVMHQZBAQSTIOM",
-    "polygon_points_px": [
-      [
-        3218,
-        1667
-      ],
-      [
-        3329,
-        1667
-      ],
-      [
-        3329,
-        1719
-      ]
-    ],
-    "from": "JLQWCBFIRPGWTYBM",
-    "to": "YRUHBPXPRTAZDSWM"
-  },
-  {
-    "type": "PolyLine",
-    "subject": "PolyLine",
-    "project": "lsb",
-    "file_page": 1,
-    "rect_px": [
-      3207,
-      1543,
-      3372,
-      1565
-    ],
-    "id": "HILMQMFYYCEHBRFR",
-    "polygon_points_px": [
-      [
-        3218,
-        1554
-      ],
-      [
-        3361,
-        1554
-      ]
-    ],
-    "from": "JLQWCBFIRPGWTYBM",
-    "to": "QJVGYLYCDEIIKOWW"
   },
   {
     "type": "PolyLine",
@@ -8914,186 +8836,29 @@
       ]
     ],
     "from": "OZRBAPWYMKXJHDCS",
-    "to": "OKAXSQGWISKOBOUC"
-  },
-  {
-    "type": "PolyLine",
-    "subject": "PolyLine",
-    "project": "lsb",
-    "file_page": 1,
-    "rect_px": [
-      1177,
-      1541,
-      1342,
-      1563
-    ],
-    "id": "JNDLNMOFRENWQYIF",
-    "polygon_points_px": [
-      [
-        1188,
-        1552
+    "to": "OKAXSQGWISKOBOUC",
+    "short_segments_px": {
+      "head": [
+        [
+          3029,
+          893
+        ],
+        [
+          3029.0,
+          863.0
+        ]
       ],
-      [
-        1331,
-        1552
+      "tail": [
+        [
+          821.0,
+          871.0
+        ],
+        [
+          821,
+          901
+        ]
       ]
-    ],
-    "from": "YRHYCQLEXPREYYII",
-    "to": "XNUWZZPOEFBQZSAS"
-  },
-  {
-    "type": "PolyLine",
-    "subject": "PolyLine",
-    "project": "lsb",
-    "file_page": 1,
-    "rect_px": [
-      1176,
-      1819,
-      1343,
-      1841
-    ],
-    "id": "HSVDXTCJWMAUXTZE",
-    "polygon_points_px": [
-      [
-        1187,
-        1830
-      ],
-      [
-        1332,
-        1830
-      ]
-    ],
-    "from": "YRHYCQLEXPREYYII",
-    "to": "DKLFQKIBCEHXZFVO"
-  },
-  {
-    "type": "PolyLine",
-    "subject": "PolyLine",
-    "project": "lsb",
-    "file_page": 1,
-    "rect_px": [
-      1175,
-      2094,
-      1344,
-      2116
-    ],
-    "id": "JSIPEBVUEVSJGLKW",
-    "polygon_points_px": [
-      [
-        1186,
-        2105
-      ],
-      [
-        1333,
-        2105
-      ]
-    ],
-    "from": "YRHYCQLEXPREYYII",
-    "to": "HAUGORQSCJREBUCS"
-  },
-  {
-    "type": "PolyLine",
-    "subject": "PolyLine",
-    "project": "lsb",
-    "file_page": 1,
-    "rect_px": [
-      1145,
-      2369,
-      1343,
-      2391
-    ],
-    "id": "QIDSYATARYCXTFFQ",
-    "polygon_points_px": [
-      [
-        1156,
-        2380
-      ],
-      [
-        1332,
-        2380
-      ]
-    ],
-    "from": "FXQOIYIDEOYLUSDM",
-    "to": "VLHRYYLIMYHHTWHR"
-  },
-  {
-    "type": "PolyLine",
-    "subject": "PolyLine",
-    "project": "lsb",
-    "file_page": 1,
-    "rect_px": [
-      1145,
-      2645,
-      1342,
-      2667
-    ],
-    "id": "DJWVYNOEMBVIAJCS",
-    "polygon_points_px": [
-      [
-        1156,
-        2656
-      ],
-      [
-        1331,
-        2656
-      ]
-    ],
-    "from": "FXQOIYIDEOYLUSDM",
-    "to": "LLWJUGODBNXMPZSL"
-  },
-  {
-    "type": "PolyLine",
-    "subject": "PolyLine",
-    "project": "lsb",
-    "file_page": 1,
-    "rect_px": [
-      1145,
-      2760,
-      1279,
-      2835
-    ],
-    "id": "SOWGPKOPIMQYYBBQ",
-    "polygon_points_px": [
-      [
-        1156,
-        2771
-      ],
-      [
-        1268,
-        2771
-      ],
-      [
-        1268,
-        2824
-      ]
-    ],
-    "from": "FXQOIYIDEOYLUSDM",
-    "to": "RPCNUTJSUMGKPRXN"
-  },
-  {
-    "type": "PolyLine",
-    "subject": "PolyLine",
-    "project": "lsb",
-    "file_page": 1,
-    "rect_px": [
-      1145,
-      2922,
-      1343,
-      2944
-    ],
-    "id": "YRPKFPJTEOFALQBC",
-    "polygon_points_px": [
-      [
-        1156,
-        2933
-      ],
-      [
-        1332,
-        2933
-      ]
-    ],
-    "from": "FXQOIYIDEOYLUSDM",
-    "to": "JMPIUBHCIADWPCUZ"
+    }
   },
   {
     "type": "PolyLine",
@@ -9134,6 +8899,1253 @@
       ]
     ],
     "from": "WUSOUFKSRQMTGVVA",
-    "to": "MPJZNHEQOZRJVWEW"
+    "to": "MPJZNHEQOZRJVWEW",
+    "short_segments_px": {
+      "head": [
+        [
+          1602,
+          1004
+        ],
+        [
+          1602.0,
+          1034.0
+        ]
+      ],
+      "tail": [
+        [
+          2089.0,
+          3192.0
+        ],
+        [
+          2089,
+          3222
+        ]
+      ]
+    }
+  },
+  {
+    "type": "Square",
+    "subject": "Breaker",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      2559,
+      3259,
+      2584,
+      3290
+    ],
+    "id": "XYRFFQBIUZBDUSFK"
+  },
+  {
+    "type": "Square",
+    "subject": "Bus Breaker",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      3237,
+      1481,
+      3263,
+      1504
+    ],
+    "id": "YSTSZOYXSTVFDJXD"
+  },
+  {
+    "type": "Square",
+    "subject": "Bus Breaker",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      3232,
+      1696,
+      3258,
+      1718
+    ],
+    "id": "RZDUKNDZVMQRGXQR"
+  },
+  {
+    "type": "Square",
+    "subject": "Bus Breaker",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      3232,
+      1760,
+      3258,
+      1782
+    ],
+    "id": "PRDEIRAMPYDTFGFC"
+  },
+  {
+    "type": "Square",
+    "subject": "Bus Breaker",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      3239,
+      2033,
+      3266,
+      2055
+    ],
+    "id": "ACMPRUQUOBXQGGSO"
+  },
+  {
+    "type": "Square",
+    "subject": "Bus Breaker",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      3207,
+      2249,
+      3233,
+      2271
+    ],
+    "id": "VXLPCQVAQEMMNEPZ"
+  },
+  {
+    "type": "Square",
+    "subject": "Bus Breaker",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      3209,
+      2310,
+      3235,
+      2332
+    ],
+    "id": "KNWHFNMAGACRZCJV"
+  },
+  {
+    "type": "Square",
+    "subject": "Bus Breaker",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      3209,
+      2586,
+      3236,
+      2608
+    ],
+    "id": "DCAZCHWGTYIYMACR"
+  },
+  {
+    "type": "Square",
+    "subject": "Bus Breaker",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      3209,
+      2807,
+      3235,
+      2829
+    ],
+    "id": "GBQGIFQJEYVNDVIE"
+  },
+  {
+    "type": "Square",
+    "subject": "Bus Breaker",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      3208,
+      2860,
+      3234,
+      2882
+    ],
+    "id": "PVANYJCBUNDMRNLG"
+  },
+  {
+    "type": "Square",
+    "subject": "Bus Breaker",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      3208,
+      2907,
+      3234,
+      2929
+    ],
+    "id": "JVZMMYFSXAPPKOTG"
+  },
+  {
+    "type": "Square",
+    "subject": "Bus Breaker",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      1176,
+      2861,
+      1202,
+      2883
+    ],
+    "id": "QJKUEQMFIIVTFAHB"
+  },
+  {
+    "type": "Square",
+    "subject": "Bus Breaker",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      1177,
+      2802,
+      1203,
+      2824
+    ],
+    "id": "TDIVXGDGXTOPTKUC"
+  },
+  {
+    "type": "Square",
+    "subject": "Bus Breaker",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      1179,
+      2586,
+      1205,
+      2608
+    ],
+    "id": "IUUCZVDGXHAQYRMS"
+  },
+  {
+    "type": "Square",
+    "subject": "Bus Breaker",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      1177,
+      2310,
+      1203,
+      2332
+    ],
+    "id": "MDCZAIUHNGURROXR"
+  },
+  {
+    "type": "Square",
+    "subject": "Bus Breaker",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      1209,
+      2034,
+      1235,
+      2056
+    ],
+    "id": "CCTAXNDWNMRPJKPH"
+  },
+  {
+    "type": "Square",
+    "subject": "Bus Breaker",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      1207,
+      1759,
+      1234,
+      1781
+    ],
+    "id": "TMIARNUSTXOSTTSD"
+  },
+  {
+    "type": "Square",
+    "subject": "Bus Breaker",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      1208,
+      1482,
+      1234,
+      1505
+    ],
+    "id": "UMEXWOVYCEVLJDBB"
+  },
+  {
+    "type": "PolyLine",
+    "subject": "PolyLine",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      1175,
+      1482,
+      1221,
+      1504
+    ],
+    "id": "HTRPMSYGUPDDSCWP",
+    "polygon_points_px": [
+      [
+        1186,
+        1493
+      ],
+      [
+        1210,
+        1493
+      ]
+    ],
+    "from": "YRHYCQLEXPREYYII",
+    "to": "UMEXWOVYCEVLJDBB"
+  },
+  {
+    "type": "PolyLine",
+    "subject": "PolyLine",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      1176,
+      1760,
+      1220,
+      1782
+    ],
+    "id": "JORVKTDGAGDROWRF",
+    "polygon_points_px": [
+      [
+        1186,
+        1771
+      ],
+      [
+        1209,
+        1771
+      ]
+    ],
+    "from": "YRHYCQLEXPREYYII",
+    "to": "TMIARNUSTXOSTTSD"
+  },
+  {
+    "type": "PolyLine",
+    "subject": "PolyLine",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      1176,
+      2033,
+      1222,
+      2055
+    ],
+    "id": "XIONHRKFEFTPUSWM",
+    "polygon_points_px": [
+      [
+        1187,
+        2044
+      ],
+      [
+        1210,
+        2044
+      ],
+      [
+        1211,
+        2044
+      ]
+    ],
+    "from": "YRHYCQLEXPREYYII",
+    "to": "CCTAXNDWNMRPJKPH"
+  },
+  {
+    "type": "PolyLine",
+    "subject": "PolyLine",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      1145,
+      2310,
+      1190,
+      2332
+    ],
+    "id": "BABJHNFQIYNIVJKQ",
+    "polygon_points_px": [
+      [
+        1156,
+        2321
+      ],
+      [
+        1179,
+        2321
+      ]
+    ],
+    "from": "FXQOIYIDEOYLUSDM",
+    "to": "MDCZAIUHNGURROXR"
+  },
+  {
+    "type": "PolyLine",
+    "subject": "PolyLine",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      1208,
+      1492,
+      1342,
+      1564
+    ],
+    "id": "ALWEEZGIPCMFURQA",
+    "polygon_points_px": [
+      [
+        1219,
+        1503
+      ],
+      [
+        1219,
+        1553
+      ],
+      [
+        1331,
+        1553
+      ]
+    ],
+    "from": "UMEXWOVYCEVLJDBB",
+    "to": "XNUWZZPOEFBQZSAS"
+  },
+  {
+    "type": "PolyLine",
+    "subject": "PolyLine",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      1209,
+      1768,
+      1344,
+      1840
+    ],
+    "id": "TRACRREFRMIBYYXP",
+    "polygon_points_px": [
+      [
+        1220,
+        1779
+      ],
+      [
+        1220,
+        1829
+      ],
+      [
+        1333,
+        1829
+      ]
+    ],
+    "from": "TMIARNUSTXOSTTSD",
+    "to": "DKLFQKIBCEHXZFVO"
+  },
+  {
+    "type": "PolyLine",
+    "subject": "PolyLine",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      1209,
+      2043,
+      1344,
+      2116
+    ],
+    "id": "ISYOUKKIZCQMPPDG",
+    "polygon_points_px": [
+      [
+        1220,
+        2054
+      ],
+      [
+        1220,
+        2105
+      ],
+      [
+        1333,
+        2105
+      ]
+    ],
+    "from": "CCTAXNDWNMRPJKPH",
+    "to": "HAUGORQSCJREBUCS"
+  },
+  {
+    "type": "PolyLine",
+    "subject": "PolyLine",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      1179,
+      2319,
+      1343,
+      2392
+    ],
+    "id": "HAGOJCJGASKTHGQI",
+    "polygon_points_px": [
+      [
+        1190,
+        2330
+      ],
+      [
+        1190,
+        2381
+      ],
+      [
+        1332,
+        2381
+      ]
+    ],
+    "from": "MDCZAIUHNGURROXR",
+    "to": "VLHRYYLIMYHHTWHR"
+  },
+  {
+    "type": "PolyLine",
+    "subject": "PolyLine",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      1145,
+      2587,
+      1192,
+      2609
+    ],
+    "id": "DMVJDFKPHBDPOQUH",
+    "polygon_points_px": [
+      [
+        1156,
+        2598
+      ],
+      [
+        1181,
+        2598
+      ]
+    ],
+    "from": "FXQOIYIDEOYLUSDM",
+    "to": "IUUCZVDGXHAQYRMS"
+  },
+  {
+    "type": "PolyLine",
+    "subject": "PolyLine",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      1181,
+      2596,
+      1343,
+      2668
+    ],
+    "id": "NVOUHDLBUIRFVWJH",
+    "polygon_points_px": [
+      [
+        1192,
+        2607
+      ],
+      [
+        1192,
+        2657
+      ],
+      [
+        1332,
+        2657
+      ]
+    ],
+    "from": "IUUCZVDGXHAQYRMS",
+    "to": "LLWJUGODBNXMPZSL"
+  },
+  {
+    "type": "PolyLine",
+    "subject": "PolyLine",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      1145,
+      2803,
+      1191,
+      2825
+    ],
+    "id": "WYPALKEJIWVTMYEP",
+    "polygon_points_px": [
+      [
+        1156,
+        2814
+      ],
+      [
+        1180,
+        2814
+      ]
+    ],
+    "from": "FXQOIYIDEOYLUSDM",
+    "to": "TDIVXGDGXTOPTKUC"
+  },
+  {
+    "type": "PolyLine",
+    "subject": "PolyLine",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      1179,
+      2759,
+      1280,
+      2833
+    ],
+    "id": "TRYEYHFPCUGGZXXV",
+    "polygon_points_px": [
+      [
+        1190,
+        2804
+      ],
+      [
+        1190,
+        2770
+      ],
+      [
+        1269,
+        2770
+      ],
+      [
+        1269,
+        2822
+      ]
+    ],
+    "from": "TDIVXGDGXTOPTKUC",
+    "to": "RPCNUTJSUMGKPRXN"
+  },
+  {
+    "type": "PolyLine",
+    "subject": "PolyLine",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      1146,
+      2861,
+      1190,
+      2883
+    ],
+    "id": "DRHBJPPQRNBDGGFM",
+    "polygon_points_px": [
+      [
+        1157,
+        2872
+      ],
+      [
+        1179,
+        2872
+      ]
+    ],
+    "from": "FXQOIYIDEOYLUSDM",
+    "to": "QJKUEQMFIIVTFAHB"
+  },
+  {
+    "type": "PolyLine",
+    "subject": "PolyLine",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      1178,
+      2870,
+      1344,
+      2943
+    ],
+    "id": "ZKFCAEREMGHJXWAP",
+    "polygon_points_px": [
+      [
+        1189,
+        2881
+      ],
+      [
+        1189,
+        2932
+      ],
+      [
+        1333,
+        2932
+      ]
+    ],
+    "from": "QJKUEQMFIIVTFAHB",
+    "to": "JMPIUBHCIADWPCUZ"
+  },
+  {
+    "type": "PolyLine",
+    "subject": "PolyLine",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      3208,
+      1482,
+      3250,
+      1504
+    ],
+    "id": "OZSAEUUEGWFVPUCI",
+    "polygon_points_px": [
+      [
+        3219,
+        1493
+      ],
+      [
+        3239,
+        1493
+      ]
+    ],
+    "from": "JLQWCBFIRPGWTYBM",
+    "to": "YSTSZOYXSTVFDJXD"
+  },
+  {
+    "type": "PolyLine",
+    "subject": "PolyLine",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      3239,
+      1491,
+      3374,
+      1564
+    ],
+    "id": "NBVXEUWGHOBMMFTK",
+    "polygon_points_px": [
+      [
+        3250,
+        1502
+      ],
+      [
+        3250,
+        1553
+      ],
+      [
+        3363,
+        1553
+      ]
+    ],
+    "from": "YSTSZOYXSTVFDJXD",
+    "to": "QJVGYLYCDEIIKOWW"
+  },
+  {
+    "type": "PolyLine",
+    "subject": "PolyLine",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      3207,
+      1697,
+      3244,
+      1719
+    ],
+    "id": "EDGTUSOXLHUFWPQC",
+    "polygon_points_px": [
+      [
+        3218,
+        1708
+      ],
+      [
+        3233,
+        1708
+      ]
+    ],
+    "from": "JLQWCBFIRPGWTYBM",
+    "to": "RZDUKNDZVMQRGXQR"
+  },
+  {
+    "type": "PolyLine",
+    "subject": "PolyLine",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      3235,
+      1655,
+      3340,
+      1730
+    ],
+    "id": "QQDEJWBBJGZLAPGV",
+    "polygon_points_px": [
+      [
+        3246,
+        1699
+      ],
+      [
+        3246,
+        1666
+      ],
+      [
+        3329,
+        1666
+      ],
+      [
+        3329,
+        1719
+      ]
+    ],
+    "from": "RZDUKNDZVMQRGXQR",
+    "to": "YRUHBPXPRTAZDSWM"
+  },
+  {
+    "type": "PolyLine",
+    "subject": "PolyLine",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      3207,
+      1759,
+      3246,
+      1781
+    ],
+    "id": "TVKOGVBLGHCVEHDN",
+    "polygon_points_px": [
+      [
+        3218,
+        1770
+      ],
+      [
+        3235,
+        1770
+      ]
+    ],
+    "from": "JLQWCBFIRPGWTYBM",
+    "to": "PRDEIRAMPYDTFGFC"
+  },
+  {
+    "type": "PolyLine",
+    "subject": "PolyLine",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      3234,
+      1769,
+      3372,
+      1840
+    ],
+    "id": "DFILXXCJDSZULAHT",
+    "polygon_points_px": [
+      [
+        3245,
+        1780
+      ],
+      [
+        3245,
+        1829
+      ],
+      [
+        3361,
+        1829
+      ]
+    ],
+    "from": "PRDEIRAMPYDTFGFC",
+    "to": "MACEDSKVGFACLTMF"
+  },
+  {
+    "type": "PolyLine",
+    "subject": "PolyLine",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      3206,
+      2033,
+      3252,
+      2055
+    ],
+    "id": "KFRCLIMDNQBCREXV",
+    "polygon_points_px": [
+      [
+        3217,
+        2044
+      ],
+      [
+        3241,
+        2044
+      ]
+    ],
+    "from": "JLQWCBFIRPGWTYBM",
+    "to": "ACMPRUQUOBXQGGSO"
+  },
+  {
+    "type": "PolyLine",
+    "subject": "PolyLine",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      3240,
+      2042,
+      3373,
+      2116
+    ],
+    "id": "LCUIJJTZVJAOEYPA",
+    "polygon_points_px": [
+      [
+        3251,
+        2053
+      ],
+      [
+        3251,
+        2105
+      ],
+      [
+        3362,
+        2105
+      ]
+    ],
+    "from": "ACMPRUQUOBXQGGSO",
+    "to": "CMVVNTLUQEEMCGJV"
+  },
+  {
+    "type": "PolyLine",
+    "subject": "PolyLine",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      3182,
+      2250,
+      3220,
+      2272
+    ],
+    "id": "OAMOVRQFCCVEYMFD",
+    "polygon_points_px": [
+      [
+        3193,
+        2261
+      ],
+      [
+        3209,
+        2261
+      ]
+    ],
+    "from": "OCSZNFYRZYSTTLFJ",
+    "to": "VXLPCQVAQEMMNEPZ"
+  },
+  {
+    "type": "PolyLine",
+    "subject": "PolyLine",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      3209,
+      2208,
+      3311,
+      2282
+    ],
+    "id": "AVNYVKVGGBIMLKSX",
+    "polygon_points_px": [
+      [
+        3220,
+        2251
+      ],
+      [
+        3220,
+        2219
+      ],
+      [
+        3300,
+        2219
+      ],
+      [
+        3300,
+        2271
+      ]
+    ],
+    "from": "VXLPCQVAQEMMNEPZ",
+    "to": "GOPHRUMMYRRJJQKH"
+  },
+  {
+    "type": "PolyLine",
+    "subject": "PolyLine",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      3182,
+      2310,
+      3222,
+      2332
+    ],
+    "id": "ZJLYWRVMCHKLSMGK",
+    "polygon_points_px": [
+      [
+        3193,
+        2321
+      ],
+      [
+        3211,
+        2321
+      ]
+    ],
+    "from": "OCSZNFYRZYSTTLFJ",
+    "to": "KNWHFNMAGACRZCJV"
+  },
+  {
+    "type": "PolyLine",
+    "subject": "PolyLine",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      3209,
+      2318,
+      3374,
+      2392
+    ],
+    "id": "CQBKQISWRQXMVHMV",
+    "polygon_points_px": [
+      [
+        3220,
+        2329
+      ],
+      [
+        3220,
+        2381
+      ],
+      [
+        3363,
+        2381
+      ]
+    ],
+    "from": "KNWHFNMAGACRZCJV",
+    "to": "HSXBRYQMLHKKQCND"
+  },
+  {
+    "type": "PolyLine",
+    "subject": "PolyLine",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      3182,
+      2587,
+      3223,
+      2609
+    ],
+    "id": "FEWXZYPTAGQZISUN",
+    "polygon_points_px": [
+      [
+        3193,
+        2598
+      ],
+      [
+        3212,
+        2598
+      ]
+    ],
+    "from": "OCSZNFYRZYSTTLFJ",
+    "to": "DCAZCHWGTYIYMACR"
+  },
+  {
+    "type": "PolyLine",
+    "subject": "PolyLine",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      3210,
+      2595,
+      3373,
+      2668
+    ],
+    "id": "VYRMIAKCJAOFBREC",
+    "polygon_points_px": [
+      [
+        3221,
+        2606
+      ],
+      [
+        3221,
+        2657
+      ],
+      [
+        3362,
+        2657
+      ]
+    ],
+    "from": "DCAZCHWGTYIYMACR",
+    "to": "YKOLUOZWNQSYPCWS"
+  },
+  {
+    "type": "PolyLine",
+    "subject": "PolyLine",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      3182,
+      2807,
+      3223,
+      2829
+    ],
+    "id": "JVNMKUGOGJIKYHST",
+    "polygon_points_px": [
+      [
+        3193,
+        2818
+      ],
+      [
+        3212,
+        2818
+      ]
+    ],
+    "from": "OCSZNFYRZYSTTLFJ",
+    "to": "GBQGIFQJEYVNDVIE"
+  },
+  {
+    "type": "PolyLine",
+    "subject": "PolyLine",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      3210,
+      2737,
+      3374,
+      2820
+    ],
+    "id": "NVNLJKCNNORBYVWC",
+    "polygon_points_px": [
+      [
+        3221,
+        2809
+      ],
+      [
+        3221,
+        2780
+      ],
+      [
+        3344,
+        2780
+      ],
+      [
+        3344,
+        2748
+      ],
+      [
+        3363,
+        2748
+      ]
+    ],
+    "from": "GBQGIFQJEYVNDVIE",
+    "to": "JVKPHBBVEJUNXPCU"
+  },
+  {
+    "type": "PolyLine",
+    "subject": "PolyLine",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      3182,
+      2860,
+      3222,
+      2882
+    ],
+    "id": "CYQYKZYGKNGPPDOZ",
+    "polygon_points_px": [
+      [
+        3193,
+        2871
+      ],
+      [
+        3211,
+        2871
+      ]
+    ],
+    "from": "OCSZNFYRZYSTTLFJ",
+    "to": "PVANYJCBUNDMRNLG"
+  },
+  {
+    "type": "PolyLine",
+    "subject": "PolyLine",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      3210,
+      2838,
+      3288,
+      2947
+    ],
+    "id": "RSJUUFIZCDDHLUWP",
+    "polygon_points_px": [
+      [
+        3221,
+        2861
+      ],
+      [
+        3221,
+        2849
+      ],
+      [
+        3261,
+        2849
+      ],
+      [
+        3261,
+        2936
+      ],
+      [
+        3277,
+        2936
+      ]
+    ],
+    "from": "PVANYJCBUNDMRNLG",
+    "to": "VPPIBWPJGDMJMXDM"
+  },
+  {
+    "type": "PolyLine",
+    "subject": "PolyLine",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      3182,
+      2906,
+      3222,
+      2928
+    ],
+    "id": "QNHEVPTSNCZLZFWR",
+    "polygon_points_px": [
+      [
+        3193,
+        2917
+      ],
+      [
+        3211,
+        2917
+      ]
+    ],
+    "from": "OCSZNFYRZYSTTLFJ",
+    "to": "JVZMMYFSXAPPKOTG"
+  },
+  {
+    "type": "PolyLine",
+    "subject": "PolyLine",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      2559,
+      2916,
+      3232,
+      3272
+    ],
+    "id": "BLSMJKRKQPXICZUD",
+    "polygon_points_px": [
+      [
+        3221,
+        2927
+      ],
+      [
+        3221,
+        2991
+      ],
+      [
+        3196,
+        2991
+      ],
+      [
+        3196,
+        3097
+      ],
+      [
+        2570,
+        3097
+      ],
+      [
+        2570,
+        3261
+      ]
+    ],
+    "from": "JVZMMYFSXAPPKOTG",
+    "to": "XYRFFQBIUZBDUSFK"
+  },
+  {
+    "type": "PolyLine",
+    "subject": "PolyLine",
+    "project": "lsb",
+    "file_page": 1,
+    "rect_px": [
+      2560,
+      3277,
+      2601,
+      3345
+    ],
+    "id": "FXBZYFSSXZQUPHDP",
+    "polygon_points_px": [
+      [
+        2571,
+        3288
+      ],
+      [
+        2571,
+        3334
+      ],
+      [
+        2590,
+        3334
+      ]
+    ],
+    "from": "XYRFFQBIUZBDUSFK",
+    "to": "OBTITSFONEGNCMMA"
   }
 ]

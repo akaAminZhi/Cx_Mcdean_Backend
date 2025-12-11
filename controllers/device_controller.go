@@ -154,8 +154,11 @@ func UpdateDevice(c *gin.Context) {
 		return
 	}
 
-	if dev.Subject == "panel board" && req.Energized != nil {
-		_ = setConnectedPolylinesEnergized([]string{id}, *req.Energized)
+	if dev.Subject == "panel board" || dev.Subject == "Breaker" || dev.Subject == "Bus Breaker" || dev.Subject == "transformer" {
+		if req.Energized != nil {
+			_ = setConnectedPolylinesEnergized([]string{id}, *req.Energized)
+
+		}
 		if req.EnergizedToday != nil {
 			_ = setConnectedPolylinesEnergizedToday([]string{id}, *req.EnergizedToday)
 		}
