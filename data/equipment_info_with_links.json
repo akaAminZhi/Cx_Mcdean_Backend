@@ -7481,5 +7481,265 @@
             ]
           ]
         }
+      },
+      {
+        "project":"lsb","file_page": 1,
+        "type": "PolyLine",
+        "subject": "PolyLine",
+        "rect_px": [
+          877,
+          778,
+          1439,
+          912
+        ],
+        "id": "OZBDITBLMWQRFCVW",
+        "polygon_points_px": [
+          [
+            1428,
+            893
+          ],
+          [
+            1428,
+            789
+          ],
+          [
+            888,
+            789
+          ],
+          [
+            888,
+            901
+          ]
+        ],
+        "from": "SLAXNKQRHOYGGRGS",
+        "to": "LTWNWWIZSMLYSBBR"
+      },
+      {
+        "project":"lsb","file_page": 1,
+        "type": "PolyLine",
+        "subject": "PolyLine",
+        "rect_px": [
+          821,
+          770,
+          1486,
+          911
+        ],
+        "id": "EGVLJSLWMBWLNEQC",
+        "polygon_points_px": [
+          [
+            1475,
+            892
+          ],
+          [
+            1475,
+            781
+          ],
+          [
+            832,
+            781
+          ],
+          [
+            832,
+            900
+          ]
+        ],
+        "from": "SLAXNKQRHOYGGRGS",
+        "to": "OKAXSQGWISKOBOUC"
+      },
+      {
+        "project":"lsb","file_page": 1,
+        "type": "Line",
+        "subject": "Bus Duct",
+        "rect_px": [
+          3207,
+          1324,
+          3229,
+          2141
+        ],
+        "id": "JLQWCBFIRPGWTYBM"
+      },
+      {
+        "project":"lsb","file_page": 1,
+        "type": "Line",
+        "subject": "Bus Duct",
+        "rect_px": [
+          3182,
+          2121,
+          3204,
+          2969
+        ],
+        "id": "OCSZNFYRZYSTTLFJ"
+      },
+      {
+        "project":"lsb","file_page": 1,
+        "type": "Line",
+        "subject": "Bus Duct",
+        "rect_px": [
+          1176,
+          1323,
+          1198,
+          2140
+        ],
+        "id": "YRHYCQLEXPREYYII"
+      },
+      {
+        "project":"lsb","file_page": 1,
+        "type": "Line",
+        "subject": "Bus Duct",
+        "rect_px": [
+          1145,
+          2118,
+          1167,
+          2968
+        ],
+        "id": "FXQOIYIDEOYLUSDM"
+      },
+      {
+        "project":"lsb","file_page": 1,
+        "type": "PolyLine",
+        "subject": "PolyLine",
+        "rect_px": [
+          1151,
+          995,
+          1601,
+          1355
+        ],
+        "id": "HKFCOTRBBSZGILEK",
+        "polygon_points_px": [
+          [
+            1590,
+            1006
+          ],
+          [
+            1590,
+            1088
+          ],
+          [
+            1162,
+            1088
+          ],
+          [
+            1162,
+            1344
+          ],
+          [
+            1187,
+            1344
+          ]
+        ],
+        "from": "WUSOUFKSRQMTGVVA",
+        "to": "YRHYCQLEXPREYYII"
+      },
+      {
+        "project":"lsb","file_page": 1,
+        "type": "PolyLine",
+        "subject": "PolyLine",
+        "rect_px": [
+          1141,
+          994,
+          1591,
+          2151
+        ],
+        "id": "IWCYUOBMIPCBODGL",
+        "polygon_points_px": [
+          [
+            1580,
+            1005
+          ],
+          [
+            1580,
+            1078
+          ],
+          [
+            1152,
+            1078
+          ],
+          [
+            1152,
+            2140
+          ],
+          [
+            1157,
+            2140
+          ]
+        ],
+        "from": "WUSOUFKSRQMTGVVA",
+        "to": "FXQOIYIDEOYLUSDM"
+      },
+      {
+        "project":"lsb","file_page": 1,
+        "type": "PolyLine",
+        "subject": "PolyLine",
+        "rect_px": [
+          1444,
+          991,
+          3231,
+          1353
+        ],
+        "id": "DVUJBEYFGVIPWHYU",
+        "polygon_points_px": [
+          [
+            1455,
+            1002
+          ],
+          [
+            1455,
+            1101
+          ],
+          [
+            3194,
+            1101
+          ],
+          [
+            3194,
+            1342
+          ],
+          [
+            3220,
+            1342
+          ],
+          [
+            3219,
+            1342
+          ]
+        ],
+        "from": "SLAXNKQRHOYGGRGS",
+        "to": "JLQWCBFIRPGWTYBM"
+      },
+      {
+        "project":"lsb","file_page": 1,
+        "type": "PolyLine",
+        "subject": "PolyLine",
+        "rect_px": [
+          1433,
+          992,
+          3205,
+          2154
+        ],
+        "id": "HXMXETDQPKVNNKPS",
+        "polygon_points_px": [
+          [
+            1444,
+            1003
+          ],
+          [
+            1444,
+            1109
+          ],
+          [
+            3185,
+            1109
+          ],
+          [
+            3185,
+            2143
+          ],
+          [
+            3194,
+            2143
+          ]
+        ],
+        "from": "SLAXNKQRHOYGGRGS",
+        "to": "OCSZNFYRZYSTTLFJ"
       }
 ]

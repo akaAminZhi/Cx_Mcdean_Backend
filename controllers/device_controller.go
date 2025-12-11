@@ -94,6 +94,7 @@ func CreateDevice(c *gin.Context) {
 
 	if body.Subject == "panel board" {
 		_ = setConnectedPolylinesEnergized([]string{body.ID}, body.Energized)
+		_ = setConnectedPolylinesEnergizedToday([]string{body.ID}, body.EnergizedToday)
 	}
 	c.JSON(http.StatusCreated, body)
 }
@@ -155,6 +156,9 @@ func UpdateDevice(c *gin.Context) {
 
 	if dev.Subject == "panel board" && req.Energized != nil {
 		_ = setConnectedPolylinesEnergized([]string{id}, *req.Energized)
+		if req.EnergizedToday != nil {
+			_ = setConnectedPolylinesEnergizedToday([]string{id}, *req.EnergizedToday)
+		}
 	}
 
 	if err := db.GetDB().First(&dev, "id = ?", id).Error; err == nil {
@@ -203,6 +207,8 @@ func ImportDevices(c *gin.Context) {
 
 	var energizedPanels []string
 	var deEnergizedPanels []string
+	var energizedTodayPanels []string
+	var deEnergizedTodayPanels []string
 	for _, dev := range arr {
 		if dev.Subject == "panel board" {
 			if dev.Energized {
@@ -210,33 +216,48 @@ func ImportDevices(c *gin.Context) {
 			} else {
 				deEnergizedPanels = append(deEnergizedPanels, dev.ID)
 			}
+			if dev.EnergizedToday {
+				energizedTodayPanels = append(energizedTodayPanels, dev.ID)
+			} else {
+				deEnergizedTodayPanels = append(deEnergizedTodayPanels, dev.ID)
+			}
 		}
 	}
 	_ = setConnectedPolylinesEnergized(energizedPanels, true)
 	_ = setConnectedPolylinesEnergized(deEnergizedPanels, false)
 
+	_ = setConnectedPolylinesEnergizedToday(energizedTodayPanels, true)
+	_ = setConnectedPolylinesEnergizedToday(deEnergizedTodayPanels, false)
 	c.JSON(http.StatusCreated, gin.H{"count": len(arr)})
 }
 
-func setConnectedPolylinesEnergized(panelIDs []string, energized bool) error {
+// 通用函数：把 panel 的某个布尔字段（比如 energized / energized_today）
+// 传播到相关 PolyLine 和 Bus 上
+func propagatePanelBoolToBusAndPolylines(field string, panelIDs []string, value bool) error {
 	if len(panelIDs) == 0 {
 		return nil
 	}
 
 	dbx := db.GetDB()
 
+	// 因为我们是动态字段名，这里构造一下更新 map
+	updateMap := map[string]any{
+		field: value,
+	}
+
 	// 1️⃣ 更新：所有以 panel 为终点的 PolyLine
 	//    subject = 'PolyLine' AND "to" IN panelIDs
 	if err := dbx.Model(&models.Device{}).
 		Where("subject = ? AND \"to\" IN ?", "PolyLine", panelIDs).
-		Updates(map[string]any{"energized": energized}).Error; err != nil {
+		Updates(updateMap).Error; err != nil {
 		return err
 	}
 
 	// 2️⃣ 查出：所有 Bus 的 id（以后要用来过滤）
 	var allBusIDs []string
+	var BUS_SUBJECTS = []string{"Bus"}
 	if err := dbx.Model(&models.Device{}).
-		Where("subject = ?", "Bus").
+		Where("subject IN ?", BUS_SUBJECTS).
 		Pluck("id", &allBusIDs).Error; err != nil {
 		return err
 	}
@@ -252,7 +273,7 @@ func setConnectedPolylinesEnergized(panelIDs []string, energized bool) error {
 	var connectedBusIDs []string
 	if err := dbx.Model(&models.Device{}).
 		Where("subject = ? AND \"from\" IN ? AND \"to\" IN ?", "PolyLine", panelIDs, allBusIDs).
-		Pluck("\"to\"", &connectedBusIDs).Error; err != nil { // 注意 Pluck 列名要带双引号
+		Pluck("\"to\"", &connectedBusIDs).Error; err != nil {
 		return err
 	}
 	if len(connectedBusIDs) == 0 {
@@ -260,21 +281,29 @@ func setConnectedPolylinesEnergized(panelIDs []string, energized bool) error {
 		return nil
 	}
 
-	// 4️⃣ 更新：这些 panel → bus 的 PolyLine energized
+	// 4️⃣ 更新：这些 panel → bus 的 PolyLine（同一个字段）
 	if err := dbx.Model(&models.Device{}).
 		Where("subject = ? AND \"from\" IN ? AND \"to\" IN ?", "PolyLine", panelIDs, connectedBusIDs).
-		Updates(map[string]any{"energized": energized}).Error; err != nil {
+		Updates(updateMap).Error; err != nil {
 		return err
 	}
 
-	// 5️⃣ 更新：和这些 panel 直接相连的 Bus energized
+	// 5️⃣ 更新：和这些 panel 直接相连的 Bus（同一个字段）
 	if err := dbx.Model(&models.Device{}).
 		Where("subject = ? AND id IN ?", "Bus", connectedBusIDs).
-		Updates(map[string]any{"energized": energized}).Error; err != nil {
+		Updates(updateMap).Error; err != nil {
 		return err
 	}
 
 	return nil
+}
+
+func setConnectedPolylinesEnergized(panelIDs []string, energized bool) error {
+	return propagatePanelBoolToBusAndPolylines("energized", panelIDs, energized)
+}
+
+func setConnectedPolylinesEnergizedToday(panelIDs []string, energized_today bool) error {
+	return propagatePanelBoolToBusAndPolylines("energized_today", panelIDs, energized_today)
 }
 
 // GET /api/v1/devices/search?q=LAB25E&page=1&size=20&project=LAB25&file_page=1
