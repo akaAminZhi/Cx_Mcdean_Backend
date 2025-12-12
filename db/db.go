@@ -38,7 +38,10 @@ func Connect() (*gorm.DB, error) {
 	sqlDB.SetConnMaxLifetime(60 * time.Minute)
 
 	// 自动迁移
-	if err := db.AutoMigrate(&models.Device{}); err != nil {
+	if err := db.AutoMigrate(
+		&models.Device{},
+		&models.DeviceFile{},
+	); err != nil {
 		return nil, err
 	}
 	// 在 Connect() 成功后，AutoMigrate 之后，追加：

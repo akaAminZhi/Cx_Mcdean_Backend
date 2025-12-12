@@ -44,7 +44,14 @@ func Setup() *gin.Engine {
 
 			// 新增：模糊搜索
 			dev.GET("/search", controllers.SearchDevices)
+
+			dev.POST("/:id/files", controllers.UploadDeviceFile)
+			dev.GET("/:id/files", controllers.ListDeviceFiles)
 		}
+
+		// ✅ 文件：按 fileId 下载 / 删除
+		v1.GET("/files/:id", controllers.DownloadDeviceFile)
+		v1.DELETE("/files/:id", controllers.DeleteDeviceFile)
 		// 新增：按项目名查找设备
 		v1.GET("/projects/:project/devices", controllers.GetDevicesByProject)
 	}

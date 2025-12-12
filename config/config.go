@@ -50,3 +50,11 @@ func getEnv(key, def string) string {
 	}
 	return def
 }
+
+func UploadDir() string {
+	dir := os.Getenv("UPLOAD_DIR")
+	if dir == "" {
+		dir = "./uploads"
+	}
+	return dir
+}

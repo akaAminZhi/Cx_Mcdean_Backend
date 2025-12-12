@@ -1,10 +1,14 @@
 package controllers
 
 import (
+	"Cx_Mcdean_Backend/config"
 	"Cx_Mcdean_Backend/db"
 	"Cx_Mcdean_Backend/models"
 	"errors"
+	"fmt"
 	"net/http"
+	"os"
+	"path/filepath"
 	"time"
 
 	"github.com/gin-gonic/gin"
@@ -370,4 +374,128 @@ func SearchDevices(c *gin.Context) {
 		"pagination": gin.H{"total": total},
 		"data":       items,
 	})
+}
+
+// POST /api/v1/devices/:id/files
+// Content-Type: multipart/form-data
+// 字段：file(文件)，file_type(panel_schedule/test_report/...)
+func UploadDeviceFile(c *gin.Context) {
+	deviceID := c.Param("id")
+
+	// 1. 先确认 Device 存在
+	var dev models.Device
+	if err := db.GetDB().First(&dev, "id = ?", deviceID).Error; err != nil {
+		c.JSON(http.StatusNotFound, gin.H{"error": "device not found"})
+		return
+	}
+
+	// 2. 取 file_type（可选字段，用于区分 panel schedule / test report）
+	fileType := c.PostForm("file_type")
+	if fileType == "" {
+		fileType = "other"
+	}
+
+	// 3. 取文件
+	fileHeader, err := c.FormFile("file")
+	if err != nil {
+		c.JSON(http.StatusBadRequest, gin.H{"error": "file is required"})
+		return
+	}
+
+	// 4. 构造保存路径
+	uploadRoot := config.UploadDir()
+	projectDir := filepath.Join(uploadRoot, dev.Project)
+	deviceDir := filepath.Join(projectDir, dev.ID)
+
+	if err := os.MkdirAll(deviceDir, 0755); err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"error": "cannot create upload dir"})
+		return
+	}
+
+	// 为了防止重名，在前面加一个时间戳
+	timestamp := time.Now().Format("20060102_150405")
+	safeName := fmt.Sprintf("%s_%s", timestamp, filepath.Base(fileHeader.Filename))
+
+	dstPath := filepath.Join(deviceDir, safeName)
+
+	// 5. 保存到本地
+	if err := c.SaveUploadedFile(fileHeader, dstPath); err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"error": "save file failed"})
+		return
+	}
+
+	// 6. 写入数据库
+	record := models.DeviceFile{
+		DeviceID: deviceID,
+		Project:  dev.Project,
+		FileType: fileType,
+		FileName: fileHeader.Filename,
+		FilePath: dstPath,
+		FileSize: fileHeader.Size,
+		MimeType: fileHeader.Header.Get("Content-Type"),
+	}
+
+	if err := db.GetDB().Create(&record).Error; err != nil {
+		// 数据库失败的话，把刚刚保存的文件删掉，避免垃圾文件
+		_ = os.Remove(dstPath)
+		c.JSON(http.StatusInternalServerError, gin.H{"error": "db save failed"})
+		return
+	}
+
+	c.JSON(http.StatusCreated, record)
+}
+
+// GET /api/v1/devices/:id/files
+func ListDeviceFiles(c *gin.Context) {
+	deviceID := c.Param("id")
+
+	var files []models.DeviceFile
+	if err := db.GetDB().
+		Where("device_id = ?", deviceID).
+		Order("created_at DESC").
+		Find(&files).Error; err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+		return
+	}
+
+	c.JSON(http.StatusOK, gin.H{
+		"device_id": deviceID,
+		"count":     len(files),
+		"data":      files,
+	})
+}
+
+// GET /api/v1/files/:id
+func DownloadDeviceFile(c *gin.Context) {
+	id := c.Param("id")
+
+	var f models.DeviceFile
+	if err := db.GetDB().First(&f, "id = ?", id).Error; err != nil {
+		c.JSON(http.StatusNotFound, gin.H{"error": "file not found"})
+		return
+	}
+
+	c.Header("Content-Disposition", fmt.Sprintf("attachment; filename=%q", f.FileName))
+	c.Header("Content-Type", f.MimeType)
+	c.File(f.FilePath)
+}
+
+// DELETE /api/v1/files/:id
+func DeleteDeviceFile(c *gin.Context) {
+	id := c.Param("id")
+
+	var f models.DeviceFile
+	if err := db.GetDB().First(&f, "id = ?", id).Error; err != nil {
+		c.JSON(http.StatusNotFound, gin.H{"error": "file not found"})
+		return
+	}
+
+	if err := db.GetDB().Delete(&f).Error; err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"error": "db delete failed"})
+		return
+	}
+
+	_ = os.Remove(f.FilePath) // 文件删不掉也不影响接口返回
+
+	c.Status(http.StatusNoContent)
 }
