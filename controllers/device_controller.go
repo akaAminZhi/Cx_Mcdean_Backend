@@ -64,19 +64,111 @@ func GetDevice(c *gin.Context) {
 }
 
 // GET /api/v1/projects/:project/devices
+// 需求：
+// 1. 如果前端没有传 page/size => 返回该 project 下的所有 devices，不算 file_count，不返回 pagination
+// 2. 如果前端传了 page 或 size 任意一个 => 分页，并为每个 device 计算 file_count 和 pagination
 func GetDevicesByProject(c *gin.Context) {
 	project := c.Param("project")
-	var devices []models.Device
+	dbx := db.GetDB()
 
-	if err := db.GetDB().Where("project = ?", project).Order("updated_at DESC").Find(&devices).Error; err != nil {
+	// 先看看 query 里有没有 page / size
+	pageStr := c.Query("page")
+	sizeStr := c.Query("size")
+
+	// ✅ 情况一：前端完全没传分页参数 => 返回全部设备，不查 file_count
+	if pageStr == "" && sizeStr == "" {
+		var devices []models.Device
+		if err := dbx.
+			Where("project = ?", project).
+			Order("updated_at DESC").
+			Find(&devices).Error; err != nil {
+
+			c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+			return
+		}
+
+		c.JSON(http.StatusOK, gin.H{
+			"project": project,
+			"count":   len(devices), // 当前 project 下设备总数
+			"data":    devices,
+		})
+		return
+	}
+
+	// ✅ 情况二：只要传了 page 或 size 中的一个，就走分页+file_count 模式
+	var q PaginationQuery
+	if err := c.ShouldBindQuery(&q); err != nil || q.Page < 1 || q.Size < 1 || q.Size > 1000 {
+		q = PaginationQuery{Page: 1, Size: 20}
+	}
+
+	// 基础查询：只看这个 project
+	base := dbx.Model(&models.Device{}).Where("project = ?", project)
+
+	// 统计总数
+	var total int64
+	if err := base.Count(&total).Error; err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
 		return
 	}
 
+	// 查这一页的 devices
+	offset := (q.Page - 1) * q.Size
+	var devices []models.Device
+	if err := base.
+		Order("updated_at DESC").
+		Limit(q.Size).
+		Offset(offset).
+		Find(&devices).Error; err != nil {
+
+		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+		return
+	}
+
+	// 只对分页结果统计 file_count
+	if len(devices) > 0 {
+		// 收集这一页的 device id
+		ids := make([]string, 0, len(devices))
+		for _, d := range devices {
+			ids = append(ids, d.ID)
+		}
+
+		// 聚合统计：每个 device_id 对应多少个文件
+		type fileCountRow struct {
+			DeviceID string
+			Count    int64
+		}
+		var rows []fileCountRow
+
+		if err := dbx.Model(&models.DeviceFile{}).
+			Select("device_id, COUNT(*) AS count").
+			Where("device_id IN ?", ids).
+			Group("device_id").
+			Scan(&rows).Error; err != nil {
+
+			c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+			return
+		}
+
+		// 映射到 map
+		m := make(map[string]int64, len(rows))
+		for _, r := range rows {
+			m[r.DeviceID] = r.Count
+		}
+
+		// 回填到每个 device.FileCount
+		for i := range devices {
+			devices[i].FileCount = m[devices[i].ID] // 不存在则为 0
+		}
+	}
+
 	c.JSON(http.StatusOK, gin.H{
 		"project": project,
-		"count":   len(devices),
 		"data":    devices,
+		"pagination": gin.H{
+			"page":  q.Page,
+			"size":  q.Size,
+			"total": total,
+		},
 	})
 }
 

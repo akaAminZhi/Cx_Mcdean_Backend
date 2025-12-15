@@ -29,5 +29,6 @@ type Device struct {
 	UpdatedAt time.Time      `json:"updated_at"`
 	DeletedAt gorm.DeletedAt `json:"-" gorm:"index"`
 
-	Files []DeviceFile `json:"files" gorm:"foreignKey:DeviceID;references:ID"`
+	Files     []DeviceFile `json:"files" gorm:"foreignKey:DeviceID;references:ID"`
+	FileCount int64        `json:"file_count" gorm:"-"`
 }
