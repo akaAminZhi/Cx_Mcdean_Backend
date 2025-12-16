@@ -23,7 +23,11 @@ type Device struct {
 	EnergizedToday  bool           `json:"energized_today"`
 	From            string         `json:"from,omitempty"`
 	To              string         `json:"to,omitempty"`
-	WillEnergizedAt *time.Time     `json:"will_energized_at,omitempty"`
+
+	ComputedFrom string `json:"computed_from,omitempty"`
+	ComputedTo   string `json:"computed_to,omitempty"`
+
+	WillEnergizedAt *time.Time `json:"will_energized_at,omitempty"`
 
 	CreatedAt time.Time      `json:"created_at"`
 	UpdatedAt time.Time      `json:"updated_at"`

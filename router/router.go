@@ -52,8 +52,11 @@ func Setup() *gin.Engine {
 		// ✅ 文件：按 fileId 下载 / 删除
 		v1.GET("/files/:id", controllers.DownloadDeviceFile)
 		v1.DELETE("/files/:id", controllers.DeleteDeviceFile)
-		// 新增：按项目名查找设备
+		// 新增：按项目名查找all设备
 		v1.GET("/projects/:project/devices", controllers.GetDevicesByProject)
+		// 新增：按项目名查找 specific equipments
+		v1.GET("/projects/:project/equipments", controllers.GetEquipmentsByProject)
+
 	}
 
 	return r

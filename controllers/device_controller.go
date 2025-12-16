@@ -64,22 +64,44 @@ func GetDevice(c *gin.Context) {
 }
 
 // GET /api/v1/projects/:project/devices
-// 需求：
-// 1. 如果前端没有传 page/size => 返回该 project 下的所有 devices，不算 file_count，不返回 pagination
-// 2. 如果前端传了 page 或 size 任意一个 => 分页，并为每个 device 计算 file_count 和 pagination
+
 func GetDevicesByProject(c *gin.Context) {
+	project := c.Param("project")
+	var devices []models.Device
+
+	if err := db.GetDB().Where("project = ?", project).Order("updated_at DESC").Find(&devices).Error; err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+		return
+	}
+
+	c.JSON(http.StatusOK, gin.H{
+		"project": project,
+		"count":   len(devices),
+		"data":    devices,
+	})
+}
+
+// GET /api/v1/projects/:project/equipments
+// 只返回 subject 是 panel board / transformer / Generator 的设备
+// 行为：
+// 1. 不传 page/size => 返回全部，不计算 file_count，不返回 pagination
+// 2. 传了 page 或 size 任意一个 => 分页 + 计算每个设备的 file_count + 返回 pagination
+func GetEquipmentsByProject(c *gin.Context) {
 	project := c.Param("project")
 	dbx := db.GetDB()
 
-	// 先看看 query 里有没有 page / size
+	// 要的 subject 类型
+	equipmentSubjects := []string{"panel board", "transformer", "Generator"}
+
+	// 看看有没有传分页参数
 	pageStr := c.Query("page")
 	sizeStr := c.Query("size")
 
-	// ✅ 情况一：前端完全没传分页参数 => 返回全部设备，不查 file_count
+	// ===== 情况一：不传 page / size，返回所有设备，不算 file_count =====
 	if pageStr == "" && sizeStr == "" {
 		var devices []models.Device
 		if err := dbx.
-			Where("project = ?", project).
+			Where("project = ? AND subject IN ?", project, equipmentSubjects).
 			Order("updated_at DESC").
 			Find(&devices).Error; err != nil {
 
@@ -89,20 +111,21 @@ func GetDevicesByProject(c *gin.Context) {
 
 		c.JSON(http.StatusOK, gin.H{
 			"project": project,
-			"count":   len(devices), // 当前 project 下设备总数
+			"count":   len(devices),
 			"data":    devices,
 		})
 		return
 	}
 
-	// ✅ 情况二：只要传了 page 或 size 中的一个，就走分页+file_count 模式
+	// ===== 情况二：传了 page 或 size，就走分页 + file_count =====
 	var q PaginationQuery
 	if err := c.ShouldBindQuery(&q); err != nil || q.Page < 1 || q.Size < 1 || q.Size > 1000 {
 		q = PaginationQuery{Page: 1, Size: 20}
 	}
 
-	// 基础查询：只看这个 project
-	base := dbx.Model(&models.Device{}).Where("project = ?", project)
+	// 基础查询：限定项目 + subject
+	base := dbx.Model(&models.Device{}).
+		Where("project = ? AND subject IN ?", project, equipmentSubjects)
 
 	// 统计总数
 	var total int64
@@ -111,7 +134,7 @@ func GetDevicesByProject(c *gin.Context) {
 		return
 	}
 
-	// 查这一页的 devices
+	// 查这一页
 	offset := (q.Page - 1) * q.Size
 	var devices []models.Device
 	if err := base.
@@ -124,15 +147,13 @@ func GetDevicesByProject(c *gin.Context) {
 		return
 	}
 
-	// 只对分页结果统计 file_count
+	// 为分页结果补充 file_count
 	if len(devices) > 0 {
-		// 收集这一页的 device id
 		ids := make([]string, 0, len(devices))
 		for _, d := range devices {
 			ids = append(ids, d.ID)
 		}
 
-		// 聚合统计：每个 device_id 对应多少个文件
 		type fileCountRow struct {
 			DeviceID string
 			Count    int64
@@ -149,15 +170,13 @@ func GetDevicesByProject(c *gin.Context) {
 			return
 		}
 
-		// 映射到 map
 		m := make(map[string]int64, len(rows))
 		for _, r := range rows {
 			m[r.DeviceID] = r.Count
 		}
 
-		// 回填到每个 device.FileCount
 		for i := range devices {
-			devices[i].FileCount = m[devices[i].ID] // 不存在则为 0
+			devices[i].FileCount = m[devices[i].ID] // 没有就 0
 		}
 	}
 
@@ -292,7 +311,7 @@ func ImportDevices(c *gin.Context) {
 	tx := db.GetDB().Clauses(
 		clause.OnConflict{
 			Columns:   []clause.Column{{Name: "id"}},
-			DoUpdates: clause.AssignmentColumns([]string{"subject", "project", "file_page", "rect_px", "polygon_points_px", "short_segments_px", "text", "comments", "energized", "energized_today", "will_energized_at", "from", "to", "updated_at"}),
+			DoUpdates: clause.AssignmentColumns([]string{"subject", "project", "file_page", "rect_px", "polygon_points_px", "short_segments_px", "text", "comments", "energized", "energized_today", "will_energized_at", "from", "to", "computed_from", "computed_to", "updated_at"}),
 		},
 	).Create(&arr)
 
@@ -332,6 +351,18 @@ func ImportDevices(c *gin.Context) {
 
 // 通用函数：把 panel 的某个布尔字段（比如 energized / energized_today）
 // 传播到相关 PolyLine 和 Bus 上
+//
+// 新逻辑：
+// 1）panel 状态改变时，先把以该 panel 为终点的 PolyLine 的同名字段更新为 value
+// 2）找到所有 “from = Bus、to = 这些 panel” 的 PolyLine，得到受影响的 Bus 列表
+// 3）对每个受影响的 Bus：
+//   - 找出所有 from = 该 Bus 的 PolyLine（即 bus → panel 的所有连线），拿到所有下游 panel
+//   - 只要这些 panel 中有任意一个 field = true，则该 Bus 的 field = true
+//     只有当所有这些 panel 的 field = false 时，Bus 的 field = false
+//   - 同时把 bus → panel 的这些 PolyLine 的同名字段也更新成 Bus 的值
+//
+// 注意：这里 Bus 的值不再简单等于当前这个 panel 传进来的 value，而是根据
+// 该 Bus 所有下游 panel 的状态聚合出来的。
 func propagatePanelBoolToBusAndPolylines(field string, panelIDs []string, value bool) error {
 	if len(panelIDs) == 0 {
 		return nil
@@ -354,9 +385,8 @@ func propagatePanelBoolToBusAndPolylines(field string, panelIDs []string, value 
 
 	// 2️⃣ 查出：所有 Bus 的 id（以后要用来过滤）
 	var allBusIDs []string
-	var BUS_SUBJECTS = []string{"Bus"}
 	if err := dbx.Model(&models.Device{}).
-		Where("subject IN ?", BUS_SUBJECTS).
+		Where("subject = ?", "Bus").
 		Pluck("id", &allBusIDs).Error; err != nil {
 		return err
 	}
@@ -365,33 +395,73 @@ func propagatePanelBoolToBusAndPolylines(field string, panelIDs []string, value 
 		return nil
 	}
 
-	// 3️⃣ 查出：和这些 panel 直接相连的 Bus id
+	// 3️⃣ 查出：和这些 panel 直接相连的 Bus id（bus → panel）
 	//    条件：subject = 'PolyLine'
-	//          "from" IN panelIDs
-	//          "to"   IN allBusIDs   （确保真的是连到 Bus 上的线）
-	var connectedBusIDs []string
+	//          "from" IN allBusIDs   （from 是 Bus）
+	//          "to"   IN panelIDs    （to 是本次状态发生变化的 panel）
+	var affectedBusIDs []string
 	if err := dbx.Model(&models.Device{}).
-		Where("subject = ? AND \"from\" IN ? AND \"to\" IN ?", "PolyLine", panelIDs, allBusIDs).
-		Pluck("\"to\"", &connectedBusIDs).Error; err != nil {
+		Where("subject = ? AND \"from\" IN ? AND \"to\" IN ?", "PolyLine", allBusIDs, panelIDs).
+		Pluck("\"from\"", &affectedBusIDs).Error; err != nil {
 		return err
 	}
-	if len(connectedBusIDs) == 0 {
+	if len(affectedBusIDs) == 0 {
 		// 没有直接相连的 Bus，也不用更新后续
 		return nil
 	}
 
-	// 4️⃣ 更新：这些 panel → bus 的 PolyLine（同一个字段）
-	if err := dbx.Model(&models.Device{}).
-		Where("subject = ? AND \"from\" IN ? AND \"to\" IN ?", "PolyLine", panelIDs, connectedBusIDs).
-		Updates(updateMap).Error; err != nil {
-		return err
+	// 去重一下 Bus ID
+	busSet := make(map[string]struct{})
+	var uniqueBusIDs []string
+	for _, id := range affectedBusIDs {
+		if _, ok := busSet[id]; !ok {
+			busSet[id] = struct{}{}
+			uniqueBusIDs = append(uniqueBusIDs, id)
+		}
 	}
 
-	// 5️⃣ 更新：和这些 panel 直接相连的 Bus（同一个字段）
-	if err := dbx.Model(&models.Device{}).
-		Where("subject = ? AND id IN ?", "Bus", connectedBusIDs).
-		Updates(updateMap).Error; err != nil {
-		return err
+	for _, busID := range uniqueBusIDs {
+		// 4️⃣ 找出：该 Bus 通过 PolyLine 连接到的所有 panel（bus → panel）
+		var downPanelIDs []string
+		if err := dbx.Model(&models.Device{}).
+			Where("subject = ? AND \"from\" = ?", "PolyLine", busID).
+			Pluck("\"to\"", &downPanelIDs).Error; err != nil {
+			return err
+		}
+		if len(downPanelIDs) == 0 {
+			// 这个 Bus 没有下游 panel，跳过
+			continue
+		}
+
+		// 5️⃣ 聚合：这些 panel 的 field 状态
+		//    只要有任意一个 panel 的 field = true，则 Bus 的 field = true
+		//    只有所有 panel 的 field = false（或 NULL）时，Bus 的 field = false
+		var trueCount int64
+		if err := dbx.Model(&models.Device{}).
+			Where("id IN ?", downPanelIDs).
+			Where(fmt.Sprintf("%s = ?", field), true).
+			Count(&trueCount).Error; err != nil {
+			return err
+		}
+
+		busValue := trueCount > 0
+		busUpdate := map[string]any{
+			field: busValue,
+		}
+
+		// 6️⃣ 更新：Bus 本身的 field
+		if err := dbx.Model(&models.Device{}).
+			Where("subject = ? AND id = ?", "Bus", busID).
+			Updates(busUpdate).Error; err != nil {
+			return err
+		}
+
+		// 7️⃣ 更新：该 Bus → 所有 panel 的 PolyLine（同一个字段，用 Bus 的值）
+		if err := dbx.Model(&models.Device{}).
+			Where("subject = ? AND \"to\" = ?", "PolyLine", busID).
+			Updates(busUpdate).Error; err != nil {
+			return err
+		}
 	}
 
 	return nil
