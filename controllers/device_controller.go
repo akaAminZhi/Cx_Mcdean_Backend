@@ -444,14 +444,23 @@ func propagatePanelBoolToBusAndPolylines(field string, panelIDs []string, value 
 			field: busValue,
 		}
 
-		// 更新 Bus / Bus Duct 自己
+		// 4-1️⃣ 更新 Bus / Bus Duct 自己
 		if err := dbx.Model(&models.Device{}).
 			Where("subject IN ? AND id = ?", BUS_SUBJECTS, busID).
 			Updates(busUpdate).Error; err != nil {
 			return err
 		}
 
-		// ⚠ 不再更新 bus → panel 的 PolyLine，让每条线只跟自己的 panel 走
+		// 4-2️⃣ 再更新：所有「以这个 Bus / Bus Duct 为终点」的 PolyLine
+		//      比如上游馈线（to = busID），让它跟 bus 的状态保持一致
+		if err := dbx.Model(&models.Device{}).
+			Where("subject = ? AND \"to\" = ?", "PolyLine", busID).
+			Updates(busUpdate).Error; err != nil {
+			return err
+		}
+
+		// ❌ 不去动 from = busID 的 polyline（bus → panels），
+		//    避免你之前说的“一个 panel 变化，把所有出线全点亮”的问题
 	}
 
 	return nil

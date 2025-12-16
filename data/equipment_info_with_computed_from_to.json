@@ -1,3565 +1,4571 @@
 [
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       920,
-      1921,
+      1920,
       966,
-      1986
+      1985
     ],
-    "id": "CEAJMVBXCLFVSIYV"
+    "text": "IT2P25W",
+    "id": "CEAJMVBXCLFVSIYV",
+    "comments": "",
+    "computed_from": "IT2DP2P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      920,
+      919,
       2170,
-      966,
-      2233
+      965,
+      2232
     ],
-    "id": "WYRIEBPBSSYJBXNX"
+    "text": "IT2P24W",
+    "id": "WYRIEBPBSSYJBXNX",
+    "comments": "",
+    "computed_from": "IT2DP2P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      920,
-      2419,
-      966,
+      919,
+      2418,
+      965,
       2481
     ],
-    "id": "EXRXTAZUXWGIIQNZ"
+    "text": "IT2P23W",
+    "id": "EXRXTAZUXWGIIQNZ",
+    "comments": "",
+    "computed_from": "IT2DP2P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       920,
-      2668,
+      2667,
       966,
-      2729
+      2728
     ],
-    "id": "ZTXBPZSVPMRRCIEC"
+    "text": "IT2P22W",
+    "id": "ZTXBPZSVPMRRCIEC",
+    "comments": "",
+    "computed_from": "IT2DP2P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       919,
       2915,
       965,
-      2978
+      2977
     ],
-    "id": "YPUXVJPFFUBXDRSA"
+    "text": "IT2P21W",
+    "id": "YPUXVJPFFUBXDRSA",
+    "comments": "",
+    "computed_from": "IT2DP2P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       919,
       3277,
       966,
-      3338
+      3337
     ],
-    "id": "LFIFKHPMSNLECRDJ"
+    "text": "IT2P2BW",
+    "id": "LFIFKHPMSNLECRDJ",
+    "comments": "",
+    "computed_from": "IT2DP2P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      922,
+      921,
       1675,
-      966,
+      965,
       1737
     ],
-    "id": "XGHMTWEGHVJFRMST"
+    "text": "IT2P26W",
+    "id": "XGHMTWEGHVJFRMST",
+    "comments": "",
+    "computed_from": "IT2DP2P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       1697,
       1673,
       1743,
       1738
     ],
-    "id": "BMEPDTAHRLJAYMZI"
+    "text": "OS4P46W",
+    "id": "BMEPDTAHRLJAYMZI",
+    "comments": "",
+    "computed_from": "OS4SB4P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      1697,
+      1696,
       1922,
-      1743,
+      1742,
       1985
     ],
-    "id": "FTVJTTVQIURHZEPS"
+    "text": "OS4P45W",
+    "id": "FTVJTTVQIURHZEPS",
+    "comments": "",
+    "computed_from": "OS4SB4P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       1696,
       2171,
-      1743,
+      1742,
       2233
     ],
-    "id": "SAOSRXISIMEZPROP"
+    "text": "OS4P44W",
+    "id": "SAOSRXISIMEZPROP",
+    "comments": "",
+    "computed_from": "OS4SB4P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       1697,
       2420,
       1743,
       2481
     ],
-    "id": "KWZWDSDDKMEWUUQB"
+    "text": "OS4P43W",
+    "id": "KWZWDSDDKMEWUUQB",
+    "comments": "",
+    "computed_from": "OS4SB4P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      1696,
-      2668,
+      1695,
+      2667,
       1742,
-      2730
+      2729
     ],
-    "id": "PUURPISHMZVHSSUB"
+    "text": "OS4P42W",
+    "id": "PUURPISHMZVHSSUB",
+    "comments": "",
+    "computed_from": "OS4SB4P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       1697,
       2915,
       1763,
       2977
     ],
-    "id": "VFJJSCBOSHLIWQUN"
+    "text": "OS4P41W",
+    "id": "VFJJSCBOSHLIWQUN",
+    "comments": "",
+    "computed_from": "OS4SB4P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       2908,
       1923,
       2954,
-      1985
+      1984
     ],
-    "id": "OJXJIRQIZVEJHZCG"
+    "text": "IT1P25E",
+    "id": "OJXJIRQIZVEJHZCG",
+    "comments": "",
+    "computed_from": "IT10P2P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
-    "rect_px": [
-      2908,
-      2169,
-      2954,
-      2232
-    ],
-    "id": "ZSQEYMGCUEKFLCIX"
-  },
-  {
     "type": "Square",
     "subject": "panel board",
-    "project": "lsb",
-    "file_page": 2,
     "rect_px": [
       2907,
-      2418,
-      2954,
-      2480
-    ],
-    "id": "RWTLZMNTIVXPINKB"
-  },
-  {
-    "type": "Square",
-    "subject": "panel board",
-    "project": "lsb",
-    "file_page": 2,
-    "rect_px": [
-      2908,
-      2667,
-      2954,
-      2728
-    ],
-    "id": "QMFNSKLZICGLKITS"
-  },
-  {
-    "type": "Square",
-    "subject": "panel board",
-    "project": "lsb",
-    "file_page": 2,
-    "rect_px": [
-      2907,
-      2914,
+      2168,
       2953,
+      2231
+    ],
+    "text": "IT1P24E",
+    "id": "ZSQEYMGCUEKFLCIX",
+    "comments": "",
+    "computed_from": "IT10P2P",
+    "computed_to": ""
+  },
+  {
+    "project": "lsb",
+    "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
+    "rect_px": [
+      2907,
+      2417,
+      2953,
+      2479
+    ],
+    "text": "IT1P23E",
+    "id": "RWTLZMNTIVXPINKB",
+    "comments": "",
+    "computed_from": "IT10P2P",
+    "computed_to": ""
+  },
+  {
+    "project": "lsb",
+    "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
+    "rect_px": [
+      2907,
+      2666,
+      2954,
+      2727
+    ],
+    "text": "IT1P22E",
+    "id": "QMFNSKLZICGLKITS",
+    "comments": "",
+    "computed_from": "IT10P2P",
+    "computed_to": ""
+  },
+  {
+    "project": "lsb",
+    "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
+    "rect_px": [
+      2906,
+      2914,
+      2952,
       2976
     ],
-    "id": "QVEVSRIFIBMUWMZD"
+    "text": "IT1P21E",
+    "id": "QVEVSRIFIBMUWMZD",
+    "comments": "",
+    "computed_from": "IT10P2P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       2269,
-      1924,
+      1923,
       2315,
       1985
     ],
-    "id": "DTRWKGSFULLWAVES"
+    "text": "OS4P25W2",
+    "id": "DTRWKGSFULLWAVES",
+    "comments": "",
+    "computed_from": "OS4DP25W",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      2329,
-      1923,
-      2375,
+      2328,
+      1922,
+      2374,
       1984
     ],
-    "id": "WKFYHGVUDUQFQQNP"
+    "text": "OS4P25W3",
+    "id": "WKFYHGVUDUQFQQNP",
+    "comments": "",
+    "computed_from": "OS4DP25W",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      2046,
-      1923,
-      2092,
+      2045,
+      1922,
+      2091,
       1984
     ],
-    "id": "RYTCPDVESQPEWOVB"
+    "text": "OS4P25W1",
+    "id": "RYTCPDVESQPEWOVB",
+    "comments": "",
+    "computed_from": "OS4DP25W",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       1982,
       1921,
-      2027,
+      2026,
       1989
     ],
-    "id": "QOOVAQJAYBZWMASH"
+    "text": "OS4DP25W",
+    "id": "QOOVAQJAYBZWMASH",
+    "comments": "",
+    "computed_from": "T6_OS4DP25W",
+    "computed_to": "OS4P25W1,OS4P25W2,OS4P25W3"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "transformer",
     "rect_px": [
       1938,
       2004,
       1984,
       2041
     ],
-    "id": "VQGNEJRKUTMOKAGF"
+    "text": "T6_OS4DP25W",
+    "id": "VQGNEJRKUTMOKAGF",
+    "comments": "",
+    "computed_from": "OS4SB4P",
+    "computed_to": "OS4DP25W"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       2269,
       2173,
       2315,
-      2235
-    ],
-    "id": "SXYKRYCCQBPYILOG"
-  },
-  {
-    "type": "Square",
-    "subject": "panel board",
-    "project": "lsb",
-    "file_page": 2,
-    "rect_px": [
-      2329,
-      2172,
-      2375,
       2234
     ],
-    "id": "KMGOICHEEYKQBUME"
+    "text": "OS4P24W2",
+    "id": "SXYKRYCCQBPYILOG",
+    "comments": "",
+    "computed_from": "OS4DP24W",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      2046,
+      2328,
       2172,
-      2092,
-      2234
+      2374,
+      2233
     ],
-    "id": "QXRUNMYYNITVOVEW"
+    "text": "OS4P24W3",
+    "id": "KMGOICHEEYKQBUME",
+    "comments": "",
+    "computed_from": "OS4DP24W",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
+    "rect_px": [
+      2045,
+      2172,
+      2091,
+      2233
+    ],
+    "text": "OS4P24W1",
+    "id": "QXRUNMYYNITVOVEW",
+    "comments": "",
+    "computed_from": "OS4DP24W",
+    "computed_to": ""
+  },
+  {
+    "project": "lsb",
+    "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       1982,
       2171,
-      2027,
-      2239
+      2026,
+      2238
     ],
-    "id": "BLOJLUHHWKTSUGVW"
+    "text": "OS4DP24W",
+    "id": "BLOJLUHHWKTSUGVW",
+    "comments": "",
+    "computed_from": "T6_OS4DP24W",
+    "computed_to": "OS4P24W1,OS4P24W2,OS4P24W3"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "transformer",
     "rect_px": [
       1938,
-      2254,
+      2253,
       1984,
-      2291
+      2290
     ],
-    "id": "MKEJYPBUXYPJHAIU"
+    "text": "T6_OS4DP24W",
+    "id": "MKEJYPBUXYPJHAIU",
+    "comments": "",
+    "computed_from": "OS4SB4P",
+    "computed_to": "OS4DP24W"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       2268,
       2421,
       2314,
       2482
     ],
-    "id": "KTQBBQRAKURRHYEP"
+    "text": "OS4P23W2",
+    "id": "KTQBBQRAKURRHYEP",
+    "comments": "",
+    "computed_from": "OS4DP23W",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       2327,
       2420,
       2373,
-      2482
+      2481
     ],
-    "id": "IYIXCETOMFECFYJB"
+    "text": "OS4P23W3",
+    "id": "IYIXCETOMFECFYJB",
+    "comments": "",
+    "computed_from": "OS4DP23W",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       2044,
-      2418,
-      2091,
-      2480
+      2420,
+      2090,
+      2481
     ],
-    "id": "NNXPCKHRVLCCLAAB"
+    "text": "OS4P23W1",
+    "id": "NNXPCKHRVLCCLAAB",
+    "comments": "",
+    "computed_from": "OS4DP23W",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       1981,
-      2419,
-      2026,
-      2487
+      2418,
+      2025,
+      2486
     ],
-    "id": "SCJZZVKEXYVLTNHY"
+    "text": "OS4DP23W",
+    "id": "SCJZZVKEXYVLTNHY",
+    "comments": "",
+    "computed_from": "T6_OS4DP23W",
+    "computed_to": "OS4P23W1,OS4P23W2,OS4P23W3"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "transformer",
     "rect_px": [
       1937,
-      2502,
+      2501,
       1983,
-      2539
+      2538
     ],
-    "id": "RZFODESQNYIDEMOQ"
+    "text": "T6_OS4DP23W",
+    "id": "RZFODESQNYIDEMOQ",
+    "comments": "",
+    "computed_from": "OS4SB4P",
+    "computed_to": "OS4DP23W"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      2269,
-      2667,
-      2315,
-      2729
+      2268,
+      2669,
+      2314,
+      2730
     ],
-    "id": "YWTZHHLEVFKADSTH"
+    "text": "OS4P22W2",
+    "id": "YWTZHHLEVFKADSTH",
+    "comments": "",
+    "computed_from": "OS4DP22W",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       2328,
-      2669,
+      2668,
       2374,
       2730
     ],
-    "id": "HTJEQEGMCPIACUYH"
+    "text": "OS4P22W3",
+    "id": "HTJEQEGMCPIACUYH",
+    "comments": "",
+    "computed_from": "OS4DP22W",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       2045,
-      2669,
+      2668,
       2091,
       2730
     ],
-    "id": "MPRHTBCQAXOFWKJJ"
+    "text": "OS4P22W1",
+    "id": "MPRHTBCQAXOFWKJJ",
+    "comments": "",
+    "computed_from": "OS4DP22W",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      1982,
+      1981,
       2667,
       2026,
       2735
     ],
-    "id": "OUILQRIAHCJIAIWW"
+    "text": "OS4DP22W",
+    "id": "OUILQRIAHCJIAIWW",
+    "comments": "",
+    "computed_from": "T6_OS4DP22W",
+    "computed_to": "OS4P22W1,OS4P22W2,OS4P22W3,OS4P22W4,OS4P22W5"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "transformer",
     "rect_px": [
-      1938,
+      1937,
       2750,
-      1984,
+      1983,
       2787
     ],
-    "id": "PHAQFFUBUCSAPKGO"
+    "text": "T6_OS4DP22W",
+    "id": "PHAQFFUBUCSAPKGO",
+    "comments": "",
+    "computed_from": "OS4SB4P",
+    "computed_to": "OS4DP22W"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       2267,
-      2917,
+      2916,
       2313,
       2978
     ],
-    "id": "ZDSWNIVTGXFBMDHS"
+    "text": "OS4P21W2",
+    "id": "ZDSWNIVTGXFBMDHS",
+    "comments": "",
+    "computed_from": "OS4DP21W",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       2145,
       2916,
       2191,
-      2978
+      2977
     ],
-    "id": "TKFLUAHUTXUNFUPZ"
+    "text": "LR1P21W",
+    "id": "TKFLUAHUTXUNFUPZ",
+    "comments": "",
+    "computed_from": "LR1DP2B",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      2044,
+      2043,
       2916,
-      2090,
-      2978
+      2089,
+      2977
     ],
-    "id": "RFKKKAPMEDVGVOGU"
+    "text": "OS4P21W1",
+    "id": "RFKKKAPMEDVGVOGU",
+    "comments": "",
+    "computed_from": "OS4DP21W",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      1983,
-      2915,
+      1982,
+      2914,
       2027,
-      2983
+      2982
     ],
-    "id": "BDNXDWMWHOHYMMFB"
+    "text": "OS4DP21W",
+    "id": "BDNXDWMWHOHYMMFB",
+    "comments": "",
+    "computed_from": "T6_OS4DP21W",
+    "computed_to": "OS4P21W1,OS4P21W2"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "transformer",
     "rect_px": [
       1936,
-      2998,
+      2997,
       1982,
-      3035
+      3034
     ],
-    "id": "GAHPBWJNTEMIVLTC"
+    "text": "T6_OS4DP21W",
+    "id": "GAHPBWJNTEMIVLTC",
+    "comments": "",
+    "computed_from": "OS4SB4P",
+    "computed_to": "OS4DP21W"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      2387,
+      2386,
       2668,
-      2433,
+      2432,
       2729
     ],
-    "id": "ZPCLYBMETUTWDGMW"
+    "text": "OS4P22W4",
+    "id": "ZPCLYBMETUTWDGMW",
+    "comments": "",
+    "computed_from": "OS4DP22W",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      2438,
+      2437,
       2668,
       2499,
       2729
     ],
-    "id": "AKGGAQFCBLYWFPPY"
+    "text": "OS4P22W5",
+    "id": "AKGGAQFCBLYWFPPY",
+    "comments": "",
+    "computed_from": "OS4DP22W",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       2269,
       1675,
       2315,
-      1737
+      1736
     ],
-    "id": "HWWNFIZRRQKOOHXN"
+    "text": "MV1P26W1",
+    "id": "HWWNFIZRRQKOOHXN",
+    "comments": "",
+    "computed_from": "VIV1DP26W",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       2328,
       1674,
       2374,
-      1736
+      1735
     ],
-    "id": "ILJWNMVFTULNYZMY"
+    "text": "MV1P26W2",
+    "id": "ILJWNMVFTULNYZMY",
+    "comments": "",
+    "computed_from": "VIV1DP26W",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       2388,
       1675,
       2434,
-      1737
+      1736
     ],
-    "id": "GZBENNWPIEPDRIPG"
+    "text": "VIV1P26W3",
+    "id": "GZBENNWPIEPDRIPG",
+    "comments": "",
+    "computed_from": "VIV1DP26W",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       2447,
-      1675,
+      1674,
       2493,
-      1736
+      1735
     ],
-    "id": "QXVMBLJXHCMNPMLY"
+    "text": "VIV1P26W4",
+    "id": "QXVMBLJXHCMNPMLY",
+    "comments": "",
+    "computed_from": "VIV1DP26W",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      2012,
-      1675,
-      2058,
+      2011,
+      1674,
+      2057,
       1736
     ],
-    "id": "VWCLYTJDKGROPPLG"
+    "text": "VIV1P46W",
+    "id": "VWCLYTJDKGROPPLG",
+    "comments": "",
+    "computed_from": "VIV1SB4P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       2110,
       1672,
-      2155,
-      1742
+      2154,
+      1741
     ],
-    "id": "MFLNZWAXAMWEMQBS"
+    "text": "VIV1DP26W",
+    "id": "MFLNZWAXAMWEMQBS",
+    "comments": "",
+    "computed_from": "T6_VIV1DP26W",
+    "computed_to": "MV1P26W1,MV1P26W2,VIV1P26W3,VIV1P26W4"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "transformer",
     "rect_px": [
-      2082,
-      1764,
-      2122,
+      2081,
+      1763,
+      2121,
       1795
     ],
-    "id": "MGQHGHSZWWYBDHTN"
+    "text": "T6_VIV1DP26W",
+    "id": "MGQHGHSZWWYBDHTN",
+    "comments": "",
+    "computed_from": "VIV1SB4P",
+    "computed_to": "VIV1DP26W"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "transformer",
     "rect_px": [
-      1848,
-      1757,
-      1893,
-      1792
+      1847,
+      1756,
+      1892,
+      1791
     ],
-    "id": "POTTDZVILABZRZRS"
+    "text": "T4_OS4P26W1",
+    "id": "POTTDZVILABZRZRS",
+    "comments": "",
+    "computed_from": "OS4SB4P",
+    "computed_to": "OS4P26W1"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       1896,
-      1675,
-      1941,
-      1736
+      1674,
+      1940,
+      1735
     ],
-    "id": "CUKIQQATMESYZQFY"
+    "text": "OS4P26W1",
+    "id": "CUKIQQATMESYZQFY",
+    "comments": "",
+    "computed_from": "T4_OS4P26W1",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       1196,
-      1923,
+      1922,
       1240,
       1983
     ],
-    "id": "EFHGRVITTLFNRAQS"
+    "text": "EM1P45W",
+    "id": "EFHGRVITTLFNRAQS",
+    "comments": "",
+    "computed_from": "EM1DP4P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       1195,
-      2171,
+      2170,
       1239,
       2231
     ],
-    "id": "FOLHGQEDRAXEKPJR"
+    "text": "EM1P44W",
+    "id": "FOLHGQEDRAXEKPJR",
+    "comments": "",
+    "computed_from": "EM1DP4P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      1196,
-      2668,
-      1240,
-      2729
+      1195,
+      2667,
+      1239,
+      2728
     ],
-    "id": "EPACDKEWHQSXPLTD"
+    "text": "EM1P42W",
+    "id": "EPACDKEWHQSXPLTD",
+    "comments": "",
+    "computed_from": "EM1DP4P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       1392,
       1923,
       1436,
       1984
     ],
-    "id": "CQBYRFSUUVVXUTLU"
+    "text": "EM1P25W",
+    "id": "CQBYRFSUUVVXUTLU",
+    "comments": "",
+    "computed_from": "T3_EM1P25W",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       1391,
       2171,
       1435,
       2232
     ],
-    "id": "OASTCYQJVQGGAINX"
+    "text": "EM1P24W",
+    "id": "OASTCYQJVQGGAINX",
+    "comments": "",
+    "computed_from": "",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      1392,
-      2669,
-      1436,
+      1391,
+      2668,
+      1435,
       2729
     ],
-    "id": "AIJJLOGMSWKZCFGM"
+    "text": "EM1P22W",
+    "id": "AIJJLOGMSWKZCFGM",
+    "comments": "",
+    "computed_from": "T3_EM1P22W",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "transformer",
     "rect_px": [
       1317,
       2590,
       1363,
       2626
     ],
-    "id": "BQMPROKVHBTDNLNC"
+    "text": "T3_EM1P22W",
+    "id": "BQMPROKVHBTDNLNC",
+    "comments": "",
+    "computed_from": "EM1DP4P",
+    "computed_to": "EM1P22W"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "transformer",
     "rect_px": [
-      1322,
+      1321,
       2118,
       1367,
       2154
     ],
-    "id": "DXZZFFCARQNVMIOC"
+    "text": "T3",
+    "id": "DXZZFFCARQNVMIOC",
+    "comments": "",
+    "computed_from": "EM1DP4P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "transformer",
     "rect_px": [
       1341,
       1854,
       1387,
-      1891
+      1890
     ],
-    "id": "AIYJWHRUNDETHJIN"
+    "text": "T3_EM1P25W",
+    "id": "AIYJWHRUNDETHJIN",
+    "comments": "",
+    "computed_from": "EM1DP4P",
+    "computed_to": "EM1P25W"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "generator",
     "rect_px": [
-      384,
-      2925,
-      428,
-      3034
+      383,
+      2924,
+      427,
+      3033
     ],
-    "id": "RFCXLSZHGKRJQYNV"
+    "text": "GENERATOR",
+    "id": "RFCXLSZHGKRJQYNV",
+    "comments": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       3139,
       1923,
-      3184,
-      1984
-    ],
-    "id": "IYDIIDUOZSCYIDVI"
-  },
-  {
-    "type": "Square",
-    "subject": "panel board",
-    "project": "lsb",
-    "file_page": 2,
-    "rect_px": [
-      3139,
-      2171,
       3183,
-      2232
+      1983
     ],
-    "id": "INGQWAYCLJMVZJKV"
+    "text": "EM1P45E",
+    "id": "IYDIIDUOZSCYIDVI",
+    "comments": "",
+    "computed_from": "EM1DP4P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
+    "rect_px": [
+      3138,
+      2171,
+      3182,
+      2231
+    ],
+    "text": "EM1P44E",
+    "id": "INGQWAYCLJMVZJKV",
+    "comments": "",
+    "computed_from": "EM1DP4P",
+    "computed_to": ""
+  },
+  {
+    "project": "lsb",
+    "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       3139,
-      2669,
+      2668,
       3183,
       2729
     ],
-    "id": "FWPOIMNDPVIJAVYO"
+    "text": "EM1P42E",
+    "id": "FWPOIMNDPVIJAVYO",
+    "comments": "",
+    "computed_from": "EM1DP4P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       3335,
       1924,
-      3380,
-      1985
+      3379,
+      1984
     ],
-    "id": "MPSUZXFPFEAXWVXM"
+    "text": "EM1P25E",
+    "id": "MPSUZXFPFEAXWVXM",
+    "comments": "",
+    "computed_from": "T3_EM1P25E",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       3334,
-      2172,
-      3379,
-      2233
+      2171,
+      3378,
+      2232
     ],
-    "id": "BKJEKFGZYXLQLRAU"
+    "text": "EM1P24E",
+    "id": "BKJEKFGZYXLQLRAU",
+    "comments": "",
+    "computed_from": "T3_EM1P24E",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      3335,
+      3334,
       2669,
       3379,
-      2730
+      2729
     ],
-    "id": "SRNWTNLRJTLAFRUO"
+    "text": "EM1P22E",
+    "id": "SRNWTNLRJTLAFRUO",
+    "comments": "",
+    "computed_from": "T3_EM1P22E",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "transformer",
     "rect_px": [
-      3291,
-      2597,
-      3337,
+      3290,
+      2596,
+      3336,
       2633
     ],
-    "id": "NIKUUSSGHAWOUOIN"
+    "text": "T3_EM1P22E",
+    "id": "NIKUUSSGHAWOUOIN",
+    "comments": "",
+    "computed_from": "EM1DP4P",
+    "computed_to": "EM1P22E"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "transformer",
     "rect_px": [
       3291,
-      2101,
+      2100,
       3337,
-      2137
+      2136
     ],
-    "id": "KNIEYUDCNDEINAQM"
+    "text": "T3_EM1P24E",
+    "id": "KNIEYUDCNDEINAQM",
+    "comments": "",
+    "computed_from": "EM1DP4P",
+    "computed_to": "EM1P24E"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "transformer",
     "rect_px": [
       3291,
       1852,
-      3337,
+      3336,
       1888
     ],
-    "id": "MFDCOQRDSWRTJCOG"
+    "text": "T3_EM1P25E",
+    "id": "MFDCOQRDSWRTJCOG",
+    "comments": "",
+    "computed_from": "EM1DP4P",
+    "computed_to": "EM1P25E"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      3336,
+      3335,
       2420,
-      3380,
-      2481
+      3379,
+      2480
     ],
-    "id": "TBEQWHPQOATCSHKW"
+    "text": "LR1P23E",
+    "id": "TBEQWHPQOATCSHKW",
+    "comments": "",
+    "computed_from": "T3_LR1P23E",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "transformer",
     "rect_px": [
       3291,
-      2348,
+      2347,
       3337,
       2384
     ],
-    "id": "WVBHRTCDHOGNNFUI"
+    "text": "T3_LR1P23E",
+    "id": "WVBHRTCDHOGNNFUI",
+    "comments": "",
+    "computed_from": "LR1DP4P",
+    "computed_to": "LR1P23E"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       3512,
-      1677,
+      1676,
       3558,
       1738
     ],
-    "id": "CHHRFESJPVXMSWDQ"
+    "text": "OS3P46E",
+    "id": "CHHRFESJPVXMSWDQ",
+    "comments": "",
+    "computed_from": "OS3SB4P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      3512,
+      3511,
       1922,
-      3558,
+      3557,
       1985
     ],
-    "id": "NBWTYKFIIJDEPFSS"
+    "text": "OS3P45E",
+    "id": "NBWTYKFIIJDEPFSS",
+    "comments": "",
+    "computed_from": "OS3SB4P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       3511,
       2171,
-      3558,
+      3557,
       2233
     ],
-    "id": "KLRYNFZCFMYAYTZB"
+    "text": "OS3P44E",
+    "id": "KLRYNFZCFMYAYTZB",
+    "comments": "",
+    "computed_from": "OS3SB4P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      3512,
+      3511,
       2420,
       3558,
       2481
     ],
-    "id": "KGOYZDCSWVWYZSQX"
+    "text": "OS3P43E",
+    "id": "KGOYZDCSWVWYZSQX",
+    "comments": "",
+    "computed_from": "OS3SB4P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      3511,
-      2668,
+      3510,
+      2667,
       3557,
-      2730
+      2729
     ],
-    "id": "WUBZFRCFNWNIHFON"
+    "text": "OS3P42E",
+    "id": "WUBZFRCFNWNIHFON",
+    "comments": "",
+    "computed_from": "OS3SB4P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       3800,
-      2666,
+      2665,
       3846,
-      2734
+      2733
     ],
-    "id": "WNQTVOJPFGUXTAOV"
+    "text": "OS3DP22E",
+    "id": "WNQTVOJPFGUXTAOV",
+    "comments": "",
+    "computed_from": "T6_OS3DP22E",
+    "computed_to": "OS3P22E1,OS3P22E2,OS3P22E3"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      3866,
+      3865,
       2666,
-      3912,
+      3911,
       2728
     ],
-    "id": "FPCTQHLTAANJVFTZ"
+    "text": "OS3P22E1",
+    "id": "FPCTQHLTAANJVFTZ",
+    "comments": "",
+    "computed_from": "OS3DP22E",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       4114,
-      2667,
+      2666,
       4160,
-      2729
+      2728
     ],
-    "id": "NVKHMVLJCSAJTLRN"
+    "text": "OS3P22E2",
+    "id": "NVKHMVLJCSAJTLRN",
+    "comments": "",
+    "computed_from": "OS3DP22E",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       4173,
-      2667,
+      2666,
       4219,
-      2729
+      2728
     ],
-    "id": "DSXUSLDBTUFAAUIT"
+    "text": "OS3P22E3",
+    "id": "DSXUSLDBTUFAAUIT",
+    "comments": "",
+    "computed_from": "OS3DP22E",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "transformer",
     "rect_px": [
       3756,
       2749,
-      3803,
-      2786
+      3802,
+      2785
     ],
-    "id": "QWDAVRUAQFNMQPFA"
+    "text": "T6_OS3DP22E",
+    "id": "QWDAVRUAQFNMQPFA",
+    "comments": "",
+    "computed_from": "",
+    "computed_to": "OS3DP22E"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       3799,
-      2418,
+      2417,
       3845,
       2486
     ],
-    "id": "JPOZWXHFXCOJJQSY"
+    "text": "OS3DP23E",
+    "id": "JPOZWXHFXCOJJQSY",
+    "comments": "",
+    "computed_from": "T6_OS3DP23E",
+    "computed_to": "OS3P23E1,OS3P23E2,OS3P23E3"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      3865,
+      3864,
       2418,
-      3911,
-      2481
+      3910,
+      2480
     ],
-    "id": "OWUXIPXSDFVYDAIV"
+    "text": "OS3P23E1",
+    "id": "OWUXIPXSDFVYDAIV",
+    "comments": "",
+    "computed_from": "OS3DP23E",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       4113,
-      2419,
+      2418,
       4159,
       2481
     ],
-    "id": "JIDCKUFILJBOOBAU"
+    "text": "OS3P23E2",
+    "id": "JIDCKUFILJBOOBAU",
+    "comments": "",
+    "computed_from": "OS3DP23E",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       4172,
-      2419,
+      2418,
       4218,
       2481
     ],
-    "id": "MMWRJTGGSIALEBWO"
+    "text": "OS3P23E3",
+    "id": "MMWRJTGGSIALEBWO",
+    "comments": "",
+    "computed_from": "OS3DP23E",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "transformer",
     "rect_px": [
       3755,
       2501,
-      3802,
-      2538
+      3801,
+      2537
     ],
-    "id": "OLRBIIMBTMYKRFCH"
+    "text": "T6_OS3DP23E",
+    "id": "OLRBIIMBTMYKRFCH",
+    "comments": "",
+    "computed_from": "OS3SB4P",
+    "computed_to": "OS3DP23E"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       3798,
       2169,
       3844,
-      2238
+      2237
     ],
-    "id": "LDCAGQBPDJKTDDAX"
+    "text": "OS3DP24E",
+    "id": "LDCAGQBPDJKTDDAX",
+    "comments": "",
+    "computed_from": "T6_OS3DP24E",
+    "computed_to": "OS3P24E1,OS3P24E2,OS3P24E3"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      3864,
-      2170,
+      3863,
+      2169,
       3910,
       2232
     ],
-    "id": "GTMDSTHYHNSETVRN"
+    "text": "OS3P24E1",
+    "id": "GTMDSTHYHNSETVRN",
+    "comments": "",
+    "computed_from": "OS3DP24E",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       4112,
       2170,
-      4159,
-      2233
+      4158,
+      2232
     ],
-    "id": "IHCXVDFJFRBSRHIF"
+    "text": "OS3P24E2",
+    "id": "IHCXVDFJFRBSRHIF",
+    "comments": "",
+    "computed_from": "OS3DP24E",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       4171,
       2170,
-      4218,
-      2233
+      4217,
+      2232
     ],
-    "id": "WRLGNVQGDMVFPFOG"
+    "text": "OS3P24E3",
+    "id": "WRLGNVQGDMVFPFOG",
+    "comments": "",
+    "computed_from": "OS3DP24E",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "transformer",
     "rect_px": [
       3754,
-      2253,
-      3801,
+      2252,
+      3800,
       2289
     ],
-    "id": "LHRLZKOVWEWYKOQD"
+    "text": "T6_OS3DP24E",
+    "id": "LHRLZKOVWEWYKOQD",
+    "comments": "",
+    "computed_from": "OS3SB4P",
+    "computed_to": "OS3DP24E"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       3801,
-      1922,
+      1921,
       3847,
       1990
     ],
-    "id": "VPDOBGNJBAAKANFT"
+    "text": "OS3DP25E",
+    "id": "VPDOBGNJBAAKANFT",
+    "comments": "",
+    "computed_from": "T6_OS3DP25E",
+    "computed_to": "OS3P25E1,OS3P25E2,OS3P25E3"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      3867,
-      1923,
-      3913,
-      1985
+      3866,
+      1922,
+      3912,
+      1984
     ],
-    "id": "WVVWYYZMAQPCZZXY"
+    "text": "OS3P25E1",
+    "id": "WVVWYYZMAQPCZZXY",
+    "comments": "",
+    "computed_from": "OS3DP25E",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       4115,
       1923,
       4161,
       1985
     ],
-    "id": "UPJMGEDZFHNCNTVV"
+    "text": "OS3P25E2",
+    "id": "UPJMGEDZFHNCNTVV",
+    "comments": "",
+    "computed_from": "OS3DP25E",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       4174,
       1923,
       4220,
       1985
     ],
-    "id": "QSYNCAHTEFSTYYLF"
+    "text": "OS3P25E3",
+    "id": "QSYNCAHTEFSTYYLF",
+    "comments": "",
+    "computed_from": "OS3DP25E",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "transformer",
     "rect_px": [
       3757,
-      2006,
-      3804,
-      2042
+      2005,
+      3803,
+      2041
     ],
-    "id": "KORBWIBWOUJHPUHR"
+    "text": "T6_OS3DP25E",
+    "id": "KORBWIBWOUJHPUHR",
+    "comments": "",
+    "computed_from": "OS3SB4P",
+    "computed_to": "OS3DP25E"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      3953,
-      1673,
-      3999,
+      3952,
+      1672,
+      3998,
       1741
     ],
-    "id": "MKMQFUBMABILJXGE"
+    "text": "VIV2DP26E",
+    "id": "MKMQFUBMABILJXGE",
+    "comments": "",
+    "computed_from": "T6_VIV2DP26E",
+    "computed_to": "VIV2P26E1,VIV2P26E2,VIV2P26E3,WIV2P26E4"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      4114,
+      4113,
       1674,
       4160,
-      1737
-    ],
-    "id": "URDRGZRMIEVHIIBV"
-  },
-  {
-    "type": "Square",
-    "subject": "panel board",
-    "project": "lsb",
-    "file_page": 2,
-    "rect_px": [
-      4171,
-      1675,
-      4218,
-      1737
-    ],
-    "id": "SHMFPXGBGZCSXRLB"
-  },
-  {
-    "type": "Square",
-    "subject": "panel board",
-    "project": "lsb",
-    "file_page": 2,
-    "rect_px": [
-      4233,
-      1674,
-      4279,
       1736
     ],
-    "id": "KWWQIWPQKRGAKOTE"
+    "text": "VIV2P26E1",
+    "id": "URDRGZRMIEVHIIBV",
+    "comments": "",
+    "computed_from": "VIV2DP26E",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
+    "rect_px": [
+      4171,
+      1674,
+      4217,
+      1736
+    ],
+    "text": "VIV2P26E2",
+    "id": "SHMFPXGBGZCSXRLB",
+    "comments": "",
+    "computed_from": "VIV2DP26E",
+    "computed_to": ""
+  },
+  {
+    "project": "lsb",
+    "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
+    "rect_px": [
+      4232,
+      1674,
+      4278,
+      1736
+    ],
+    "text": "VIV2P26E3",
+    "id": "KWWQIWPQKRGAKOTE",
+    "comments": "",
+    "computed_from": "VIV2DP26E",
+    "computed_to": ""
+  },
+  {
+    "project": "lsb",
+    "file_page": 2,
+    "type": "Square",
+    "subject": "transformer",
     "rect_px": [
       3924,
-      1761,
-      3964,
+      1760,
+      3963,
       1793
     ],
-    "id": "IHLWJGYCDENCDFSQ"
+    "text": "T6_VIV2DP26E",
+    "id": "IHLWJGYCDENCDFSQ",
+    "comments": "",
+    "computed_from": "VIV2P46E",
+    "computed_to": "VIV2DP26E"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       4291,
       1674,
       4337,
-      1737
+      1736
     ],
-    "id": "KMLCHARUILXMCCOW"
+    "text": "WIV2P26E4",
+    "id": "KMLCHARUILXMCCOW",
+    "comments": "",
+    "computed_from": "VIV2DP26E",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       3854,
-      1675,
-      3900,
-      1737
-    ],
-    "id": "SBTVDHFBOHJOQUIR"
-  },
-  {
-    "type": "Square",
-    "subject": "panel board",
-    "project": "lsb",
-    "file_page": 2,
-    "rect_px": [
-      3726,
       1674,
-      3772,
+      3900,
       1736
     ],
-    "id": "IHKMMQSZEYMTGYFZ"
+    "text": "VIV2P46E",
+    "id": "SBTVDHFBOHJOQUIR",
+    "comments": "",
+    "computed_from": "VIV2SB4P",
+    "computed_to": "T6_VIV2DP26E"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      3680,
+      3725,
+      1673,
+      3771,
+      1736
+    ],
+    "text": "OS3P26E1",
+    "id": "IHKMMQSZEYMTGYFZ",
+    "comments": "",
+    "computed_from": "T4_OS3P26E1",
+    "computed_to": ""
+  },
+  {
+    "project": "lsb",
+    "file_page": 2,
+    "type": "Square",
+    "subject": "transformer",
+    "rect_px": [
+      3679,
       1613,
       3723,
-      1650
+      1649
     ],
-    "id": "UPENUYRTBUPVIIIY"
+    "text": "T4_OS3P26E1",
+    "id": "UPENUYRTBUPVIIIY",
+    "comments": "",
+    "computed_from": "OS3SB4P",
+    "computed_to": "OS3P26E1"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
-    "rect_px": [
-      4589,
-      1675,
-      4635,
-      1737
-    ],
-    "id": "GWIQYXFMBSWZJIMB"
-  },
-  {
     "type": "Square",
     "subject": "panel board",
-    "project": "lsb",
-    "file_page": 2,
     "rect_px": [
-      4663,
+      4588,
       1674,
-      4709,
+      4634,
       1736
     ],
-    "id": "WGMDSKRYOKQSZMAB"
+    "text": "VIV1P46M",
+    "id": "GWIQYXFMBSWZJIMB",
+    "comments": "",
+    "computed_from": "VIV1SB4P",
+    "computed_to": "T3_VIV1P26M"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
+    "rect_px": [
+      4662,
+      1674,
+      4708,
+      1736
+    ],
+    "text": "VIV1P26M",
+    "id": "WGMDSKRYOKQSZMAB",
+    "comments": "",
+    "computed_from": "T3_VIV1P26M",
+    "computed_to": ""
+  },
+  {
+    "project": "lsb",
+    "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       4715,
       1674,
       4761,
       1736
     ],
-    "id": "PYNJSVWPYPGIBIMX"
+    "text": "VIV2P46M",
+    "id": "PYNJSVWPYPGIBIMX",
+    "comments": "",
+    "computed_from": "VIV2SB4P",
+    "computed_to": "T3_VIV2P26M"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       4786,
       1674,
-      4833,
+      4832,
       1736
     ],
-    "id": "KHHVPRDOEFXKJMAV"
+    "text": "VIV2P26M",
+    "id": "KHHVPRDOEFXKJMAV",
+    "comments": "",
+    "computed_from": "T3_VIV2P26M",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "transformer",
     "rect_px": [
-      4629,
+      4628,
       1761,
       4666,
-      1793
+      1792
     ],
-    "id": "HXESFNPJQWJUEGPN"
+    "text": "T3_VIV1P26M",
+    "id": "HXESFNPJQWJUEGPN",
+    "comments": "",
+    "computed_from": "VIV1P46M",
+    "computed_to": "VIV1P26M"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "transformer",
     "rect_px": [
       4755,
       1761,
-      4793,
-      1793
+      4792,
+      1792
     ],
-    "id": "GUTMWOGPOHXDXAGS"
+    "text": "T3_VIV2P26M",
+    "id": "GUTMWOGPOHXDXAGS",
+    "comments": "",
+    "computed_from": "VIV2P46M",
+    "computed_to": "VIV2P26M"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       4564,
       1426,
       4610,
-      1489
-    ],
-    "id": "VEZTCROFNPEZNHBT"
-  },
-  {
-    "type": "Square",
-    "subject": "panel board",
-    "project": "lsb",
-    "file_page": 2,
-    "rect_px": [
-      4639,
-      1426,
-      4685,
       1488
     ],
-    "id": "SZQHEHKBEHXPXPTC"
+    "text": "VIV1P47M",
+    "id": "VEZTCROFNPEZNHBT",
+    "comments": "",
+    "computed_from": "VIV1SB4P",
+    "computed_to": "T3_VV1P27M"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      4705,
-      1426,
+      4638,
+      1425,
+      4684,
+      1488
+    ],
+    "text": "VV1P27M",
+    "id": "SZQHEHKBEHXPXPTC",
+    "comments": "",
+    "computed_from": "T3_VV1P27M",
+    "computed_to": ""
+  },
+  {
+    "project": "lsb",
+    "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
+    "rect_px": [
+      4704,
+      1425,
       4751,
       1488
     ],
-    "id": "OZBYMHCCJVSJUTKW"
+    "text": "VIV2P47M",
+    "id": "OZBYMHCCJVSJUTKW",
+    "comments": "",
+    "computed_from": "VIV2SB4P",
+    "computed_to": "T3_VIV2P27M"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       4776,
-      1426,
+      1425,
       4822,
       1488
     ],
-    "id": "AMYXTVSIWQZVAVXJ"
+    "text": "VIV2P27M",
+    "id": "AMYXTVSIWQZVAVXJ",
+    "comments": "",
+    "computed_from": "T3_VIV2P27M",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "transformer",
     "rect_px": [
       4604,
-      1513,
-      4642,
+      1512,
+      4641,
       1544
     ],
-    "id": "YXMNFLSHHIVDKACM"
+    "text": "T3_VV1P27M",
+    "id": "YXMNFLSHHIVDKACM",
+    "comments": "",
+    "computed_from": "VIV1P47M",
+    "computed_to": "VV1P27M"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "transformer",
     "rect_px": [
       4745,
-      1513,
-      4783,
+      1512,
+      4782,
       1544
     ],
-    "id": "VUBGFWXNDBIDESLC"
+    "text": "T3_VIV2P27M",
+    "id": "VUBGFWXNDBIDESLC",
+    "comments": "",
+    "computed_from": "VIV2P47M",
+    "computed_to": "VIV2P27M"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      4486,
+      4485,
       1427,
       4537,
       1488
     ],
-    "id": "AVJXRMEUNVJGOLWS"
+    "text": "OS1P4P5",
+    "id": "AVJXRMEUNVJGOLWS",
+    "comments": "",
+    "computed_from": "OS1SB4P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       4431,
       1427,
       4482,
       1488
     ],
-    "id": "ORUZDCEIELSJOIRM"
+    "text": "OS1P4P4",
+    "id": "ORUZDCEIELSJOIRM",
+    "comments": "",
+    "computed_from": "OS1SB4P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
-    "rect_px": [
-      4374,
-      1428,
-      4425,
-      1489
-    ],
-    "id": "KQNJVPBFRFILHYNV"
-  },
-  {
     "type": "Square",
     "subject": "panel board",
-    "project": "lsb",
-    "file_page": 2,
     "rect_px": [
-      4301,
-      1428,
-      4353,
-      1489
-    ],
-    "id": "SXGWMPARDWUZNBAQ"
-  },
-  {
-    "type": "Square",
-    "subject": "panel board",
-    "project": "lsb",
-    "file_page": 2,
-    "rect_px": [
-      4225,
+      4373,
       1427,
-      4276,
+      4424,
       1488
     ],
-    "id": "VWNXUBDGJQEVTOZX"
+    "text": "OS1P2PB",
+    "id": "KQNJVPBFRFILHYNV",
+    "comments": "",
+    "computed_from": "T4_OS1P2PB",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
+    "rect_px": [
+      4301,
+      1427,
+      4352,
+      1488
+    ],
+    "text": "OS1P4P2",
+    "id": "SXGWMPARDWUZNBAQ",
+    "comments": "",
+    "computed_from": "OS1SB4P",
+    "computed_to": "T4_OS1P2PB"
+  },
+  {
+    "project": "lsb",
+    "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
+    "rect_px": [
+      4224,
+      1427,
+      4275,
+      1488
+    ],
+    "text": "OS1P4P3",
+    "id": "VWNXUBDGJQEVTOZX",
+    "comments": "",
+    "computed_from": "OS1SB4P",
+    "computed_to": ""
+  },
+  {
+    "project": "lsb",
+    "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       4131,
-      1428,
+      1427,
       4182,
-      1489
+      1488
     ],
-    "id": "GYOPCFGOCPJKLNSZ"
+    "text": "OS2P4P2",
+    "id": "GYOPCFGOCPJKLNSZ",
+    "comments": "",
+    "computed_from": "OS2SB4P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       4075,
-      1428,
+      1427,
       4126,
-      1489
+      1488
     ],
-    "id": "JPXOFHBMQABQAPKE"
+    "text": "OS2P2PB",
+    "id": "JPXOFHBMQABQAPKE",
+    "comments": "",
+    "computed_from": "T4_OS2P2PB",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       4004,
-      1428,
+      1427,
       4055,
-      1489
+      1488
     ],
-    "id": "WRPPFBHJTSNGOAWT"
+    "text": "OS2P4P3",
+    "id": "WRPPFBHJTSNGOAWT",
+    "comments": "",
+    "computed_from": "OS2SB4P",
+    "computed_to": "T4_OS2P2PB"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       3916,
-      1428,
+      1427,
       3967,
-      1489
+      1488
     ],
-    "id": "ZXJVGJTYSOTOCXHZ"
+    "text": "OS2P4P4",
+    "id": "ZXJVGJTYSOTOCXHZ",
+    "comments": "",
+    "computed_from": "OS2SB4P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       3848,
-      1428,
+      1427,
       3899,
-      1489
+      1488
     ],
-    "id": "RIXHYOVGTBHLBUIS"
+    "text": "OS2P4P5",
+    "id": "RIXHYOVGTBHLBUIS",
+    "comments": "",
+    "computed_from": "OS2SB4P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "transformer",
     "rect_px": [
       4047,
       1513,
-      4086,
+      4085,
       1545
     ],
-    "id": "JDIXBMQYAZLNMWND"
+    "text": "T4_OS2P2PB",
+    "id": "JDIXBMQYAZLNMWND",
+    "comments": "",
+    "computed_from": "OS2P4P3",
+    "computed_to": "OS2P2PB"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "transformer",
     "rect_px": [
-      4344,
+      4343,
       1513,
       4382,
       1545
     ],
-    "id": "NVLWHYPUNPGVEKZK"
+    "text": "T4_OS1P2PB",
+    "id": "NVLWHYPUNPGVEKZK",
+    "comments": "",
+    "computed_from": "OS1P4P2",
+    "computed_to": "OS1P2PB"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       2658,
       1674,
       2704,
-      1737
+      1736
     ],
-    "id": "GICVIAPRSMAXXPEH"
+    "text": "IT1P26E",
+    "id": "GICVIAPRSMAXXPEH",
+    "comments": "",
+    "computed_from": "IT10P2P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      2659,
-      1425,
+      2658,
+      1424,
       2705,
       1487
     ],
-    "id": "GIJEJOZGHWXDWLMA"
+    "text": "IT1P27E",
+    "id": "GIJEJOZGHWXDWLMA",
+    "comments": "",
+    "computed_from": "IT10P2P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      4118,
-      1177,
+      4117,
+      1176,
       4415,
       1282
     ],
-    "id": "AHBFJANDSTFACFEO"
+    "text": "PARALLELING SWITCHGEAR",
+    "id": "AHBFJANDSTFACFEO",
+    "comments": "",
+    "computed_from": "",
+    "computed_to": "ATS-EL1,ATS-EM1,ATS-IT1,ATS-IT2,ATS-LR1,ATS-OS1,ATS-OS2,ATS-OS3,ATS-OS4,ATS-VIV1,ATS-VIV2"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "generator",
     "rect_px": [
       4541,
       1218,
       4575,
       1250
     ],
-    "id": "FLTZQJGIDHOFJUYX"
+    "text": "GEN #2",
+    "id": "FLTZQJGIDHOFJUYX",
+    "comments": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "generator",
     "rect_px": [
       4635,
       1217,
       4669,
       1252
     ],
-    "id": "YKUHDFHIAXPITXFA"
+    "text": "GEN #1",
+    "id": "YKUHDFHIAXPITXFA",
+    "comments": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       4078,
       1040,
-      4124,
-      1111
+      4123,
+      1110
     ],
-    "id": "JZLJYLHWCDWNIXZW"
+    "text": "IT2DP4P1",
+    "id": "JZLJYLHWCDWNIXZW",
+    "comments": "",
+    "computed_from": "ATS-IT2",
+    "computed_to": "UPS-IT2"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      4013,
-      1035,
-      4059,
-      1142
+      4012,
+      1034,
+      4058,
+      1141
     ],
-    "id": "CYLBDQMJECSRJHAG"
+    "text": "ATS-IT2",
+    "id": "CYLBDQMJECSRJHAG",
+    "comments": "",
+    "computed_from": "PARALLELING SWITCHGEAR",
+    "computed_to": "IT2DP4P1"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       3939,
-      1038,
-      3985,
-      1109
+      1037,
+      3984,
+      1108
     ],
-    "id": "TNGNJKPZDNBHGLVG"
+    "text": "IT1DP4P1",
+    "id": "TNGNJKPZDNBHGLVG",
+    "comments": "",
+    "computed_from": "ATS-IT1",
+    "computed_to": "UPS-IT1"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      3874,
-      1033,
+      3873,
+      1032,
       3920,
       1139
     ],
-    "id": "EMMXUFRMLIMIXRAK"
+    "text": "ATS-IT1",
+    "id": "EMMXUFRMLIMIXRAK",
+    "comments": "",
+    "computed_from": "PARALLELING SWITCHGEAR",
+    "computed_to": "IT1DP4P1"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      3786,
+      3785,
       1034,
       3827,
-      1142
+      1141
     ],
-    "id": "TIATCGGGGVBQBIEJ"
+    "text": "EL1SB4P",
+    "id": "TIATCGGGGVBQBIEJ",
+    "comments": "",
+    "computed_from": "ATS-EL1",
+    "computed_to": "EL1P4P"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       3716,
       1034,
-      3763,
-      1143
+      3762,
+      1142
     ],
-    "id": "OYZBJPXTDUSPZTZE"
+    "text": "ATS-EL1",
+    "id": "OYZBJPXTDUSPZTZE",
+    "comments": "",
+    "computed_from": "PARALLELING SWITCHGEAR",
+    "computed_to": "EL1SB4P"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       3587,
       1034,
       3631,
-      1142
-    ],
-    "id": "DCZKLGCOVHKTCWLE"
-  },
-  {
-    "type": "Square",
-    "subject": "panel board",
-    "project": "lsb",
-    "file_page": 2,
-    "rect_px": [
-      3522,
-      1033,
-      3569,
       1141
     ],
-    "id": "PYZOLSXFLODDAAJT"
+    "text": "OS3SB4P",
+    "id": "DCZKLGCOVHKTCWLE",
+    "comments": "",
+    "computed_from": "ATS-OS3",
+    "computed_to": "OS3P42E,OS3P43E,OS3P44E,OS3P45E,OS3P46E,OS3P4BE,OS3P4P1,T4_OS3P26E1,T6_OS3DP23E,T6_OS3DP24E,T6_OS3DP25E"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
+    "rect_px": [
+      3522,
+      1032,
+      3568,
+      1141
+    ],
+    "text": "ATS-OS3",
+    "id": "PYZOLSXFLODDAAJT",
+    "comments": "",
+    "computed_from": "PARALLELING SWITCHGEAR",
+    "computed_to": "OS3SB4P"
+  },
+  {
+    "project": "lsb",
+    "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       3190,
       1034,
       3237,
-      1142
+      1141
     ],
-    "id": "ICNABZGKPVFVVNTG"
+    "text": "VIV2SB4P",
+    "id": "ICNABZGKPVFVVNTG",
+    "comments": "",
+    "computed_from": "ATS-VIV2",
+    "computed_to": "VIV2P46E,VIV2P46M,VIV2P47M,VIV2P4P"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      3121,
+      3120,
       1034,
       3167,
-      1143
+      1142
     ],
-    "id": "CLTBVQIMOGGWNSLS"
+    "text": "ATS-VIV2",
+    "id": "CLTBVQIMOGGWNSLS",
+    "comments": "",
+    "computed_from": "PARALLELING SWITCHGEAR",
+    "computed_to": "VIV2SB4P"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      3365,
-      1035,
+      3364,
+      1034,
       3410,
-      1106
+      1105
     ],
-    "id": "SDKGVLUETJHHLFNU"
+    "text": "EM1DP4P",
+    "id": "SDKGVLUETJHHLFNU",
+    "comments": "",
+    "computed_from": "ATS-EM1",
+    "computed_to": "EM1P42E,EM1P42W,EM1P44E,EM1P44W,EM1P45E,EM1P45W,EM1P4B,EM1P4P,T3,T3_EM1P22E,T3_EM1P22W,T3_EM1P24E,T3_EM1P25E,T3_EM1P25W,T3_EM1P2B,T5_EM1P2P"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       3301,
       1034,
       3347,
       1141
     ],
-    "id": "ADBMAJZZDDFELZFF"
+    "text": "ATS-EM1",
+    "id": "ADBMAJZZDDFELZFF",
+    "comments": "",
+    "computed_from": "PARALLELING SWITCHGEAR",
+    "computed_to": "EM1DP4P"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      2987,
+      2986,
       1036,
-      3034,
+      3033,
       1143
     ],
-    "id": "WXCRAHRBTEYRGGNP"
+    "text": "VIV1SB4P",
+    "id": "WXCRAHRBTEYRGGNP",
+    "comments": "",
+    "computed_from": "ATS-VIV1",
+    "computed_to": "T6_VIV1DP26W,VIV1P46M,VIV1P46W,VIV1P47M,VIV1P4P"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       2916,
       1035,
-      2963,
-      1144
+      2962,
+      1143
     ],
-    "id": "HWPIFSPACZKTPKCS"
+    "text": "ATS-VIV1",
+    "id": "HWPIFSPACZKTPKCS",
+    "comments": "",
+    "computed_from": "PARALLELING SWITCHGEAR",
+    "computed_to": "VIV1SB4P"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      2626,
-      1034,
+      2625,
+      1033,
       2673,
       1141
     ],
-    "id": "KODIZGMVPYZVZOKO"
+    "text": "OS4SB4P",
+    "id": "KODIZGMVPYZVZOKO",
+    "comments": "",
+    "computed_from": "ATS-OS4",
+    "computed_to": "OS4P41W,OS4P42W,OS4P43W,OS4P44W,OS4P45W,OS4P46W,OS4P4P1,T4_OS4P26W1,T6_OS4DP21W,T6_OS4DP22W,T6_OS4DP23W,T6_OS4DP24W,T6_OS4DP25W"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      2557,
+      2556,
       1033,
       2603,
-      1142
+      1141
     ],
-    "id": "BPMHIENQYQNZLXIA"
+    "text": "ATS-OS4",
+    "id": "BPMHIENQYQNZLXIA",
+    "comments": "",
+    "computed_from": "PARALLELING SWITCHGEAR",
+    "computed_to": "OS4SB4P"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      2413,
+      2412,
       1034,
-      2460,
-      1142
+      2459,
+      1141
     ],
-    "id": "LXVKZKESYHSQWEZX"
+    "text": "OS1SB4P",
+    "id": "LXVKZKESYHSQWEZX",
+    "comments": "",
+    "computed_from": "ATS-OS1",
+    "computed_to": "600A, 480V,OS10P4B,OS1P4P1,OS1P4P2,OS1P4P3,OS1P4P4,OS1P4P5"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      2489,
+      2488,
       1033,
       2535,
-      1142
+      1141
     ],
-    "id": "JRUPJALYQVENFQEY"
+    "text": "600A, 480V",
+    "id": "JRUPJALYQVENFQEY",
+    "comments": "",
+    "computed_from": "OS1SB4P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      2203,
+      2202,
       1034,
-      2250,
-      1142
+      2249,
+      1141
     ],
-    "id": "HYDYAPQEWXTCGCQI"
+    "text": "OS2SB4P",
+    "id": "HYDYAPQEWXTCGCQI",
+    "comments": "",
+    "computed_from": "ATS-OS2",
+    "computed_to": "600A,480V,OS20P48,OS2P4P1,OS2P4P2,OS2P4P3,OS2P4P4,OS2P4P5"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      2137,
-      1033,
+      2136,
+      1032,
       2183,
       1141
     ],
-    "id": "CZAAHOGVAZSYZYMT"
+    "text": "ATS-OS2",
+    "id": "CZAAHOGVAZSYZYMT",
+    "comments": "",
+    "computed_from": "PARALLELING SWITCHGEAR",
+    "computed_to": "OS2SB4P"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      2344,
+      2340,
       1033,
-      2391,
-      1141
+      2387,
+      1140
     ],
-    "id": "MGTBEYVOEETBZGSX"
+    "text": "ATS-OS1",
+    "id": "MGTBEYVOEETBZGSX",
+    "comments": "",
+    "computed_from": "PARALLELING SWITCHGEAR",
+    "computed_to": "OS1SB4P"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      2270,
-      1034,
+      2269,
+      1033,
       2316,
       1142
     ],
-    "id": "LFSEEBHDRCDKSYDI"
+    "text": "600A,480V",
+    "id": "LFSEEBHDRCDKSYDI",
+    "comments": "",
+    "computed_from": "OS2SB4P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       1894,
-      1034,
-      1941,
+      1033,
+      1940,
       1142
     ],
-    "id": "EBPSJHPTUAOHFRPH"
+    "text": "ATS-LR1",
+    "id": "EBPSJHPTUAOHFRPH",
+    "comments": "",
+    "computed_from": "PARALLELING SWITCHGEAR",
+    "computed_to": "LR1DP4P"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       1959,
       1034,
-      2005,
-      1104
+      2004,
+      1103
     ],
-    "id": "PXABBJZLYYOVUKQQ"
+    "text": "LR1DP4P",
+    "id": "PXABBJZLYYOVUKQQ",
+    "comments": "",
+    "computed_from": "ATS-LR1",
+    "computed_to": "LR1P4B,LR1P4P,T3_LR1P23E"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       1952,
       1191,
       1992,
       1244
     ],
-    "id": "HAVOEGFQMWLJDOFU"
+    "text": "LR1P4P",
+    "id": "HAVOEGFQMWLJDOFU",
+    "comments": "",
+    "computed_from": "LR1DP4P",
+    "computed_to": "T4_LR1P2P"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      2037,
-      1192,
-      2077,
+      2036,
+      1191,
+      2076,
       1244
     ],
-    "id": "YFOSCFAGOVTVKWNY"
+    "text": "LR1P2P",
+    "id": "YFOSCFAGOVTVKWNY",
+    "comments": "",
+    "computed_from": "T4_LR1P2P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "transformer",
     "rect_px": [
-      2001,
-      1252,
+      2000,
+      1251,
       2039,
       1283
     ],
-    "id": "EPLXXBWDWIDBLUNQ"
+    "text": "T4_LR1P2P",
+    "id": "EPLXXBWDWIDBLUNQ",
+    "comments": "",
+    "computed_from": "LR1P4P",
+    "computed_to": "LR1P2P"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       2196,
       1192,
       2236,
       1245
     ],
-    "id": "LBYCJZVGVACDAGXP"
+    "text": "OS2P4P1",
+    "id": "LBYCJZVGVACDAGXP",
+    "comments": "",
+    "computed_from": "OS2SB4P",
+    "computed_to": "T4_OS2P2PA"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      2281,
-      1193,
-      2321,
-      1246
+      2280,
+      1192,
+      2320,
+      1245
     ],
-    "id": "XSMGMGUOEIHVCRHD"
+    "text": "OS2P2PA",
+    "id": "XSMGMGUOEIHVCRHD",
+    "comments": "",
+    "computed_from": "T4_OS2P2PA",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "transformer",
     "rect_px": [
-      2245,
-      1253,
+      2244,
+      1252,
       2283,
-      1285
+      1284
     ],
-    "id": "AEJETRMPCZUSBIMP"
+    "text": "T4_OS2P2PA",
+    "id": "AEJETRMPCZUSBIMP",
+    "comments": "",
+    "computed_from": "OS2P4P1",
+    "computed_to": "OS2P2PA"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       2407,
-      1191,
+      1190,
       2447,
-      1244
+      1243
     ],
-    "id": "XFLQTMAKJLHFVEVS"
+    "text": "OS1P4P1",
+    "id": "XFLQTMAKJLHFVEVS",
+    "comments": "",
+    "computed_from": "OS1SB4P",
+    "computed_to": "T4_OS1P2PA"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      2492,
+      2491,
       1191,
-      2532,
+      2531,
       1244
     ],
-    "id": "EEBWAHJXSRHTSYAA"
+    "text": "OS1P2PA",
+    "id": "EEBWAHJXSRHTSYAA",
+    "comments": "",
+    "computed_from": "T4_OS1P2PA",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "transformer",
     "rect_px": [
-      2456,
+      2455,
       1251,
       2494,
       1283
     ],
-    "id": "IPHEXMUTMOVFTHQB"
+    "text": "T4_OS1P2PA",
+    "id": "IPHEXMUTMOVFTHQB",
+    "comments": "",
+    "computed_from": "OS1P4P1",
+    "computed_to": "OS1P2PA"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      2617,
-      1192,
-      2657,
+      2616,
+      1191,
+      2656,
       1244
     ],
-    "id": "LNIIOXVULUYPZXKO"
+    "text": "OS4P4P1",
+    "id": "LNIIOXVULUYPZXKO",
+    "comments": "",
+    "computed_from": "OS4SB4P",
+    "computed_to": "T4_OS4P2P"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      2702,
-      1192,
-      2742,
-      1245
+      2701,
+      1191,
+      2741,
+      1244
     ],
-    "id": "RMBHMCORCQGBQWZA"
+    "text": "OS4P2P",
+    "id": "RMBHMCORCQGBQWZA",
+    "comments": "",
+    "computed_from": "T4_OS4P2P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "transformer",
     "rect_px": [
-      2666,
+      2665,
       1252,
       2704,
-      1284
+      1283
     ],
-    "id": "CYDRLPWQQIXRWGKB"
+    "text": "T4_OS4P2P",
+    "id": "CYDRLPWQQIXRWGKB",
+    "comments": "",
+    "computed_from": "OS4P4P1",
+    "computed_to": "OS4P2P"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       2936,
       1192,
       2976,
-      1245
+      1244
     ],
-    "id": "CVXMWPPVLKTZXPRK"
+    "text": "VIV1P4P",
+    "id": "CVXMWPPVLKTZXPRK",
+    "comments": "",
+    "computed_from": "VIV1SB4P",
+    "computed_to": "T4_VIV1P2P"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      3021,
+      3020,
       1192,
-      3061,
+      3060,
       1245
     ],
-    "id": "UJDENDXNIIONZWQV"
+    "text": "VIV1P2P",
+    "id": "UJDENDXNIIONZWQV",
+    "comments": "",
+    "computed_from": "T4_VIV1P2P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "transformer",
     "rect_px": [
       2985,
-      1253,
-      3024,
+      1252,
+      3023,
       1284
     ],
-    "id": "SNAVQNPXSVRWIQVH"
+    "text": "T4_VIV1P2P",
+    "id": "SNAVQNPXSVRWIQVH",
+    "comments": "",
+    "computed_from": "VIV1P4P",
+    "computed_to": "VIV1P2P"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       3146,
-      1191,
+      1190,
       3186,
-      1244
+      1243
     ],
-    "id": "YTSDSVHIXKHIVRBS"
+    "text": "VIV2P4P",
+    "id": "YTSDSVHIXKHIVRBS",
+    "comments": "",
+    "computed_from": "VIV2SB4P",
+    "computed_to": "T4_VIV2P2P"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      3231,
-      1191,
-      3271,
-      1244
+      3230,
+      1190,
+      3270,
+      1243
     ],
-    "id": "SDAXNQUFGKOPKGDU"
+    "text": "VIV2P2P",
+    "id": "SDAXNQUFGKOPKGDU",
+    "comments": "",
+    "computed_from": "T4_VIV2P2P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "transformer",
     "rect_px": [
-      3195,
+      3194,
       1251,
       3233,
-      1283
+      1282
     ],
-    "id": "SLNWCMJBWPNQEHZH"
+    "text": "T4_VIV2P2P",
+    "id": "SLNWCMJBWPNQEHZH",
+    "comments": "",
+    "computed_from": "VIV2P4P",
+    "computed_to": "VIV2P2P"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      3559,
-      1192,
-      3599,
+      3558,
+      1191,
+      3598,
       1244
     ],
-    "id": "KUGDKIWDHOHTEIJL"
+    "text": "OS3P4P1",
+    "id": "KUGDKIWDHOHTEIJL",
+    "comments": "",
+    "computed_from": "OS3SB4P",
+    "computed_to": "T4_OS3P2P"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      3644,
-      1192,
-      3684,
-      1245
+      3643,
+      1191,
+      3683,
+      1244
     ],
-    "id": "XIUEZKPMCCEOGAWE"
+    "text": "OS3P2P",
+    "id": "XIUEZKPMCCEOGAWE",
+    "comments": "",
+    "computed_from": "T4_OS3P2P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "transformer",
     "rect_px": [
-      3608,
+      3607,
       1252,
       3646,
-      1284
+      1283
     ],
-    "id": "JTPFWKBNLGKIWBEO"
+    "text": "T4_OS3P2P",
+    "id": "JTPFWKBNLGKIWBEO",
+    "comments": "",
+    "computed_from": "OS3P4P1",
+    "computed_to": "OS3P2P"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      3450,
-      1044,
-      3503,
-      1099
+      3449,
+      1043,
+      3502,
+      1098
     ],
-    "id": "QNDJVQDPEWMDULMJ"
+    "text": "EM1P2P",
+    "id": "QNDJVQDPEWMDULMJ",
+    "comments": "",
+    "computed_from": "T5_EM1P2P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       3359,
       1191,
       3411,
-      1245
-    ],
-    "id": "CRNLKDPDFSUKHFIR"
-  },
-  {
-    "type": "Square",
-    "subject": "panel board",
-    "project": "lsb",
-    "file_page": 2,
-    "rect_px": [
-      3777,
-      1191,
-      3817,
       1244
     ],
-    "id": "UKRCTKBKMFHESOBK"
+    "text": "EM1P4P",
+    "id": "CRNLKDPDFSUKHFIR",
+    "comments": "",
+    "computed_from": "EM1DP4P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
+    "rect_px": [
+      3776,
+      1191,
+      3816,
+      1244
+    ],
+    "text": "EL1P4P",
+    "id": "UKRCTKBKMFHESOBK",
+    "comments": "",
+    "computed_from": "EL1SB4P",
+    "computed_to": "T4_EL1P2P"
+  },
+  {
+    "project": "lsb",
+    "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       3861,
-      1192,
+      1191,
       3901,
       1244
     ],
-    "id": "IBLSHLRNRPFIQOON"
+    "text": "EL1P2P",
+    "id": "IBLSHLRNRPFIQOON",
+    "comments": "",
+    "computed_from": "T4_EL1P2P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "transformer",
     "rect_px": [
       3825,
-      1252,
-      3864,
+      1251,
+      3863,
       1283
     ],
-    "id": "KNALAHOIHTYJTLVL"
+    "text": "T4_EL1P2P",
+    "id": "KNALAHOIHTYJTLVL",
+    "comments": "",
+    "computed_from": "EL1P4P",
+    "computed_to": "EL1P2P"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      1077,
+      1076,
       1181,
-      1124,
+      1123,
+      1249
+    ],
+    "text": "IT2DP4P2",
+    "id": "OMHVSUPJZRIKFCYW",
+    "comments": "",
+    "computed_from": "UPS-IT2",
+    "computed_to": "T7_IT2DP2P,T8_IT2DP2B"
+  },
+  {
+    "project": "lsb",
+    "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
+    "rect_px": [
+      1171,
+      1180,
+      1218,
       1250
     ],
-    "id": "OMHVSUPJZRIKFCYW"
+    "text": "IT2DP2P",
+    "id": "BTCWLSFYVUJCWAFR",
+    "comments": "",
+    "computed_from": "T7_IT2DP2P",
+    "computed_to": "IT2P21W,IT2P22W,IT2P23W,IT2P24W,IT2P25W,IT2P26W,IT2P2BW,IT2P2P"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
-    "rect_px": [
-      1172,
-      1181,
-      1218,
-      1251
-    ],
-    "id": "BTCWLSFYVUJCWAFR"
-  },
-  {
     "type": "Square",
-    "subject": "panel board",
-    "project": "lsb",
-    "file_page": 2,
+    "subject": "transformer",
     "rect_px": [
-      1118,
+      1117,
       1252,
-      1157,
+      1156,
       1284
     ],
-    "id": "VZMSABMNKJKTGOOM"
+    "text": "T7_IT2DP2P",
+    "id": "VZMSABMNKJKTGOOM",
+    "comments": "",
+    "computed_from": "IT2DP4P2",
+    "computed_to": "IT2DP2P"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       1230,
-      1191,
-      1271,
-      1244
+      1190,
+      1270,
+      1243
     ],
-    "id": "JVLBFLUAJBRZSPLW"
+    "text": "IT2P2P",
+    "id": "JVLBFLUAJBRZSPLW",
+    "comments": "",
+    "computed_from": "IT2DP2P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
-    "rect_px": [
-      1448,
-      1183,
-      1495,
-      1251
-    ],
-    "id": "VVMYXFGDHTSACBWE"
-  },
-  {
     "type": "Square",
     "subject": "panel board",
-    "project": "lsb",
-    "file_page": 2,
     "rect_px": [
-      1543,
+      1447,
       1182,
+      1494,
+      1250
+    ],
+    "text": "IT1DP4P2",
+    "id": "VVMYXFGDHTSACBWE",
+    "comments": "",
+    "computed_from": "UPS-IT1",
+    "computed_to": "T7_IT10P2P,TB_IT1DP2B"
+  },
+  {
+    "project": "lsb",
+    "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
+    "rect_px": [
+      1542,
+      1181,
       1589,
       1252
     ],
-    "id": "LSVYQPCMZJTZDFDB"
+    "text": "IT10P2P",
+    "id": "LSVYQPCMZJTZDFDB",
+    "comments": "",
+    "computed_from": "T7_IT10P2P",
+    "computed_to": "IT1P21E,IT1P22E,IT1P23E,IT1P24E,IT1P25E,IT1P26E,IT1P27E,IT1P2P"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "transformer",
     "rect_px": [
-      1490,
+      1489,
       1252,
       1528,
-      1284
+      1283
     ],
-    "id": "LUHDYTKYAIMLNIVZ"
+    "text": "T7_IT10P2P",
+    "id": "LUHDYTKYAIMLNIVZ",
+    "comments": "",
+    "computed_from": "IT1DP4P2",
+    "computed_to": "IT10P2P"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       1601,
-      1192,
-      1642,
-      1245
+      1191,
+      1641,
+      1244
     ],
-    "id": "FDUXFJEACVLTLSDM"
+    "text": "IT1P2P",
+    "id": "FDUXFJEACVLTLSDM",
+    "comments": "",
+    "computed_from": "IT10P2P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       946,
-      1179,
-      1020,
-      1283
+      1178,
+      1019,
+      1282
     ],
-    "id": "PYBSXICTGIIGMVYG"
+    "text": "UPS-IT2",
+    "id": "PYBSXICTGIIGMVYG",
+    "comments": "",
+    "computed_from": "IT2DP4P1",
+    "computed_to": "IT2DP4P2"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      1319,
+      1318,
       1178,
       1391,
-      1283
+      1282
     ],
-    "id": "AVDKBEZQTLPGDDBF"
+    "text": "UPS-IT1",
+    "id": "AVDKBEZQTLPGDDBF",
+    "comments": "",
+    "computed_from": "IT1DP4P1",
+    "computed_to": "IT1DP4P2"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       2540,
-      3276,
-      2587,
-      3345
+      3275,
+      2586,
+      3344
     ],
-    "id": "HSXVSKYOLNICRVFN"
+    "text": "IT2DP2B",
+    "id": "HSXVSKYOLNICRVFN",
+    "comments": "",
+    "computed_from": "T8_IT2DP2B",
+    "computed_to": "IT2P2B3,IT2P2B4,IT2P2B6"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       2683,
-      3275,
-      2727,
-      3345
+      3274,
+      2726,
+      3344
     ],
-    "id": "RPNLVTGNRQVNVOKW"
+    "text": "IT1DP2B",
+    "id": "RPNLVTGNRQVNVOKW",
+    "comments": "",
+    "computed_from": "TB_IT1DP2B",
+    "computed_to": "IT1P2B1,IT1P2B2,IT1P2B5"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "transformer",
     "rect_px": [
       2643,
       3364,
-      2683,
+      2682,
       3394
     ],
-    "id": "PJSBDDUMEOZWVOGY"
+    "text": "TB_IT1DP2B",
+    "id": "PJSBDDUMEOZWVOGY",
+    "comments": "",
+    "computed_from": "IT1DP4P2",
+    "computed_to": "IT1DP2B"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "transformer",
     "rect_px": [
-      2502,
+      2501,
       3365,
-      2540,
+      2539,
       3395
     ],
-    "id": "KGFTXOQYNLKUCWEO"
+    "text": "T8_IT2DP2B",
+    "id": "KGFTXOQYNLKUCWEO",
+    "comments": "",
+    "computed_from": "IT2DP4P2",
+    "computed_to": "IT2DP2B"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      2868,
-      3277,
+      2867,
+      3276,
       2910,
       3337
     ],
-    "id": "NCGOMYWMRRBUFNJW"
+    "text": "IT1P2B1",
+    "id": "NCGOMYWMRRBUFNJW",
+    "comments": "",
+    "computed_from": "IT1DP2B",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       2935,
-      3277,
-      2980,
+      3276,
+      2979,
       3337
     ],
-    "id": "AVWDCHERINMMLPWV"
+    "text": "IT1P2B2",
+    "id": "AVWDCHERINMMLPWV",
+    "comments": "",
+    "computed_from": "IT1DP2B",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       3003,
-      3278,
+      3277,
       3046,
-      3338
-    ],
-    "id": "VAINQUJAECVFELUL"
-  },
-  {
-    "type": "Square",
-    "subject": "panel board",
-    "project": "lsb",
-    "file_page": 2,
-    "rect_px": [
-      3072,
-      3278,
-      3115,
       3337
     ],
-    "id": "XEMEBYKQNBTOQLVS"
+    "text": "IT2P2B3",
+    "id": "VAINQUJAECVFELUL",
+    "comments": "",
+    "computed_from": "IT2DP2B",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
+    "rect_px": [
+      3072,
+      3277,
+      3114,
+      3337
+    ],
+    "text": "IT2P2B4",
+    "id": "XEMEBYKQNBTOQLVS",
+    "comments": "",
+    "computed_from": "IT2DP2B",
+    "computed_to": ""
+  },
+  {
+    "project": "lsb",
+    "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       3135,
-      3278,
+      3277,
       3178,
-      3339
+      3338
     ],
-    "id": "ZOLSBQSMAPBMOKFR"
+    "text": "IT1P2B5",
+    "id": "ZOLSBQSMAPBMOKFR",
+    "comments": "",
+    "computed_from": "IT1DP2B",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      3204,
-      3278,
+      3203,
+      3277,
       3248,
-      3339
+      3338
     ],
-    "id": "GFCKOVTFZUKXRAMS"
+    "text": "IT2P2B6",
+    "id": "GFCKOVTFZUKXRAMS",
+    "comments": "",
+    "computed_from": "IT2DP2B",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      3414,
-      3278,
+      3413,
+      3277,
       3457,
       3338
     ],
-    "id": "GNSVENMTVXAWELYE"
+    "text": "EM1P4B",
+    "id": "GNSVENMTVXAWELYE",
+    "comments": "",
+    "computed_from": "EM1DP4P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "transformer",
     "rect_px": [
       3504,
       3357,
       3547,
       3394
     ],
-    "id": "EHQBPBEVDECOUHFM"
+    "text": "T3_EM1P2B",
+    "id": "EHQBPBEVDECOUHFM",
+    "comments": "",
+    "computed_from": "EM1DP4P",
+    "computed_to": "EM1P2B"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       3546,
       3276,
-      3590,
+      3589,
       3337
     ],
-    "id": "ODWWGHTYUIVMTKCX"
+    "text": "EM1P2B",
+    "id": "ODWWGHTYUIVMTKCX",
+    "comments": "",
+    "computed_from": "T3_EM1P2B",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      3605,
-      3278,
-      3665,
+      3604,
+      3277,
+      3664,
       3337
     ],
-    "id": "GUZGWYPHKKNNBFFO"
+    "text": "LR1P4B",
+    "id": "GUZGWYPHKKNNBFFO",
+    "comments": "",
+    "computed_from": "LR1DP4P",
+    "computed_to": "T5_LR1DP2B"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      3685,
-      3276,
+      3684,
+      3275,
       3730,
       3344
     ],
-    "id": "FPRVILYESSZEOAFO"
+    "text": "LR1DP2B",
+    "id": "FPRVILYESSZEOAFO",
+    "comments": "",
+    "computed_from": "T5_LR1DP2B",
+    "computed_to": "LR1P21W,LR1P2B"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      3740,
+      3739,
       3276,
-      3781,
+      3780,
       3337
     ],
-    "id": "NDURTUSBMDPSIBUN"
+    "text": "LR1P2B",
+    "id": "NDURTUSBMDPSIBUN",
+    "comments": "",
+    "computed_from": "LR1DP2B",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "transformer",
     "rect_px": [
       3655,
       3365,
       3691,
-      3394
+      3393
     ],
-    "id": "ZTLTTUVNRHFRTBEC"
+    "text": "T5_LR1DP2B",
+    "id": "ZTLTTUVNRHFRTBEC",
+    "comments": "",
+    "computed_from": "LR1P4B",
+    "computed_to": "LR1DP2B"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       3900,
-      3279,
+      3278,
       3963,
-      3339
+      3338
     ],
-    "id": "KVVFHINPYEJHCTTO"
+    "text": "OS2P4B",
+    "id": "KVVFHINPYEJHCTTO",
+    "comments": "",
+    "computed_from": "OS20P48",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      3965,
+      3964,
       3273,
-      4011,
+      4010,
       3343
     ],
-    "id": "ALEWYOYIXCCVMASS"
+    "text": "OS20P48",
+    "id": "ALEWYOYIXCCVMASS",
+    "comments": "",
+    "computed_from": "OS2SB4P",
+    "computed_to": "OS2P4B,T4_OS2P2B,T4_OSKP2PE1"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "transformer",
     "rect_px": [
-      4004,
-      3366,
-      4039,
-      3396
+      4003,
+      3365,
+      4038,
+      3395
     ],
-    "id": "KOPYPTCULOZUMWMO"
+    "text": "T4_OS2P2B",
+    "id": "KOPYPTCULOZUMWMO",
+    "comments": "",
+    "computed_from": "OS20P48",
+    "computed_to": "OS2P2B"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      4031,
+      4030,
       3277,
-      4093,
+      4092,
       3337
     ],
-    "id": "IRYHLWZSVKSUDHJM"
+    "text": "OS2P2B",
+    "id": "IRYHLWZSVKSUDHJM",
+    "comments": "",
+    "computed_from": "T4_OS2P2B",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      4101,
-      3277,
+      4100,
+      3276,
       4160,
-      3339
+      3338
     ],
-    "id": "BDMGSMCEOTPOTKJN"
+    "text": "OS1P4B",
+    "id": "BDMGSMCEOTPOTKJN",
+    "comments": "",
+    "computed_from": "OS10P4B",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       4167,
       3276,
       4211,
-      3344
+      3343
     ],
-    "id": "DVUERGCBXXAKFIWZ"
+    "text": "OS10P4B",
+    "id": "DVUERGCBXXAKFIWZ",
+    "comments": "",
+    "computed_from": "OS1SB4P",
+    "computed_to": "OS1P4B,T4_OS1P2B"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       4233,
       3276,
-      4274,
+      4273,
       3336
     ],
-    "id": "SOEGTVGQINCVMTQU"
+    "text": "OS1P2B",
+    "id": "SOEGTVGQINCVMTQU",
+    "comments": "",
+    "computed_from": "T4_OS1P2B",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "transformer",
     "rect_px": [
-      4203,
-      3364,
-      4239,
+      4202,
+      3363,
+      4238,
       3397
     ],
-    "id": "ROBBHSMBPQBTQTOL"
+    "text": "T4_OS1P2B",
+    "id": "ROBBHSMBPQBTQTOL",
+    "comments": "",
+    "computed_from": "OS10P4B",
+    "computed_to": "OS1P2B"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       4304,
-      3278,
-      4348,
+      3277,
+      4347,
       3338
     ],
-    "id": "GUVLDCELJCKQCGAJ"
+    "text": "OS3P4BE",
+    "id": "GUVLDCELJCKQCGAJ",
+    "comments": "",
+    "computed_from": "OS3SB4P",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "transformer",
     "rect_px": [
-      4397,
-      3359,
-      4440,
+      4396,
+      3358,
+      4439,
       3394
     ],
-    "id": "CKEQCNEUPTWPJGHV"
+    "text": "T8_OS30P2BE",
+    "id": "CKEQCNEUPTWPJGHV",
+    "comments": "",
+    "computed_from": "",
+    "computed_to": "OS30P2BE"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      4439,
+      4438,
       3276,
       4485,
-      3344
+      3343
     ],
-    "id": "VCBCOEYRJOWVFGRH"
+    "text": "OS30P2BE",
+    "id": "VCBCOEYRJOWVFGRH",
+    "comments": "",
+    "computed_from": "T8_OS30P2BE",
+    "computed_to": "OS3P2BE1,OS3P2BE2,OS3P2BE3"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      4497,
+      4496,
       3276,
       4558,
       3337
     ],
-    "id": "YERQJIRBWJVPSXQS"
+    "text": "OS3P2BE1",
+    "id": "YERQJIRBWJVPSXQS",
+    "comments": "",
+    "computed_from": "OS30P2BE",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      4584,
-      3277,
+      4583,
+      3276,
       4645,
-      3338
+      3337
     ],
-    "id": "CTKWJAXIACTORTXH"
+    "text": "OS3P2BE2",
+    "id": "CTKWJAXIACTORTXH",
+    "comments": "",
+    "computed_from": "OS30P2BE",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
-      4653,
+      4652,
       3276,
       4714,
       3337
     ],
-    "id": "NFUCSZQHEZFQAPPN"
+    "text": "OS3P2BE3",
+    "id": "NFUCSZQHEZFQAPPN",
+    "comments": "",
+    "computed_from": "OS30P2BE",
+    "computed_to": ""
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "transformer",
     "rect_px": [
-      4759,
-      3365,
+      4758,
+      3364,
       4794,
       3395
     ],
-    "id": "FPXYOZLGKUTCWIYJ"
+    "text": "T4_OSKP2PE1",
+    "id": "FPXYOZLGKUTCWIYJ",
+    "comments": "",
+    "computed_from": "OS20P48",
+    "computed_to": "OSKP2PE1"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "panel board",
     "rect_px": [
       4786,
       3277,
       4829,
       3339
     ],
-    "id": "MPPQMLCDESIFJNGE"
+    "text": "OSKP2PE1",
+    "id": "MPPQMLCDESIFJNGE",
+    "comments": "",
+    "computed_from": "T4_OSKP2PE1",
+    "computed_to": ""
   },
   {
-    "type": "Line",
-    "subject": "Level Line",
     "project": "lsb",
     "file_page": 2,
-    "rect_px": [
-      451,
-      3389,
-      4864,
-      3411
-    ],
-    "id": "NRFRVYZPLHZPVKZD"
-  },
-  {
     "type": "Line",
     "subject": "Level Line",
-    "project": "lsb",
-    "file_page": 2,
-    "rect_px": [
-      346,
-      3028,
-      4853,
-      3050
-    ],
-    "id": "JHIFQRRVAESEHARI"
-  },
-  {
-    "type": "Line",
-    "subject": "Level Line",
-    "project": "lsb",
-    "file_page": 2,
     "rect_px": [
       450,
-      2780,
-      4861,
-      2802
+      3388,
+      4863,
+      3410
     ],
-    "id": "OHEHUNHTJSQOJPOF"
+    "text": "",
+    "id": "NRFRVYZPLHZPVKZD",
+    "comments": "L0"
   },
   {
-    "type": "Line",
-    "subject": "Level Line",
     "project": "lsb",
     "file_page": 2,
+    "type": "Line",
+    "subject": "Level Line",
     "rect_px": [
-      451,
-      2533,
-      4858,
-      2555
+      345,
+      3027,
+      4853,
+      3049
     ],
-    "id": "IRMDAGUFNUZVKJOF"
+    "text": "",
+    "id": "JHIFQRRVAESEHARI",
+    "comments": "L1"
   },
   {
-    "type": "Line",
-    "subject": "Level Line",
     "project": "lsb",
     "file_page": 2,
+    "type": "Line",
+    "subject": "Level Line",
     "rect_px": [
       449,
-      2285,
-      4865,
-      2307
+      2780,
+      4860,
+      2802
     ],
-    "id": "MJGSGPYUFRQVAKDQ"
+    "text": "",
+    "id": "OHEHUNHTJSQOJPOF",
+    "comments": "L2"
   },
   {
-    "type": "Line",
-    "subject": "Level Line",
     "project": "lsb",
     "file_page": 2,
+    "type": "Line",
+    "subject": "Level Line",
     "rect_px": [
-      452,
-      2037,
-      4863,
-      2059
+      450,
+      2532,
+      4857,
+      2554
     ],
-    "id": "HFTTJRRMMPAGJLCB"
+    "text": "",
+    "id": "IRMDAGUFNUZVKJOF",
+    "comments": "L3"
   },
   {
-    "type": "Line",
-    "subject": "Level Line",
     "project": "lsb",
     "file_page": 2,
+    "type": "Line",
+    "subject": "Level Line",
+    "rect_px": [
+      448,
+      2284,
+      4864,
+      2306
+    ],
+    "text": "",
+    "id": "MJGSGPYUFRQVAKDQ",
+    "comments": "L4"
+  },
+  {
+    "project": "lsb",
+    "file_page": 2,
+    "type": "Line",
+    "subject": "Level Line",
     "rect_px": [
       451,
+      2036,
+      4863,
+      2058
+    ],
+    "text": "",
+    "id": "HFTTJRRMMPAGJLCB",
+    "comments": "L5"
+  },
+  {
+    "project": "lsb",
+    "file_page": 2,
+    "type": "Line",
+    "subject": "Level Line",
+    "rect_px": [
+      450,
       1786,
       4863,
       1808
     ],
-    "id": "VWZWIBKKPKVYOUVL"
+    "text": "",
+    "id": "VWZWIBKKPKVYOUVL",
+    "comments": "L6"
   },
   {
-    "type": "Line",
-    "subject": "Level Line",
     "project": "lsb",
     "file_page": 2,
+    "type": "Line",
+    "subject": "Level Line",
     "rect_px": [
-      450,
-      1539,
+      449,
+      1538,
       4862,
-      1561
+      1560
     ],
-    "id": "JGWIHBVAYOVOUPQO"
+    "text": "",
+    "id": "JGWIHBVAYOVOUPQO",
+    "comments": "L7"
   },
   {
-    "type": "Line",
-    "subject": "Level Line",
     "project": "lsb",
     "file_page": 2,
+    "type": "Line",
+    "subject": "Level Line",
     "rect_px": [
-      450,
-      1277,
+      449,
+      1276,
       4866,
-      1299
+      1298
     ],
-    "id": "CBABIQPZARXTODEL"
+    "text": "",
+    "id": "CBABIQPZARXTODEL",
+    "comments": "L8"
   },
   {
+    "project": "lsb",
+    "file_page": 2,
     "type": "Line",
     "subject": "Level Line",
-    "project": "lsb",
-    "file_page": 2,
     "rect_px": [
-      446,
-      761,
-      4864,
-      783
+      445,
+      760,
+      4863,
+      782
     ],
-    "id": "KQKDBMXBAVHGOZOV"
+    "text": "",
+    "id": "KQKDBMXBAVHGOZOV",
+    "comments": "roof"
   },
   {
-    "type": "Square",
-    "subject": "panel board",
     "project": "lsb",
     "file_page": 2,
+    "type": "Square",
+    "subject": "transformer",
     "rect_px": [
-      3416,
+      3415,
       1110,
       3454,
-      1142
+      1141
     ],
-    "id": "VJJZJTXKFWHZTOUK"
+    "text": "T5_EM1P2P",
+    "id": "VJJZJTXKFWHZTOUK",
+    "comments": "",
+    "computed_from": "EM1DP4P",
+    "computed_to": "EM1P2P"
   },
   {
-    "type": "Line",
-    "subject": "Wall",
     "project": "lsb",
     "file_page": 2,
+    "type": "Line",
+    "subject": "Wall",
     "rect_px": [
       764,
       1540,
       786,
       3409
     ],
-    "id": "GIXFLXNOSAGFHMSE"
+    "text": "",
+    "id": "GIXFLXNOSAGFHMSE",
+    "comments": ""
   },
   {
-    "type": "Line",
-    "subject": "Wall",
     "project": "lsb",
     "file_page": 2,
+    "type": "Line",
+    "subject": "Wall",
     "rect_px": [
       471,
-      3029,
+      3028,
       493,
       3411
     ],
-    "id": "XQVYJOGWGFQJDKQU"
+    "text": "",
+    "id": "XQVYJOGWGFQJDKQU",
+    "comments": ""
   },
   {
-    "type": "Line",
-    "subject": "Wall",
     "project": "lsb",
     "file_page": 2,
+    "type": "Line",
+    "subject": "Wall",
     "rect_px": [
       448,
       758,
       470,
       3411
     ],
-    "id": "SMEOTBYTEFJVVVYV"
+    "text": "",
+    "id": "SMEOTBYTEFJVVVYV",
+    "comments": ""
   },
   {
-    "type": "Line",
-    "subject": "Wall",
     "project": "lsb",
     "file_page": 2,
+    "type": "Line",
+    "subject": "Wall",
     "rect_px": [
-      642,
-      761,
-      664,
+      641,
+      760,
+      663,
       1298
     ],
-    "id": "KOUTMLMLVSZUAROM"
+    "text": "",
+    "id": "KOUTMLMLVSZUAROM",
+    "comments": ""
   },
   {
-    "type": "Line",
-    "subject": "Wall",
     "project": "lsb",
     "file_page": 2,
+    "type": "Line",
+    "subject": "Wall",
     "rect_px": [
       1742,
       761,
       1764,
-      1301
+      1300
     ],
-    "id": "EVILIKXHSMDRKEIS"
+    "text": "",
+    "id": "EVILIKXHSMDRKEIS",
+    "comments": ""
   },
   {
-    "type": "Line",
-    "subject": "Wall",
     "project": "lsb",
     "file_page": 2,
+    "type": "Line",
+    "subject": "Wall",
     "rect_px": [
       4434,
-      761,
+      760,
       4456,
-      1298
+      1297
     ],
-    "id": "ZMRMNPFWRVHGGOWR"
+    "text": "",
+    "id": "ZMRMNPFWRVHGGOWR",
+    "comments": ""
   },
   {
-    "type": "Line",
-    "subject": "Wall",
     "project": "lsb",
     "file_page": 2,
+    "type": "Line",
+    "subject": "Wall",
     "rect_px": [
-      4769,
-      761,
-      4791,
+      4768,
+      760,
+      4790,
       1299
     ],
-    "id": "QNAKXLAQSVCDEDML"
+    "text": "",
+    "id": "QNAKXLAQSVCDEDML",
+    "comments": ""
   },
   {
-    "type": "Line",
-    "subject": "Wall",
     "project": "lsb",
     "file_page": 2,
+    "type": "Line",
+    "subject": "Wall",
     "rect_px": [
-      4842,
-      761,
-      4864,
+      4841,
+      760,
+      4863,
       3412
     ],
-    "id": "HMDDHAGMRINDHGOI"
+    "text": "",
+    "id": "HMDDHAGMRINDHGOI",
+    "comments": ""
   },
   {
-    "type": "Line",
-    "subject": "Wall",
     "project": "lsb",
     "file_page": 2,
+    "type": "Line",
+    "subject": "Wall",
     "rect_px": [
-      4555,
+      4554,
       3027,
-      4577,
-      3410
+      4576,
+      3409
     ],
-    "id": "UZIMLLJDKEFDFEDV"
+    "text": "",
+    "id": "UZIMLLJDKEFDFEDV",
+    "comments": ""
   },
   {
-    "type": "Line",
-    "subject": "Wall",
     "project": "lsb",
     "file_page": 2,
+    "type": "Line",
+    "subject": "Wall",
     "rect_px": [
-      4547,
+      4546,
       2779,
-      4569,
-      3050
+      4568,
+      3049
     ],
-    "id": "GKAEZWUSIKWZJKFV"
+    "text": "",
+    "id": "GKAEZWUSIKWZJKFV",
+    "comments": ""
   },
   {
-    "type": "Line",
-    "subject": "Wall",
     "project": "lsb",
     "file_page": 2,
+    "type": "Line",
+    "subject": "Wall",
     "rect_px": [
       4263,
       2780,
       4285,
       3049
     ],
-    "id": "ZGCAADWTFJTMDUST"
+    "text": "",
+    "id": "ZGCAADWTFJTMDUST",
+    "comments": ""
   },
   {
-    "type": "Line",
-    "subject": "Wall",
     "project": "lsb",
     "file_page": 2,
+    "type": "Line",
+    "subject": "Wall",
     "rect_px": [
-      3016,
+      3015,
       1540,
-      3038,
+      3037,
       3050
     ],
-    "id": "PGDRXIJIVUHYOGLP"
+    "text": "",
+    "id": "PGDRXIJIVUHYOGLP",
+    "comments": ""
   },
   {
-    "type": "Line",
-    "subject": "Wall",
     "project": "lsb",
     "file_page": 2,
+    "type": "Line",
+    "subject": "Wall",
     "rect_px": [
       2750,
-      1538,
+      1537,
       2772,
       3049
     ],
-    "id": "DBYMWUNHZSOEWZCH"
+    "text": "",
+    "id": "DBYMWUNHZSOEWZCH",
+    "comments": ""
   },
   {
-    "type": "Line",
-    "subject": "Wall",
     "project": "lsb",
     "file_page": 2,
+    "type": "Line",
+    "subject": "Wall",
     "rect_px": [
       2794,
       3029,
       2816,
-      3411
-    ],
-    "id": "PUYIDQPILACEBIGV"
-  },
-  {
-    "type": "Line",
-    "subject": "Wall",
-    "project": "lsb",
-    "file_page": 2,
-    "rect_px": [
-      3382,
-      3029,
-      3404,
       3410
     ],
-    "id": "JSPQIHCWQWXVAYJX"
+    "text": "",
+    "id": "PUYIDQPILACEBIGV",
+    "comments": ""
   },
   {
-    "type": "Line",
-    "subject": "Wall",
     "project": "lsb",
     "file_page": 2,
+    "type": "Line",
+    "subject": "Wall",
     "rect_px": [
-      2218,
+      3381,
+      3029,
+      3403,
+      3409
+    ],
+    "text": "",
+    "id": "JSPQIHCWQWXVAYJX",
+    "comments": ""
+  },
+  {
+    "project": "lsb",
+    "file_page": 2,
+    "type": "Line",
+    "subject": "Wall",
+    "rect_px": [
+      2217,
       1539,
-      2240,
+      2239,
       3050
     ],
-    "id": "ZPFTMMQGJKZKKYHX"
+    "text": "",
+    "id": "ZPFTMMQGJKZKKYHX",
+    "comments": ""
   },
   {
-    "type": "Line",
-    "subject": "Wall",
     "project": "lsb",
     "file_page": 2,
+    "type": "Line",
+    "subject": "Wall",
     "rect_px": [
       978,
       1543,
       1000,
       3412
     ],
-    "id": "SAQMFFTDIPVBZXEF"
+    "text": "",
+    "id": "SAQMFFTDIPVBZXEF",
+    "comments": ""
   },
   {
-    "type": "Line",
-    "subject": "Wall",
     "project": "lsb",
     "file_page": 2,
+    "type": "Line",
+    "subject": "Wall",
     "rect_px": [
       2408,
       3028,
       2430,
-      3410
+      3409
     ],
-    "id": "MPXHPLDAEEHFABGZ"
+    "text": "",
+    "id": "MPXHPLDAEEHFABGZ",
+    "comments": ""
   },
   {
-    "type": "Line",
-    "subject": "Wall",
     "project": "lsb",
     "file_page": 2,
+    "type": "Line",
+    "subject": "Wall",
     "rect_px": [
       4071,
       1536,
       4093,
-      2803
+      2802
     ],
-    "id": "CXEPWYSEOKTDRONM"
+    "text": "",
+    "id": "CXEPWYSEOKTDRONM",
+    "comments": ""
   },
   {
-    "type": "Line",
-    "subject": "Wall",
     "project": "lsb",
     "file_page": 2,
+    "type": "Line",
+    "subject": "Wall",
     "rect_px": [
       4571,
       1540,
       4593,
-      1808
+      1807
     ],
-    "id": "ZOEQORCIPORELFKL"
+    "text": "",
+    "id": "ZOEQORCIPORELFKL",
+    "comments": ""
   },
   {
-    "type": "Line",
-    "subject": "Room Line",
     "project": "lsb",
     "file_page": 2,
+    "type": "Line",
+    "subject": "Room Line",
     "rect_px": [
       766,
       1549,
       998,
       1571
     ],
-    "id": "BMNLEKBSNJAAYGRB"
+    "text": "",
+    "id": "BMNLEKBSNJAAYGRB",
+    "comments": "WEST IT ROOM"
   },
   {
-    "type": "Line",
-    "subject": "Room Line",
     "project": "lsb",
     "file_page": 2,
+    "type": "Line",
+    "subject": "Room Line",
     "rect_px": [
-      980,
-      1550,
-      2241,
-      1572
+      979,
+      1549,
+      2240,
+      1571
     ],
-    "id": "LCYJCKDBZHGSFCBP"
+    "text": "",
+    "id": "LCYJCKDBZHGSFCBP",
+    "comments": "WEST EMERGENCY ROOM"
   },
   {
-    "type": "Line",
-    "subject": "Room Line",
     "project": "lsb",
     "file_page": 2,
+    "type": "Line",
+    "subject": "Room Line",
     "rect_px": [
-      2752,
+      2751,
       1549,
       3037,
       1571
     ],
-    "id": "EFRBBKVFWHCCOUPZ"
+    "text": "",
+    "id": "EFRBBKVFWHCCOUPZ",
+    "comments": "EAST IT ROOM"
   },
   {
-    "type": "Line",
-    "subject": "Room Line",
     "project": "lsb",
     "file_page": 2,
+    "type": "Line",
+    "subject": "Room Line",
     "rect_px": [
-      3017,
+      3016,
       1549,
       4092,
       1571
     ],
-    "id": "ONPQRYPPLRJQXDVV"
+    "text": "",
+    "id": "ONPQRYPPLRJQXDVV",
+    "comments": "EAST EMERGENCY ROOM"
   },
   {
-    "type": "Line",
-    "subject": "Room Line",
     "project": "lsb",
     "file_page": 2,
+    "type": "Line",
+    "subject": "Room Line",
     "rect_px": [
       4571,
       1551,
       4862,
       1573
     ],
-    "id": "VCWYIIKBOANJOKBE"
+    "text": "",
+    "id": "VCWYIIKBOANJOKBE",
+    "comments": "PLUMBING ROOM"
   },
   {
-    "type": "Line",
-    "subject": "Room Line",
     "project": "lsb",
     "file_page": 2,
+    "type": "Line",
+    "subject": "Room Line",
     "rect_px": [
       4263,
-      2794,
+      2793,
       4562,
-      2816
+      2815
     ],
-    "id": "UHVOGPUFAWVGPEFX"
+    "text": "",
+    "id": "UHVOGPUFAWVGPEFX",
+    "comments": "CAFE"
   },
   {
-    "type": "Line",
-    "subject": "Room Line",
     "project": "lsb",
     "file_page": 2,
+    "type": "Line",
+    "subject": "Room Line",
     "rect_px": [
-      3382,
-      3038,
-      4573,
-      3060
+      3381,
+      3037,
+      4572,
+      3059
     ],
-    "id": "EBVRDOAETZVMOKVU"
+    "text": "",
+    "id": "EBVRDOAETZVMOKVU",
+    "comments": "NORMAL ELECTRICAL ROOM"
   },
   {
-    "type": "Line",
-    "subject": "Room Line",
     "project": "lsb",
     "file_page": 2,
+    "type": "Line",
+    "subject": "Room Line",
     "rect_px": [
       2409,
-      3041,
+      3040,
       2813,
-      3063
+      3062
     ],
-    "id": "YZRKGEYYIFIOXQEM"
+    "text": "",
+    "id": "YZRKGEYYIFIOXQEM",
+    "comments": "IT ELECTRICAL ROOM"
   },
   {
-    "type": "Line",
-    "subject": "Room Line",
     "project": "lsb",
     "file_page": 2,
+    "type": "Line",
+    "subject": "Room Line",
     "rect_px": [
-      473,
-      3041,
-      785,
-      3063
+      472,
+      3040,
+      784,
+      3062
     ],
-    "id": "ELHILFXVBSPXFFKU"
+    "text": "",
+    "id": "ELHILFXVBSPXFFKU",
+    "comments": "FIRE PUMP ROOM"
   },
   {
-    "type": "Line",
-    "subject": "Room Line",
     "project": "lsb",
     "file_page": 2,
+    "type": "Line",
+    "subject": "Room Line",
     "rect_px": [
       643,
-      783,
+      782,
       1759,
-      805
+      804
     ],
-    "id": "TYQRACFOPMOIAXPD"
+    "text": "",
+    "id": "TYQRACFOPMOIAXPD",
+    "comments": "UPS ROOM"
   },
   {
-    "type": "Line",
-    "subject": "Room Line",
     "project": "lsb",
     "file_page": 2,
+    "type": "Line",
+    "subject": "Room Line",
     "rect_px": [
-      1745,
+      1744,
       783,
-      4456,
+      4455,
       805
     ],
-    "id": "FFNRBUHMBZFIGHQC"
+    "text": "",
+    "id": "FFNRBUHMBZFIGHQC",
+    "comments": "EMERGENCY ELECTRICAL ROOM"
   },
   {
-    "type": "Line",
-    "subject": "Room Line",
     "project": "lsb",
     "file_page": 2,
+    "type": "Line",
+    "subject": "Room Line",
     "rect_px": [
-      4435,
+      4434,
       783,
-      4789,
+      4788,
       805
     ],
-    "id": "OQUFYDHDUTGGWYKD"
+    "text": "",
+    "id": "OQUFYDHDUTGGWYKD",
+    "comments": "GENERATOR ROOM"
   },
   {
     "type": "PolyLine",
