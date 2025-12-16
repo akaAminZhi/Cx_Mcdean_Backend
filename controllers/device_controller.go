@@ -359,10 +359,11 @@ func ImportDevices(c *gin.Context) {
 //   - 找出所有 from = 该 Bus 的 PolyLine（即 bus → panel 的所有连线），拿到所有下游 panel
 //   - 只要这些 panel 中有任意一个 field = true，则该 Bus 的 field = true
 //     只有当所有这些 panel 的 field = false 时，Bus 的 field = false
-//   - 同时把 bus → panel 的这些 PolyLine 的同名字段也更新成 Bus 的值
+//
 //
 // 注意：这里 Bus 的值不再简单等于当前这个 panel 传进来的 value，而是根据
 // 该 Bus 所有下游 panel 的状态聚合出来的。
+
 func propagatePanelBoolToBusAndPolylines(field string, panelIDs []string, value bool) error {
 	if len(panelIDs) == 0 {
 		return nil
@@ -370,35 +371,32 @@ func propagatePanelBoolToBusAndPolylines(field string, panelIDs []string, value 
 
 	dbx := db.GetDB()
 
-	// 因为我们是动态字段名，这里构造一下更新 map
 	updateMap := map[string]any{
 		field: value,
 	}
 
-	// 1️⃣ 更新：所有以 panel 为终点的 PolyLine
-	//    subject = 'PolyLine' AND "to" IN panelIDs
+	// 所有“母线类”设备：Bus & Bus Duct
+	BUS_SUBJECTS := []string{"Bus", "Bus Duct"}
+
+	// 1️⃣ 更新：所有以 panel 为终点的 PolyLine（只改这些 panel 自己的线）
 	if err := dbx.Model(&models.Device{}).
 		Where("subject = ? AND \"to\" IN ?", "PolyLine", panelIDs).
 		Updates(updateMap).Error; err != nil {
 		return err
 	}
 
-	// 2️⃣ 查出：所有 Bus 的 id（以后要用来过滤）
+	// 2️⃣ 查出所有 Bus / Bus Duct 的 id
 	var allBusIDs []string
 	if err := dbx.Model(&models.Device{}).
-		Where("subject = ?", "Bus").
+		Where("subject IN ?", BUS_SUBJECTS).
 		Pluck("id", &allBusIDs).Error; err != nil {
 		return err
 	}
 	if len(allBusIDs) == 0 {
-		// 没有 Bus，后面就不用干了
 		return nil
 	}
 
-	// 3️⃣ 查出：和这些 panel 直接相连的 Bus id（bus → panel）
-	//    条件：subject = 'PolyLine'
-	//          "from" IN allBusIDs   （from 是 Bus）
-	//          "to"   IN panelIDs    （to 是本次状态发生变化的 panel）
+	// 3️⃣ 查出：哪些 Bus / Bus Duct 通过 polyline（from = Bus, to = 这些 panel）连到了本次变更的 panel
 	var affectedBusIDs []string
 	if err := dbx.Model(&models.Device{}).
 		Where("subject = ? AND \"from\" IN ? AND \"to\" IN ?", "PolyLine", allBusIDs, panelIDs).
@@ -406,11 +404,10 @@ func propagatePanelBoolToBusAndPolylines(field string, panelIDs []string, value 
 		return err
 	}
 	if len(affectedBusIDs) == 0 {
-		// 没有直接相连的 Bus，也不用更新后续
 		return nil
 	}
 
-	// 去重一下 Bus ID
+	// 去重 Bus IDs
 	busSet := make(map[string]struct{})
 	var uniqueBusIDs []string
 	for _, id := range affectedBusIDs {
@@ -420,8 +417,9 @@ func propagatePanelBoolToBusAndPolylines(field string, panelIDs []string, value 
 		}
 	}
 
+	// 4️⃣ 对每个受影响的 Bus / Bus Duct，根据其所有下游 panel 聚合状态
 	for _, busID := range uniqueBusIDs {
-		// 4️⃣ 找出：该 Bus 通过 PolyLine 连接到的所有 panel（bus → panel）
+		// 找出该 Bus / Bus Duct 的所有下游 panel（from = busID）
 		var downPanelIDs []string
 		if err := dbx.Model(&models.Device{}).
 			Where("subject = ? AND \"from\" = ?", "PolyLine", busID).
@@ -429,13 +427,10 @@ func propagatePanelBoolToBusAndPolylines(field string, panelIDs []string, value 
 			return err
 		}
 		if len(downPanelIDs) == 0 {
-			// 这个 Bus 没有下游 panel，跳过
 			continue
 		}
 
-		// 5️⃣ 聚合：这些 panel 的 field 状态
-		//    只要有任意一个 panel 的 field = true，则 Bus 的 field = true
-		//    只有所有 panel 的 field = false（或 NULL）时，Bus 的 field = false
+		// 只要有一个 panel 的 field = true，则母线 = true；否则 false
 		var trueCount int64
 		if err := dbx.Model(&models.Device{}).
 			Where("id IN ?", downPanelIDs).
@@ -449,19 +444,14 @@ func propagatePanelBoolToBusAndPolylines(field string, panelIDs []string, value 
 			field: busValue,
 		}
 
-		// 6️⃣ 更新：Bus 本身的 field
+		// 更新 Bus / Bus Duct 自己
 		if err := dbx.Model(&models.Device{}).
-			Where("subject = ? AND id = ?", "Bus", busID).
+			Where("subject IN ? AND id = ?", BUS_SUBJECTS, busID).
 			Updates(busUpdate).Error; err != nil {
 			return err
 		}
 
-		// 7️⃣ 更新：该 Bus → 所有 panel 的 PolyLine（同一个字段，用 Bus 的值）
-		if err := dbx.Model(&models.Device{}).
-			Where("subject = ? AND \"to\" = ?", "PolyLine", busID).
-			Updates(busUpdate).Error; err != nil {
-			return err
-		}
+		// ⚠ 不再更新 bus → panel 的 PolyLine，让每条线只跟自己的 panel 走
 	}
 
 	return nil
@@ -567,7 +557,7 @@ func UploadDeviceFile(c *gin.Context) {
 	// 4. 构造保存路径
 	uploadRoot := config.UploadDir()
 	projectDir := filepath.Join(uploadRoot, dev.Project)
-	deviceDir := filepath.Join(projectDir, dev.ID)
+	deviceDir := filepath.Join(projectDir, fmt.Sprintf("%s_%s", dev.ID, dev.Text))
 
 	if err := os.MkdirAll(deviceDir, 0755); err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "cannot create upload dir"})
