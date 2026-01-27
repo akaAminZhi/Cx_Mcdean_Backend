@@ -19,6 +19,8 @@ type Device struct {
 	ShortSegmentsPX datatypes.JSON `json:"short_segments_px,omitempty" gorm:"type:jsonb"`
 	Text            string         `json:"text" gorm:"index"`
 	Comments        string         `json:"comments"`
+	TemplateID      *uint          `json:"template_id" gorm:"index"`
+	CurrentStatus   string         `json:"current_status" gorm:"index"`
 	Energized       bool           `json:"energized"`
 	EnergizedToday  bool           `json:"energized_today"`
 	From            string         `json:"from,omitempty"`
@@ -33,6 +35,7 @@ type Device struct {
 	UpdatedAt time.Time      `json:"updated_at"`
 	DeletedAt gorm.DeletedAt `json:"-" gorm:"index"`
 
-	Files     []DeviceFile `json:"files" gorm:"foreignKey:DeviceID;references:ID"`
-	FileCount int64        `json:"file_count" gorm:"-"`
+	Files     []DeviceFile    `json:"files" gorm:"foreignKey:DeviceID;references:ID"`
+	FileCount int64           `json:"file_count" gorm:"-"`
+	Template  *DeviceTemplate `json:"template" gorm:"foreignKey:TemplateID"`
 }
