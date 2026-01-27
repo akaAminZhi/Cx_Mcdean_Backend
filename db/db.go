@@ -41,7 +41,12 @@ func Connect() (*gorm.DB, error) {
 	if err := db.AutoMigrate(
 		&models.Device{},
 		&models.DeviceFile{},
+		&models.DeviceTemplate{},
+		&models.DeviceSubjectStep{},
 	); err != nil {
+		return nil, err
+	}
+	if err := SeedSubjectSteps(db); err != nil {
 		return nil, err
 	}
 	// 在 Connect() 成功后，AutoMigrate 之后，追加：

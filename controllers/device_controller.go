@@ -4,6 +4,7 @@ import (
 	"Cx_Mcdean_Backend/config"
 	"Cx_Mcdean_Backend/db"
 	"Cx_Mcdean_Backend/models"
+	"encoding/json"
 	"errors"
 	"fmt"
 	"net/http"
@@ -52,7 +53,7 @@ func ListDevices(c *gin.Context) {
 func GetDevice(c *gin.Context) {
 	id := c.Param("id")
 	var dev models.Device
-	if err := db.GetDB().First(&dev, "id = ?", id).Error; err != nil {
+	if err := db.GetDB().Preload("Template").First(&dev, "id = ?", id).Error; err != nil {
 		if err == gorm.ErrRecordNotFound {
 			c.JSON(http.StatusNotFound, gin.H{"error": "not found"})
 			return
@@ -202,6 +203,11 @@ func CreateDevice(c *gin.Context) {
 		c.JSON(http.StatusBadRequest, gin.H{"error": "id is required"})
 		return
 	}
+	if body.TemplateID != nil && body.CurrentStatus == "" {
+		if firstStep, err := getTemplateFirstStep(*body.TemplateID); err == nil && firstStep != "" {
+			body.CurrentStatus = firstStep
+		}
+	}
 	if err := db.GetDB().Create(&body).Error; err != nil {
 		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
 		return
@@ -223,6 +229,9 @@ func UpdateDevice(c *gin.Context) {
 		Text            *string    `json:"text"`
 		Subject         *string    `json:"subject"`
 		Comments        *string    `json:"comments"`
+		TemplateID      *uint      `json:"template_id"`
+		CurrentStatus   *string    `json:"current_status"`
+		StepConfirmed   *bool      `json:"step_confirmed"`
 		Energized       *bool      `json:"energized"`
 		EnergizedToday  *bool      `json:"energized_today"`
 		WillEnergizedAt *time.Time `json:"will_energized_at"`
@@ -252,6 +261,17 @@ func UpdateDevice(c *gin.Context) {
 	}
 	if req.Subject != nil {
 		changes["subject"] = *req.Subject
+	}
+	if req.TemplateID != nil {
+		changes["template_id"] = *req.TemplateID
+	}
+	if req.CurrentStatus != nil {
+		confirmed := req.StepConfirmed != nil && *req.StepConfirmed
+		if err := validateStepRequirements(&dev, *req.CurrentStatus, confirmed); err != nil {
+			c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
+			return
+		}
+		changes["current_status"] = *req.CurrentStatus
 	}
 	if req.Energized != nil {
 		changes["energized"] = *req.Energized // false 也会被更新
@@ -663,4 +683,104 @@ func DeleteDeviceFile(c *gin.Context) {
 	_ = os.Remove(f.FilePath) // 文件删不掉也不影响接口返回
 
 	c.Status(http.StatusNoContent)
+}
+
+func getTemplateFirstStep(templateID uint) (string, error) {
+	var template models.DeviceTemplate
+	if err := db.GetDB().First(&template, "id = ?", templateID).Error; err != nil {
+		return "", err
+	}
+	if len(template.Steps) == 0 {
+		return "", nil
+	}
+	var steps []string
+	if err := json.Unmarshal(template.Steps, &steps); err != nil {
+		return "", err
+	}
+	if len(steps) == 0 {
+		return "", nil
+	}
+	return steps[0], nil
+}
+
+type stepFileRequirement struct {
+	Type string `json:"type"`
+	Min  int64  `json:"min"`
+}
+
+type stepRequirements struct {
+	Files   []stepFileRequirement `json:"files,omitempty"`
+	Fields  []string              `json:"fields,omitempty"`
+	Confirm bool                  `json:"confirm,omitempty"`
+}
+
+func validateStepRequirements(device *models.Device, targetStatus string, confirmed bool) error {
+	step, err := findSubjectStep(device.Subject, targetStatus)
+	if err != nil {
+		return err
+	}
+	if len(step.Requirements) == 0 {
+		return nil
+	}
+
+	var requirements stepRequirements
+	if err := json.Unmarshal(step.Requirements, &requirements); err != nil {
+		return fmt.Errorf("invalid step requirements")
+	}
+
+	if requirements.Confirm && !confirmed {
+		return fmt.Errorf("step confirmation required")
+	}
+
+	for _, field := range requirements.Fields {
+		if !deviceFieldSatisfied(device, field) {
+			return fmt.Errorf("field requirement not met: %s", field)
+		}
+	}
+
+	for _, req := range requirements.Files {
+		minCount := req.Min
+		if minCount == 0 {
+			minCount = 1
+		}
+		var count int64
+		if err := db.GetDB().Model(&models.DeviceFile{}).
+			Where("device_id = ? AND file_type = ?", device.ID, req.Type).
+			Count(&count).Error; err != nil {
+			return err
+		}
+		if count < minCount {
+			return fmt.Errorf("file requirement not met: %s", req.Type)
+		}
+	}
+
+	return nil
+}
+
+func findSubjectStep(subject string, targetStatus string) (*models.DeviceSubjectStep, error) {
+	var step models.DeviceSubjectStep
+	if err := db.GetDB().
+		Where("subject = ? AND is_active = true AND (key = ? OR label = ?)", subject, targetStatus, targetStatus).
+		First(&step).Error; err != nil {
+		if errors.Is(err, gorm.ErrRecordNotFound) {
+			return nil, fmt.Errorf("status step not found for subject")
+		}
+		return nil, err
+	}
+	return &step, nil
+}
+
+func deviceFieldSatisfied(device *models.Device, field string) bool {
+	switch field {
+	case "comments":
+		return device.Comments != ""
+	case "will_energized_at":
+		return device.WillEnergizedAt != nil
+	case "energized":
+		return device.Energized
+	case "energized_today":
+		return device.EnergizedToday
+	default:
+		return false
+	}
 }

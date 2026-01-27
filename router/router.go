@@ -49,6 +49,15 @@ func Setup() *gin.Engine {
 	v1 := r.Group("/api/v1")
 	// v1.Use(jwtMW)
 	{
+		templates := v1.Group("/device-templates")
+		{
+			templates.GET("", controllers.ListDeviceTemplates)
+			templates.GET("/:id", controllers.GetDeviceTemplate)
+			templates.POST("", controllers.CreateDeviceTemplate)
+			templates.PUT("/:id", controllers.UpdateDeviceTemplate)
+			templates.DELETE("/:id", controllers.DeleteDeviceTemplate)
+		}
+
 		dev := v1.Group("/devices")
 		{
 			dev.GET("", controllers.ListDevices)
