@@ -91,7 +91,7 @@ func GetEquipmentsByProject(c *gin.Context) {
 	dbx := db.GetDB()
 
 	// 要的 subject 类型
-	equipmentSubjects := []string{"panel board", "transformer", "Generator"}
+	equipmentSubjects := []string{"panel board", "transformer", "Generator", "ATS"}
 
 	// 看看有没有传分页参数
 	pageStr := c.Query("page")
@@ -221,6 +221,7 @@ func UpdateDevice(c *gin.Context) {
 	// 接收为指针，便于判断“是否传了这个字段”
 	type updateDTO struct {
 		Text            *string    `json:"text"`
+		Subject         *string    `json:"subject"`
 		Comments        *string    `json:"comments"`
 		Energized       *bool      `json:"energized"`
 		EnergizedToday  *bool      `json:"energized_today"`
@@ -248,6 +249,9 @@ func UpdateDevice(c *gin.Context) {
 	}
 	if req.Comments != nil {
 		changes["comments"] = *req.Comments
+	}
+	if req.Subject != nil {
+		changes["subject"] = *req.Subject
 	}
 	if req.Energized != nil {
 		changes["energized"] = *req.Energized // false 也会被更新

@@ -17,6 +17,10 @@ type AppConfig struct {
 	DBName     string
 	DBSSLMode  string
 	DBTimezone string
+
+	AzureTenantID string
+	AzureIssuer   string
+	AzureAudience string
 }
 
 var C AppConfig
@@ -25,14 +29,17 @@ func Load() {
 	_ = godotenv.Load() // 不存在也不报错
 
 	C = AppConfig{
-		AppPort:    getEnv("APP_PORT", "8080"),
-		DBHost:     getEnv("DB_HOST", "127.0.0.1"),
-		DBPort:     getEnv("DB_PORT", "5432"),
-		DBUser:     getEnv("DB_USER", "postgres"),
-		DBPassword: getEnv("DB_PASSWORD", "111111"),
-		DBName:     getEnv("DB_NAME", "cx_mcdean"),
-		DBSSLMode:  getEnv("DB_SSLMODE", "disable"),
-		DBTimezone: getEnv("DB_TIMEZONE", "UTC"),
+		AppPort:       getEnv("APP_PORT", "8081"),
+		DBHost:        getEnv("DB_HOST", "127.0.0.1"),
+		DBPort:        getEnv("DB_PORT", "5432"),
+		DBUser:        getEnv("DB_USER", "postgres"),
+		DBPassword:    getEnv("DB_PASSWORD", "111111"),
+		DBName:        getEnv("DB_NAME", "cx_mcdean"),
+		DBSSLMode:     getEnv("DB_SSLMODE", "disable"),
+		DBTimezone:    getEnv("DB_TIMEZONE", "UTC"),
+		AzureTenantID: getEnv("AZURE_TENANT_ID", ""),
+		AzureIssuer:   getEnv("AZURE_ISSUER", ""),
+		AzureAudience: getEnv("AZURE_API_AUDIENCE", ""),
 	}
 }
 
@@ -57,4 +64,7 @@ func UploadDir() string {
 		dir = "./uploads"
 	}
 	return dir
+}
+func AzureJWKSURL() string {
+	return fmt.Sprintf("https://login.microsoftonline.com/%s/discovery/v2.0/keys", C.AzureTenantID)
 }

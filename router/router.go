@@ -1,7 +1,10 @@
 package router
 
 import (
+	"Cx_Mcdean_Backend/config"
 	"Cx_Mcdean_Backend/controllers"
+	"Cx_Mcdean_Backend/middleware"
+
 	"time"
 
 	"github.com/gin-gonic/gin"
@@ -31,7 +34,20 @@ func Setup() *gin.Engine {
 
 	r.GET("/healthz", controllers.Health)
 
+	// 初始化 Entra JWT Middleware
+
+	_, _, err := middleware.NewEntraJWTMiddleware(middleware.EntraJWTConfig{
+		TenantID: config.C.AzureTenantID,
+		Issuer:   config.C.AzureIssuer,
+		Audience: config.C.AzureAudience,
+		JWKSURL:  config.AzureJWKSURL(),
+	})
+	if err != nil {
+		panic(err) // 启动就失败，避免“没鉴权就上线”
+	}
+
 	v1 := r.Group("/api/v1")
+	// v1.Use(jwtMW)
 	{
 		dev := v1.Group("/devices")
 		{
