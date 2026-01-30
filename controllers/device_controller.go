@@ -266,11 +266,12 @@ func UpdateDevice(c *gin.Context) {
 		changes["template_id"] = *req.TemplateID
 	}
 	if req.CurrentStatus != nil {
-		confirmed := req.StepConfirmed != nil && *req.StepConfirmed
-		if err := validateStepRequirements(&dev, *req.CurrentStatus, confirmed); err != nil {
-			c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
-			return
-		}
+		// TODO: enable step requirement validation once the feature is ready.
+		// confirmed := req.StepConfirmed != nil && *req.StepConfirmed
+		// if err := validateStepRequirements(&dev, *req.CurrentStatus, confirmed); err != nil {
+		// 	c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
+		// 	return
+		// }
 		changes["current_status"] = *req.CurrentStatus
 	}
 	if req.Energized != nil {
