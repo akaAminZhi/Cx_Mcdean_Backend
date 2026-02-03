@@ -41,7 +41,6 @@ func Connect() (*gorm.DB, error) {
 	if err := db.AutoMigrate(
 		&models.Device{},
 		&models.DeviceFile{},
-		&models.DeviceTemplate{},
 		&models.DeviceSubjectStep{},
 	); err != nil {
 		return nil, err

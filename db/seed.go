@@ -32,6 +32,8 @@ func SeedSubjectSteps(db *gorm.DB) error {
 
 	// templates 的顺序就是默认顺序（用于给启用的步骤分配 StepOrder）
 	templates := []tmpl{
+		{Key: "ifc", Label: "IFC"},
+
 		{Key: "received_off_site", Label: "Received Off Site"},
 		// {Key: "neta_complete", Label: "NETA Complete"},
 		// {Key: "neta_complete", Label: "NETA Complete", DefaultReq: stepRequirements{Files: []fileRequirement{{Type: "test_report", Min: 1}}}},
@@ -77,7 +79,7 @@ func SeedSubjectSteps(db *gorm.DB) error {
 			},
 		},
 		{
-			Name: "Panelboard",
+			Name: "panel board",
 			SkipKeys: map[string]bool{
 				"neta_complete": true, // Panelboard 不需要 NETA
 			},

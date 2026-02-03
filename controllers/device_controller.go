@@ -203,9 +203,9 @@ func CreateDevice(c *gin.Context) {
 		c.JSON(http.StatusBadRequest, gin.H{"error": "id is required"})
 		return
 	}
-	if body.TemplateID != nil && body.CurrentStatus == "" {
-		if firstStep, err := getTemplateFirstStep(*body.TemplateID); err == nil && firstStep != "" {
-			body.CurrentStatus = firstStep
+	if body.CurrentStatus == "" && body.Subject != "" {
+		if first, err := getSubjectFirstStepKey(body.Subject); err == nil && first != "" {
+			body.CurrentStatus = first
 		}
 	}
 	if err := db.GetDB().Create(&body).Error; err != nil {
@@ -262,17 +262,25 @@ func UpdateDevice(c *gin.Context) {
 	if req.Subject != nil {
 		changes["subject"] = *req.Subject
 	}
-	if req.TemplateID != nil {
-		changes["template_id"] = *req.TemplateID
-	}
 	if req.CurrentStatus != nil {
-		// TODO: enable step requirement validation once the feature is ready.
-		// confirmed := req.StepConfirmed != nil && *req.StepConfirmed
-		// if err := validateStepRequirements(&dev, *req.CurrentStatus, confirmed); err != nil {
-		// 	c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
-		// 	return
-		// }
-		changes["current_status"] = *req.CurrentStatus
+		target := *req.CurrentStatus
+
+		// 1) step 必须存在于该 subject 的 steps 里（否则返回 400）
+		// findSubjectStep 内部 already 限制 is_active=true 且 key/label 匹配
+		// 如果你只想允许 Key，不允许 Label，请看下面的“只允许 Key”版本
+		if _, err := findSubjectStep(dev.Subject, target); err != nil {
+			c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
+			return
+		}
+
+		// 2) requirements 校验（需要 step_confirmed 配合 confirm requirement）
+		confirmed := req.StepConfirmed != nil && *req.StepConfirmed
+		if err := validateStepRequirements(&dev, target, confirmed); err != nil {
+			c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
+			return
+		}
+
+		changes["current_status"] = target
 	}
 	if req.Energized != nil {
 		changes["energized"] = *req.Energized // false 也会被更新
@@ -686,22 +694,16 @@ func DeleteDeviceFile(c *gin.Context) {
 	c.Status(http.StatusNoContent)
 }
 
-func getTemplateFirstStep(templateID uint) (string, error) {
-	var template models.DeviceTemplate
-	if err := db.GetDB().First(&template, "id = ?", templateID).Error; err != nil {
+func getSubjectFirstStepKey(subject string) (string, error) {
+	var step models.DeviceSubjectStep
+	err := db.GetDB().
+		Where("subject = ? AND is_active = true", subject).
+		Order("step_order ASC").
+		First(&step).Error
+	if err != nil {
 		return "", err
 	}
-	if len(template.Steps) == 0 {
-		return "", nil
-	}
-	var steps []string
-	if err := json.Unmarshal(template.Steps, &steps); err != nil {
-		return "", err
-	}
-	if len(steps) == 0 {
-		return "", nil
-	}
-	return steps[0], nil
+	return step.Key, nil
 }
 
 type stepFileRequirement struct {
@@ -761,7 +763,7 @@ func validateStepRequirements(device *models.Device, targetStatus string, confir
 func findSubjectStep(subject string, targetStatus string) (*models.DeviceSubjectStep, error) {
 	var step models.DeviceSubjectStep
 	if err := db.GetDB().
-		Where("subject = ? AND is_active = true AND (key = ? OR label = ?)", subject, targetStatus, targetStatus).
+		Where("subject = ? AND is_active = true AND key = ?", subject, targetStatus, targetStatus).
 		First(&step).Error; err != nil {
 		if errors.Is(err, gorm.ErrRecordNotFound) {
 			return nil, fmt.Errorf("status step not found for subject")
