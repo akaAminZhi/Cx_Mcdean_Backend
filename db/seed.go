@@ -33,21 +33,28 @@ func SeedSubjectSteps(db *gorm.DB) error {
 	// templates 的顺序就是默认顺序（用于给启用的步骤分配 StepOrder）
 	templates := []tmpl{
 		{Key: "received_off_site", Label: "Received Off Site"},
-		{Key: "neta_complete", Label: "NETA Complete", DefaultReq: stepRequirements{Files: []fileRequirement{{Type: "test_report", Min: 1}}}},
+		// {Key: "neta_complete", Label: "NETA Complete"},
+		// {Key: "neta_complete", Label: "NETA Complete", DefaultReq: stepRequirements{Files: []fileRequirement{{Type: "test_report", Min: 1}}}},
+		{Key: "internal_test_complete", Label: "Internal Test Complete"},
+		// {Key: "off_site_pfpt_complete", Label: "Off Site PFPT Complete"},
 		{Key: "ship_to_site", Label: "Ship to Site"},
 		{Key: "received_on_site", Label: "Received on Site"},
-		{Key: "field_install_inspection", Label: "Field Install Inspection", DefaultReq: stepRequirements{Files: []fileRequirement{{Type: "other", Min: 1}}}},
-		{Key: "dlro_tested", Label: "Termination DLRO Tested", DefaultReq: stepRequirements{Files: []fileRequirement{{Type: "test_report", Min: 1}}}},
-		{Key: "energized", Label: "Energized", DefaultReq: stepRequirements{Confirm: true, Fields: []string{"energized"}}},
+		{Key: "installed", Label: "Installed"},
+
+		{Key: "field_install_inspection", Label: "Field Install Inspection"},
+		{Key: "terminated", Label: "Terminated"},
+
+		{Key: "dlro_tested", Label: "Termination DLRO Tested"},
+		{Key: "energized", Label: "Energized"},
+		// {Key: "energized", Label: "Energized", DefaultReq: stepRequirements{Confirm: true, Fields: []string{"energized"}}},
 
 		// Panelboard / Generator specific keys（放在合适位置以决定默认顺序）
-		{Key: "installed", Label: "Installed", DefaultReq: stepRequirements{Files: []fileRequirement{{Type: "panel_schedule", Min: 1}}}},
-		{Key: "terminated", Label: "Terminated", DefaultReq: stepRequirements{Fields: []string{"comments"}}},
-		{Key: "tested", Label: "Tested"},
-		{Key: "set_in_place", Label: "Set in Place"},
-		{Key: "fuel_oil_ready", Label: "Fuel/Oil Ready", DefaultReq: stepRequirements{Fields: []string{"comments"}}},
-		{Key: "start_up", Label: "Start-up"},
-		{Key: "load_bank", Label: "Load Bank Test", DefaultReq: stepRequirements{Files: []fileRequirement{{Type: "test_report", Min: 1}}}},
+		// {Key: "installed", Label: "Installed"},
+		// {Key: "installed", Label: "Installed", DefaultReq: stepRequirements{Files: []fileRequirement{{Type: "panel_schedule", Min: 1}}}},
+
+		// {Key: "terminated", Label: "Terminated"},
+		// {Key: "tested", Label: "Tested"},
+		// {Key: "set_in_place", Label: "Set in Place"},
 	}
 
 	// 每个 subject 的配置：列出要禁用的 key（SkipKeys）和 requirements 覆盖
@@ -75,21 +82,21 @@ func SeedSubjectSteps(db *gorm.DB) error {
 				"neta_complete": true, // Panelboard 不需要 NETA
 			},
 			ReqOverrides: map[string]stepRequirements{
-				"installed":  {Files: []fileRequirement{{Type: "panel_schedule", Min: 1}}},
-				"terminated": {Fields: []string{"comments"}},
-				"energized":  {Confirm: true, Fields: []string{"energized"}},
+				// "installed":  {Files: []fileRequirement{{Type: "panel_schedule", Min: 1}}},
+				// "terminated": {Fields: []string{"comments"}},
+				// "energized":  {Confirm: true, Fields: []string{"energized"}},
 			},
 		},
 		{
 			Name: "Generator",
 			SkipKeys: map[string]bool{
-				"neta_complete":            true,
+				"internal_test_complete":   true,
 				"field_install_inspection": true,
 			},
 			ReqOverrides: map[string]stepRequirements{
-				"fuel_oil_ready": {Fields: []string{"comments"}},
-				"load_bank":      {Files: []fileRequirement{{Type: "test_report", Min: 1}}},
-				"energized":      {Confirm: true, Fields: []string{"energized"}},
+				// "fuel_oil_ready": {Fields: []string{"comments"}},
+				// "load_bank":      {Files: []fileRequirement{{Type: "test_report", Min: 1}}},
+				// "energized":      {Confirm: true, Fields: []string{"energized"}},
 			},
 		},
 	}
