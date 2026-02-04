@@ -79,6 +79,15 @@ func SeedSubjectSteps(db *gorm.DB) error {
 			},
 		},
 		{
+			Name:     "transformer",
+			SkipKeys: map[string]bool{
+				// 如果 ATS 有需要跳过的步骤，写在这里
+			},
+			ReqOverrides: map[string]stepRequirements{
+				// ATS-specific overrides（如果需要）
+			},
+		},
+		{
 			Name: "panel board",
 			SkipKeys: map[string]bool{
 				"neta_complete": true, // Panelboard 不需要 NETA
