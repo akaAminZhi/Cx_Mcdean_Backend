@@ -98,7 +98,6 @@ func GetEquipmentsByProject(c *gin.Context) {
 	pageStr := c.Query("page")
 	sizeStr := c.Query("size")
 
-	// ===== 情况一：不传 page / size，返回所有设备，不算 file_count =====
 	if pageStr == "" && sizeStr == "" {
 		var devices []models.Device
 		if err := dbx.
@@ -108,6 +107,39 @@ func GetEquipmentsByProject(c *gin.Context) {
 
 			c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
 			return
+		}
+
+		// ✅ 补 file_count（一次 group 查询）
+		if len(devices) > 0 {
+			ids := make([]string, 0, len(devices))
+			for _, d := range devices {
+				ids = append(ids, d.ID)
+			}
+
+			type fileCountRow struct {
+				DeviceID string
+				Count    int64
+			}
+			var rows []fileCountRow
+
+			if err := dbx.Model(&models.DeviceFile{}).
+				Select("device_id, COUNT(*) AS count").
+				Where("device_id IN ?", ids).
+				Group("device_id").
+				Scan(&rows).Error; err != nil {
+
+				c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+				return
+			}
+
+			m := make(map[string]int64, len(rows))
+			for _, r := range rows {
+				m[r.DeviceID] = r.Count
+			}
+
+			for i := range devices {
+				devices[i].FileCount = m[devices[i].ID]
+			}
 		}
 
 		c.JSON(http.StatusOK, gin.H{
@@ -763,7 +795,7 @@ func validateStepRequirements(device *models.Device, targetStatus string, confir
 func findSubjectStep(subject string, targetStatus string) (*models.DeviceSubjectStep, error) {
 	var step models.DeviceSubjectStep
 	if err := db.GetDB().
-		Where("subject = ? AND is_active = true AND key = ?", subject, targetStatus, targetStatus).
+		Where("subject = ? AND is_active = true AND key = ?", subject, targetStatus).
 		First(&step).Error; err != nil {
 		if errors.Is(err, gorm.ErrRecordNotFound) {
 			return nil, fmt.Errorf("status step not found for subject")
