@@ -83,133 +83,190 @@ func GetDevicesByProject(c *gin.Context) {
 }
 
 // GET /api/v1/projects/:project/equipments
-// 只返回 subject 是 panel board / transformer / Generator 的设备
-// 行为：
-// 1. 不传 page/size => 返回全部，不计算 file_count，不返回 pagination
-// 2. 传了 page 或 size 任意一个 => 分页 + 计算每个设备的 file_count + 返回 pagination
+// Query:
+// - page, size
+// - q
+// - pageFilter: all|normal|emergency
+// - energized: all|on|off
+// - subject: all|<subject>
 func GetEquipmentsByProject(c *gin.Context) {
 	project := c.Param("project")
 	dbx := db.GetDB()
 
-	// 要的 subject 类型
+	// 设备类型限定（你原来的逻辑）
 	equipmentSubjects := []string{"panel board", "transformer", "Generator", "ATS"}
 
-	// 看看有没有传分页参数
-	pageStr := c.Query("page")
-	sizeStr := c.Query("size")
+	// pagination
+	var pq PaginationQuery
+	if err := c.ShouldBindQuery(&pq); err != nil || pq.Page < 1 || pq.Size < 1 || pq.Size > 1000 {
+		pq = PaginationQuery{Page: 1, Size: 50} // 默认 50，可按需改
+	}
+	offset := (pq.Page - 1) * pq.Size
 
-	if pageStr == "" && sizeStr == "" {
-		var devices []models.Device
-		if err := dbx.
-			Where("project = ? AND subject IN ?", project, equipmentSubjects).
-			Order("updated_at DESC").
-			Find(&devices).Error; err != nil {
+	// filters (keep your names)
+	q := c.Query("q")
+	pageFilter := c.Query("pageFilter") // all|normal|emergency
+	energized := c.Query("energized")   // all|on|off
+	subjectFilter := c.Query("subject") // all|<subject>
 
+	// ---------- helpers ----------
+	applyEquipBase := func(tx *gorm.DB) *gorm.DB {
+		// 基础约束：project + equipment subjects
+		return tx.Where("d.project = ? AND d.subject IN ?", project, equipmentSubjects)
+	}
+
+	applyFilters := func(tx *gorm.DB) *gorm.DB {
+		// pageFilter -> file_page
+		switch pageFilter {
+		case "normal":
+			tx = tx.Where("d.file_page = ?", 1)
+		case "emergency":
+			tx = tx.Where("d.file_page = ?", 2)
+		default:
+			// all / empty -> no-op
+		}
+
+		// energized filter
+		switch energized {
+		case "on":
+			tx = tx.Where("d.energized = ?", true)
+		case "off":
+			tx = tx.Where("d.energized = ?", false)
+		default:
+			// all / empty -> no-op
+		}
+
+		// subject filter
+		if subjectFilter != "" && subjectFilter != "all" {
+			tx = tx.Where("d.subject = ?", subjectFilter)
+		}
+
+		// q filter (match id/subject/text)
+		if q != "" {
+			like := "%" + q + "%"
+			tx = tx.Where(
+				"(d.id ILIKE ? OR d.subject ILIKE ? OR d.text ILIKE ?)",
+				like, like, like,
+			)
+		}
+
+		return tx
+	}
+
+	// ---------- 1) pagination.total (FILTERED total) ----------
+	// 注意：count 必须不带 join/group，否则会错
+	var totalFiltered int64
+	{
+		tx := dbx.Table("devices AS d")
+		tx = applyEquipBase(tx)
+		tx = applyFilters(tx)
+
+		if err := tx.Count(&totalFiltered).Error; err != nil {
 			c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
 			return
 		}
-
-		// ✅ 补 file_count（一次 group 查询）
-		if len(devices) > 0 {
-			ids := make([]string, 0, len(devices))
-			for _, d := range devices {
-				ids = append(ids, d.ID)
-			}
-
-			type fileCountRow struct {
-				DeviceID string
-				Count    int64
-			}
-			var rows []fileCountRow
-
-			if err := dbx.Model(&models.DeviceFile{}).
-				Select("device_id, COUNT(*) AS count").
-				Where("device_id IN ?", ids).
-				Group("device_id").
-				Scan(&rows).Error; err != nil {
-
-				c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
-				return
-			}
-
-			m := make(map[string]int64, len(rows))
-			for _, r := range rows {
-				m[r.DeviceID] = r.Count
-			}
-
-			for i := range devices {
-				devices[i].FileCount = m[devices[i].ID]
-			}
-		}
-
-		c.JSON(http.StatusOK, gin.H{
-			"project": project,
-			"count":   len(devices),
-			"data":    devices,
-		})
-		return
 	}
 
-	// ===== 情况二：传了 page 或 size，就走分页 + file_count =====
-	var q PaginationQuery
-	if err := c.ShouldBindQuery(&q); err != nil || q.Page < 1 || q.Size < 1 || q.Size > 1000 {
-		q = PaginationQuery{Page: 1, Size: 20}
-	}
-
-	// 基础查询：限定项目 + subject
-	base := dbx.Model(&models.Device{}).
-		Where("project = ? AND subject IN ?", project, equipmentSubjects)
-
-	// 统计总数
-	var total int64
-	if err := base.Count(&total).Error; err != nil {
-		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
-		return
-	}
-
-	// 查这一页
-	offset := (q.Page - 1) * q.Size
+	// ---------- 2) data: current page + file_count ----------
 	var devices []models.Device
-	if err := base.
-		Order("updated_at DESC").
-		Limit(q.Size).
-		Offset(offset).
-		Find(&devices).Error; err != nil {
+	{
+		tx := dbx.Table("devices AS d").
+			Select("d.*, COALESCE(COUNT(DISTINCT f.id), 0) AS file_count").
+			Joins("LEFT JOIN device_files AS f ON f.device_id = d.id AND f.deleted_at IS NULL")
 
-		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
-		return
+		tx = applyEquipBase(tx)
+		tx = applyFilters(tx)
+
+		// group by for count
+		tx = tx.Group("d.id").
+			Order("d.updated_at DESC").
+			Limit(pq.Size).
+			Offset(offset)
+
+		if err := tx.Scan(&devices).Error; err != nil {
+			c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+			return
+		}
 	}
 
-	// 为分页结果补充 file_count
-	if len(devices) > 0 {
-		ids := make([]string, 0, len(devices))
-		for _, d := range devices {
-			ids = append(ids, d.ID)
-		}
+	// ---------- 3) summary: OVERALL (不带任何过滤，只带 equipmentSubjects) ----------
+	type EquipSummary struct {
+		Total     int64 `json:"total"`
+		Energized int64 `json:"energized"`
+		Today     int64 `json:"today"`
+		Normal    int64 `json:"normal"`
+		Emergency int64 `json:"emergency"`
+		Upcoming  int64 `json:"upcoming"`
+	}
 
-		type fileCountRow struct {
-			DeviceID string
-			Count    int64
-		}
-		var rows []fileCountRow
+	cutoff := time.Now().Add(-1 * 24 * 14 * time.Hour)
 
-		if err := dbx.Model(&models.DeviceFile{}).
-			Select("device_id, COUNT(*) AS count").
-			Where("device_id IN ?", ids).
-			Group("device_id").
-			Scan(&rows).Error; err != nil {
+	var summaryAll EquipSummary
+	{
+		tx := dbx.Table("devices AS d")
+		tx = applyEquipBase(tx)
+
+		if err := tx.Select(`
+			COUNT(*) AS total,
+			SUM(CASE WHEN d.energized THEN 1 ELSE 0 END) AS energized,
+			SUM(CASE WHEN d.energized_today THEN 1 ELSE 0 END) AS today,
+			SUM(CASE WHEN d.file_page = 1 THEN 1 ELSE 0 END) AS normal,
+			SUM(CASE WHEN d.file_page = 2 THEN 1 ELSE 0 END) AS emergency,
+			SUM(CASE WHEN d.will_energized_at IS NOT NULL AND d.will_energized_at > ? THEN 1 ELSE 0 END) AS upcoming
+		`, cutoff).Scan(&summaryAll).Error; err != nil {
 
 			c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
 			return
 		}
+	}
 
-		m := make(map[string]int64, len(rows))
-		for _, r := range rows {
-			m[r.DeviceID] = r.Count
+	// ---------- 4) summary_filtered: 带过滤条件（可选但我给你一起返回） ----------
+	var summaryFiltered EquipSummary
+	{
+		tx := dbx.Table("devices AS d")
+		tx = applyEquipBase(tx)
+		tx = applyFilters(tx)
+
+		if err := tx.Select(`
+			COUNT(*) AS total,
+			SUM(CASE WHEN d.energized THEN 1 ELSE 0 END) AS energized,
+			SUM(CASE WHEN d.energized_today THEN 1 ELSE 0 END) AS today,
+			SUM(CASE WHEN d.file_page = 1 THEN 1 ELSE 0 END) AS normal,
+			SUM(CASE WHEN d.file_page = 2 THEN 1 ELSE 0 END) AS emergency,
+			SUM(CASE WHEN d.will_energized_at IS NOT NULL AND d.will_energized_at > ? THEN 1 ELSE 0 END) AS upcoming
+		`, cutoff).Scan(&summaryFiltered).Error; err != nil {
+
+			c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+			return
 		}
+	}
 
-		for i := range devices {
-			devices[i].FileCount = m[devices[i].ID] // 没有就 0
+	// ---------- X) subject options (overall and filtered) ----------
+	var subjectOptionsAll []string
+	{
+		tx := dbx.Table("devices AS d").
+			Select("DISTINCT d.subject").
+			Where("d.project = ? AND d.subject IS NOT NULL AND d.subject <> '' AND d.subject IN ?", project, equipmentSubjects).
+			Order("d.subject ASC")
+
+		if err := tx.Pluck("subject", &subjectOptionsAll).Error; err != nil {
+			c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+			return
+		}
+	}
+
+	var subjectOptionsFiltered []string
+	{
+		tx := dbx.Table("devices AS d").
+			Select("DISTINCT d.subject").
+			Where("d.project = ? AND d.subject IS NOT NULL AND d.subject <> '' AND d.subject IN ?", project, equipmentSubjects)
+		// apply same filters as data
+		tx = applyFilters(tx)
+
+		tx = tx.Order("d.subject ASC")
+		if err := tx.Pluck("subject", &subjectOptionsFiltered).Error; err != nil {
+			c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+			return
 		}
 	}
 
@@ -217,10 +274,14 @@ func GetEquipmentsByProject(c *gin.Context) {
 		"project": project,
 		"data":    devices,
 		"pagination": gin.H{
-			"page":  q.Page,
-			"size":  q.Size,
-			"total": total,
+			"page":  pq.Page,
+			"size":  pq.Size,
+			"total": totalFiltered, // ✅ 过滤后的总数
 		},
+		"summary":                  summaryAll,             // ✅ 全项目汇总（Summary Cards 用这个）
+		"summary_filtered":         summaryFiltered,        // ✅ 如果你想显示“筛选后汇总”可以用这个
+		"subject_options":          subjectOptionsAll,      // <--- 全量下拉
+		"subject_options_filtered": subjectOptionsFiltered, // <--- 可选：过滤后下拉
 	})
 }
 

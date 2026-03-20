@@ -35,5 +35,5 @@ type Device struct {
 	DeletedAt gorm.DeletedAt `json:"-" gorm:"index"`
 
 	Files     []DeviceFile `json:"files" gorm:"foreignKey:DeviceID;references:ID"`
-	FileCount int64        `json:"file_count" gorm:"-"`
+	FileCount int64        `json:"file_count" gorm:"->;column:file_count"`
 }
